@@ -1,3 +1,15 @@
+NOTE ON NEW AFRIKAANS
+
+   This fork was created in order to work on a new Afrikaans RG.
+   The reason is that the Afrikaans was bootstrapped in a naive way from
+   Dutch, which was in turn bootstrapped from German. However, many 
+   grammatical complexities which exist in these two languages complicate
+   the Afrikaans unnecessarily, making maintanence and extension costly.
+   Furthermore, negation in Afrikaans differs significantly from both 
+   Dutch and German. A more thorough-going approach to bootstrapping is 
+   needed to produce a clean and correct RG for Afrikaans.
+
+
 DESCRIPTION
 
 The Grammatical Framework (=GF) is a grammar formalism based on type theory. 
