@@ -3,7 +3,7 @@ concrete AdjectiveAfr of Adjective = CatAfr ** open ResAfr, Prelude in
 
   flags optimize=all_subs ;
 
-  lin
+--  lin
 
 --    PositA  a = {
 --      s = a.s ! Posit ;
