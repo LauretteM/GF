@@ -191,9 +191,9 @@ concrete IrregAfr of IrregAfrAbs = CatAfr ** open ParadigmsAfr in {
 -- lin zwerven_V = mkV "zwerven" "zwierf" "zwierven" "gezworven" ;
 -- lin zwijgen_V = mkV "zwijgen" "zweeg" "zwegen" "gezwegen" ;
 
-oper 
-  mkZijnV, mkZijnHebbenV : (_,_,_,_ : Str) -> V ;
-  mkZijnV a b c d = zijnV (mkV a b c d) ;
-  mkZijnHebbenV a b c d = zijnV (mkV a b c d) ; ---- both could be
+--oper 
+--  mkZijnV, mkZijnHebbenV : (_,_,_,_ : Str) -> V ;
+--  mkZijnV a b c d = zijnV (mkV a b c d) ;
+--  mkZijnHebbenV a b c d = zijnV (mkV a b c d) ; ---- both could be
 -}
 }
