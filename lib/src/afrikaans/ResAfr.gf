@@ -47,7 +47,7 @@ resource ResAfr = ParamX ** open Prelude in {
       _ + #cons + ("i" | "o" | "u" ) => mkNoun s (s + "'s") Masc ; --ski, ski's --R13.7
       #cons* + ("ie" | "oe") =>mkNoun s (s + "ë") Masc ; --knie, knieë --R13.10
       #cons* + ("ee") =>mkNoun s (init s + "ë") Masc ; --fee, feë --R13.10
-      #cons* + "a" => mkNoun s (s + "'s") NeMascutr ; --ma, ma's R13.7
+      #cons* + "a" => mkNoun s (s + "'s") Masc ; --ma, ma's R13.7
       _ + ("a" | "e" | "ie" | "ee" | "é" | "ê" | "ô") => mkNoun s (s + "s") Masc ; --gogga, goggas --R13.5
       
       b + v@("oo") + "g" => mkNoun s (b + init v + "ë") Masc ; --boog, boë --R13.11
@@ -80,7 +80,7 @@ resource ResAfr = ParamX ** open Prelude in {
       g = g
       } ;
 
-    --shortVoc : Str -> Str -> Str = \v,s -> init v + endCons s ;
+    shortVoc : Str -> Str -> Str = \v,s -> init v + endCons s ;
 
     endCons : Str -> Str = \s -> case s of {
       _ + ("ts" |"rs" | "ls" | "ds" | "ns" | "ms") => s ;
@@ -422,7 +422,7 @@ param
 
   insertAdV : Str -> Polarity -> VP -> VP = \adv,p,vp -> {
     s = vp.s ;
-    +    n = vp.n ;
+    n = vp.n ;
     hasPrep = vp.hasPrep ;
     nPerson = vp.nPerson ;
     adv = vp.adv ; -- ver

@@ -1,8 +1,6 @@
 --# -path=.:../common:../abstract:../../prelude
 
---1 Afrch Lexical Paradigms
---
--- Aarne Ranta 2009
+--1 Afrikaans Lexical Paradigms
 --
 -- This is an API for the user of the resource grammar 
 -- for adding lexical items. It gives functions for forming
@@ -15,9 +13,6 @@
 -- first we give a handful of patterns that aim to cover all
 -- cases, from the most regular (with just one argument) to the worst. 
 -- The name of this function is $mkC$.
--- 
--- There is also a module [``IrregAfr`` IrregAfr.gf] 
--- which covers irregular verbs.
 
 
 resource ParadigmsAfr = open 
@@ -27,13 +22,22 @@ resource ParadigmsAfr = open
   CatAfr
   in 
 {
---2 Parameters 
-
--- To abstract over gender names, we define the following identifiers.
+----2 Parameters 
+--
+---- To abstract over gender names, we define the following identifiers.
 
 oper
+
   masculine : Gender ; 
   feminine  : Gender ; 
+--  neuter    : Gender ; --%
+--  utrum     : Gender ; --%
+----afr!
+--  de  : Gender ; -- non-neutrum
+--  het : Gender ; -- neutrum
+--  --die : Gender ;
+
+
 
 --2 Nouns
 
@@ -50,11 +54,12 @@ oper
     mkN2 : N -> Prep -> N2  -- other preposition than van
     } ;   
 
+
 -- Use the function $mkPrep$ or see the section on prepositions below to  
 -- form other prepositions.
 -- Some prepositions are moreover constructed in [StructuralAfr StructuralAfr.html].
---
--- Three-place relational nouns ("die Verbindung von x nach y") need two prepositions.
+
+-- Three-place relational nouns ("die Verbinding van x na y") need two prepositions.
 
   mkN3 : N -> Prep -> Prep -> N3 ; -- e.g. afstand + van + naar
 
@@ -63,7 +68,8 @@ oper
   mkPN : overload {
     mkPN : Str -> PN ; -- Johannesburg
     mkPN : Str -> Gender -> PN ; -- Marie
-    } ;
+  } ;
+
 
 --2 Adjectives
 
@@ -73,10 +79,12 @@ oper
     mkA : (goed,goeie,goeds,beter,beste : Str) -> A ; -- irregular adjective
     } ;
 
--- Invariable adjective are a special case. 
 
-  invarA : Str -> A ;            -- adjective with just one form
-
+---- Invariable adjective are a special case. 
+--
+--  invarA : Str -> A ;            -- adjective with just one form
+--
+--
 -- Two-place adjectives are formed by adding a preposition to an adjective.
 
   mkA2 : A -> Prep -> A2 ;  -- e.g. getroud + met
@@ -97,63 +105,51 @@ oper
   mkPrep : Str -> Prep ;
 
 --2 Verbs
-
-  mkV : overload {
-    mkV : (aaien : Str) -> V ;  -- regular verb
-    mkV : (breken,brak,gebroken : Str) -> V ; -- theme of irregular verb
-    mkV : (breken,brak,braken,gebroken : Str) -> V ; -- also past plural irregular
-    mkV : (aai,aait,aaien,aaide,aaide,aaiden,geaaid : Str) -> V ; -- worst-case verb
-
--- To add a movable suffix e.g. "auf(fassen)".
-
-    mkV : Str -> V -> V -- add movable suffix, e.g. af + stappen
-    } ;
-
---3 Three-place verbs
-
--- Three-place (ditransitive) verbs need two prepositions, of which
--- the first one or both can be absent.
-
-  mkV3 : overload {
-    mkV3 : V -> V3 ;                  -- geven,(accusative),(dative)
-    mkV3 : V -> Prep -> V3 ;          -- sturen,(accusative),naar
-    mkV3 : V -> Prep -> Prep -> V3 ;  -- praten, met, over
-    } ;
-
-
---3 Other complement patterns
 --
--- Verbs and adjectives can take complements such as sentences,
--- questions, verb phrases, and adjectives.
+--  zijnV  : V -> V ; -- force zijn as auxiliary (default hebben)
+--
+--  reflV  : V -> V ; -- reflexive verb e.g. zich afvragen
+--
+----3 Three-place verbs
+--
+---- Three-place (ditransitive) verbs need two prepositions, of which
+---- the first one or both can be absent.
 
+------3 Other complement patterns
+------
+------ Verbs and adjectives can take complements such as sentences,
+------ questions, verb phrases, and adjectives.
+--
 --  mkV0  : V -> V0 ; --%
 --  mkVS  : V -> VS ;
 --  mkV2S : V -> Prep -> V2S ;
---  mkVV  : V -> VV ;
+--  mkVV  : V -> Bool -> VV ;
 --  mkV2V : V -> Prep -> V2V ;
 --  mkVA  : V -> VA ;
 --  mkV2A : V -> Prep -> V2A ;
 --  mkVQ  : V -> VQ ;
 --  mkV2Q : V -> Prep -> V2Q ;
-
---  mkAS  : A -> AS ;
---  mkA2S : A -> Prep -> A2S ;
---  mkAV  : A -> AV ;
---  mkA2V : A -> Prep -> A2V ;
--- Notice: categories $AS, A2S, AV, A2V$ are just $A$,
--- and the second argument is given as an adverb. Likewise
--- $V0$ is just $V$.
---  V0 : Type ;
---  AS, A2S, AV, A2V : Type ;
-
-  mkOrd : A -> Ord = \a -> lin Ord {s = a.s ! Posit} ;
+----
+----  mkAS  : A -> AS ;
+----  mkA2S : A -> Prep -> A2S ;
+----  mkAV  : A -> AV ;
+----  mkA2V : A -> Prep -> A2V ;
+----
+------ Notice: categories $AS, A2S, AV, A2V$ are just $A$, 
+------ and the second argument is given as an adverb. Likewise 
+------ $V0$ is just $V$.
+----
+----  V0 : Type ;
+----  AS, A2S, AV, A2V : Type ;
+----
+--  mkOrd : A -> Ord = \a -> lin Ord {s = a.s ! Posit} ;
 
   mkN = overload {
     mkN : (muis : Str) -> N 
     = \a -> lin N (regNoun a) ;
     mkN : (bit : Str) -> Gender -> N 
     = \a,b -> lin N (regNounG a b) ;
-    mkN : (vrou,vrouens : Str) -> Gender -> N
+    mkN : (vrou,vrouens : Str) -> Gender -> N 
     = \a,b,c -> lin N (mkNoun a b c) ;
   } ;
 
@@ -163,6 +159,7 @@ oper
     mkN2 : N -> Prep -> N2 
     = \n,p -> lin N2 (n ** {c2 = p.s}) ; 
     } ;   
+    
   mkN3 n p q = lin N3 (n ** {c2 = p.s ; c3 = q.s}) ; 
 
   mkPN = overload {
@@ -191,18 +188,27 @@ oper
     mkV : Str -> V -> V = \v,s ->lin V (prefixV v s) ;
     } ;
 
---3 Two-place verbs
+--  zijnV v = v ; -- lin V (v2vvAux v VZijn) ;
+--  reflV v = lin V {s = v.s ; aux = v.aux ; prefix = v.prefix ; vtype = VRefl} ;
+--
+--  zijn_V : V = lin V ResAfr.zijn_V ;
+--  hebben_V : V = lin V ResAfr.hebben_V ;
+
+
+----3 Two-place verbs
+
   mkV2 = overload {
     mkV2 : Str -> V2 = \s -> lin V2 (v2vv (regVerb s) ** {c2 = [] ; hasPrep = False }) ;
     mkV2 : V -> V2 = \s -> lin V2 (s ** {c2 = [] ; hasPrep = False }) ;
     mkV2 : V -> Prep -> V2  = \s,p -> lin V2 (s ** {c2 = p.s ; hasPrep = True }) ;
+    } ;
 
---4 Three-place verbs
   mkV3 = overload {
     mkV3 : V -> Prep -> Prep -> V3 = mkmaxV3 ;
     mkV3 : V -> Prep -> V3 = \v,p -> mkmaxV3 v (mkPrep []) p ; 
     mkV3 : V -> V3 = \v -> mkmaxV3 v (mkPrep []) (mkPrep []) ; 
     } ;
+
   mkmaxV3 : V -> Prep -> Prep -> V3 = \v,c,d -> lin V3 (v ** {c2 = c.s ; c3 = d.s}) ;
 
 --  invarA = \s -> lin A {s = \\_,_ => s} ; ---- comparison
@@ -214,21 +220,10 @@ oper
     mkAdv : Str -> Polarity -> Adv = \s,p -> lin Adv {s = s ; p = p } ;
   } ;
 
---  noPrep = mkPrep [] ;
---  prepV2  : V -> Prep -> V2 ;
---  prepV2 v c = lin V2 (v ** {c2 = c.s}) ;
-
 --  mkVS v = lin VS v ;
 --  mkVQ v = lin VQ v ;
---  mkVV v = lin VV (v ** {isAux = False}) ;
 
---  V0 : Type = V ;
-
---  mkV0 v = v ;
---  mkV2S v p = lin V2S (prepV2 v p) ;
---  mkV2V v p = lin V2V (prepV2 v p ** {isAux = False}) ;
---  mkVA  v   = lin VA v ;
---  mkV2A v p = lin V2A (prepV2 v p) ;
---  mkV2Q v p = lin V2Q (prepV2 v p) ;
+  mkVV : V -> Bool -> VV = \v,b -> case b of { True => lin VV (v ** {om = "om" ; te = "te" }) ;
+                                                 False => lin VV (v ** {om = [] ; te = "te" }) } ;
 
 }

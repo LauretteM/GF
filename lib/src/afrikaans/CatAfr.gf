@@ -5,7 +5,7 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 
 -- Tensed/Untensed
 
---    S  = {s : Order => Str} ;
+    S  = {s : Order => Str} ;
 --    QS = {s : QForm => Str} ;
 --    RS = {s : Gender => Number => Str} ;
 --    SSlash = {s : Order => Str} ** {c2 : Preposition} ;
@@ -79,8 +79,12 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
     A2 = Adjective ** {c2 : Preposition} ;
 
     N  = Noun ;
---    N2 = {s : NForm => Str ; g : Gender} ** {c2 : Preposition} ;
---    N3 = {s : NForm => Str ; g : Gender} ** {c2,c3 : Preposition} ;
---    PN = {s : NPCase => Str} ;
+    N2 = {s : NForm => Str ; g : Gender} ** {c2 : Preposition} ;
+    N3 = {s : NForm => Str ; g : Gender} ** {c2,c3 : Preposition} ;
+    PN = {s : NPCase => Str} ;
+    
+-- Not inherited from CommonX
+    Adv = {s : Str ; p : Polarity } ;
+    AdV = {s : Str ; p : Polarity } ;
 
 }
