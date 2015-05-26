@@ -11,7 +11,7 @@ concrete GrammarAfr of Grammar =
   RelativeAfr,
   ConjunctionAfr,
   PhraseAfr,
-  TextX,
+  TextAfr,
   IdiomAfr,
   StructuralAfr,
-  TenseX ;
+  TenseAfr ;
