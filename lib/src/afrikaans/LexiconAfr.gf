@@ -9,7 +9,30 @@ flags
   coding=utf8 ;
   optimize=all_subs ;
 
---lin
+lin
+
+-- test set for development
+  bike_N = mkN "fiets" ;
+    man_N = mkN "man" "mans" masculine ;
+    woman_N = mkN "vrou" "vrouens" feminine ;
+    john_PN = mkPN "Jan" masculine ;
+    mary_PN = mkPN "Marie" feminine ;
+    
+    beautiful_A = mkA "mooi" ;
+    big_A = mkA "groot" "groot" "groots" "groter" "grootste";
+    good_A = mkA "goed" "goeie" "goeds" "beter" "beste" ;
+    
+    walk_V = mkV "loop" ;
+    stop_V = mkV "op" (mkV "hou") ;
+    see_V2 = mkV2 (mkV "sien") ;
+    watch_V2 = mkV2 (mkV "kyk") (mkPrep "na") ;
+    
+    give_V3 = mkV3 (mkV "gee") ;
+    send_V3 = mkV3 (mkV "stuur") (mkPrep "na") ;
+    add_V3 = mkV3 (mkV "toe" (mkV "voeg")) (mkPrep "aan") ;
+    
+    far_Adv = mkAdv "ver" ;
+
 --  add_V3 = mkV3 (mkV "toe" (mkV "voeg")) (mkPrep "aan") ;
 --  already_Adv = mkAdv "al" ;
 --  answer_V2S = mkV2S (mkV "antwoord") noPrep ;
