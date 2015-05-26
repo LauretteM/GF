@@ -10,6 +10,15 @@ NOTE ON NEW AFRIKAANS
    needed to produce a clean and correct RG for Afrikaans.
 
 
+   In order to test the new RG with structural words added to ExtraAfr, a 
+   temporary TestAfr grammar is included.
+
+   Example usage:
+
+   $ gf
+   > i TestAfr.gf
+   TestAfrAbs> gr -cat=S -number=20 | l
+
 DESCRIPTION
 
 The Grammatical Framework (=GF) is a grammar formalism based on type theory. 
