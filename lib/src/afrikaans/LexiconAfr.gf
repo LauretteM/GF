@@ -31,6 +31,8 @@ lin
     send_V3 = mkV3 (mkV "stuur") (mkPrep "na") ;
     add_V3 = mkV3 (mkV "toe" (mkV "voeg")) (mkPrep "aan") ;
     
+    say_VS = mkVS (mkV "sê") ;
+    
     far_Adv = mkAdv "ver" ;
 
 --  add_V3 = mkV3 (mkV "toe" (mkV "voeg")) (mkPrep "aan") ;

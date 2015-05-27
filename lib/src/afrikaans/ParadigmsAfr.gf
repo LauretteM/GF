@@ -121,7 +121,7 @@ oper
 ------ questions, verb phrases, and adjectives.
 --
 --  mkV0  : V -> V0 ; --%
---  mkVS  : V -> VS ;
+  mkVS  : V -> VS ;
 --  mkV2S : V -> Prep -> V2S ;
 --  mkVV  : V -> Bool -> VV ;
 --  mkV2V : V -> Prep -> V2V ;
@@ -220,7 +220,7 @@ oper
     mkAdv : Str -> Polarity -> Adv = \s,p -> lin Adv {s = s ; p = p } ;
   } ;
 
---  mkVS v = lin VS v ;
+  mkVS v = lin VS v ;
 --  mkVQ v = lin VQ v ;
 
   mkVV : V -> Bool -> VV = \v,b -> case b of { True => lin VV (v ** {om = "om" ; te = "te" }) ;

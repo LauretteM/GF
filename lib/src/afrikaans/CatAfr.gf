@@ -5,7 +5,7 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 
 -- Tensed/Untensed
 
-    S  = {s : Order => Str} ;
+    S  = {s : Order => Str ; hasNeg : Bool } ;
 --    QS = {s : QForm => Str} ;
 --    RS = {s : Gender => Number => Str} ;
 --    SSlash = {s : Order => Str} ** {c2 : Preposition} ;

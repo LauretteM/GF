@@ -330,13 +330,14 @@ param
       n : Str ;
       hasPrep : Bool ;
       nPerson : Bool ;
-      --neg1 : Polarity => Str ; -- nie
       adv : Str ; -- vinnig
       adV : Str ; -- altyd/nooit
-      double1 : Bool ; -- insert second "nie" if sentence polarity is negative, because certain slots are filled (loop *nie* goed nie)
-      double2 : Bool ;  -- always insert second "nie", because of n-word (niemand *nie*)
+      double1 : Bool ; -- insert first "nie" if sentence polarity is negative, because certain slots are filled (hy loop nie/hy loop *nie* goed nie)
+      double2 : Bool ;  -- always insert second "nie", because of n-word (niemand *nie*), unless...
+      subNeg : Bool ;   -- a final "nie" is present in a subclause
       inf : Str * Bool ;
-      ppart : Str * Bool
+      ppart : Str * Bool ;
+      ext : Str 
 --      n0 : Agr => Str ;      -- je
 --      n2 : Agr => Str ;      -- je vrouw
 --      a2 : Str ;             -- vandaag
@@ -350,13 +351,14 @@ param
        n = [] ;
        hasPrep = False ;
        nPerson = False ;
-       --neg1 = negation ;
        adv = [] ;
        adV = [] ;
        double1 = vverb.isPref ;
        double2 = False ;
+       subNeg = False ;
        inf = <[],False> ;
-       ppart = <[],False>
+       ppart = <[],False> ;
+       ext = []
     } ;
     
   vvPred : VVerb -> VP -> VP = \vv,vp ->  {
@@ -368,8 +370,10 @@ param
        adV = vp.adV ;
        double1 = True ;
        double2 = vp.double2 ;
+       subNeg = vp.subNeg ;
        inf = <(vp.s.s!VInf) ++ vp.inf.p1,True> ;
-       ppart = <(vp.s.s!VPerf) ++ vp.ppart.p1,True>
+       ppart = <(vp.s.s!VPerf) ++ vp.ppart.p1,True> ;
+       ext = []
      } ;
 
 --  predVGen : Bool -> VVerb -> VP = \isAux, verb -> {
@@ -391,9 +395,13 @@ param
       table { Pos => [] ; Neg => "nie" } ; -- present if sentence negation requires it : hy loop nie[uNeg] / hy loop nie[iNeg] goed nie[uNeg]
   
   -- second "nie"
-  negation2 : Bool -> Polarity => Str = \b ->  
-      table { Pos => case b of { True => "nie" ; False => []} ; -- [uNeg] : because of n-word
-              Neg => "nie" } ;                                  -- [uNeg] : either because of n-word or because of sentence negation
+  negation2 : Bool -> Bool -> Polarity => Bool = \subNeg,b ->  
+      case subNeg of { True => \\p => False ;
+                       False => table { Pos => b ;             -- [uNeg] : because of n-word
+                                        Neg => True }          -- [uNeg] : either because of n-word or because of sentence negation
+                     } ;
+  
+  putNeg : Bool -> Str = \b -> case b of { True => "nie" ; False => [] } ;
 
 -- Extending a verb phrase with new constituents
 
@@ -410,8 +418,10 @@ param
                                                   <True,True> => True ; 
                                                   <True,False> => vp.double1 }  ;
         double2 = case isNeg of { True => True ; False => vp.double2 } ;
+        subNeg = vp.subNeg ;
         inf = vp.inf ;
-        ppart = vp.ppart 
+        ppart = vp.ppart ;
+        ext = vp.ext
 --    a1 = vp.a1 ;
 --    n0 = \\a => case isPron of {True  => obj ! a ; _ => []} ++ vp.n0 ! a;
 --    n2 = \\a => case isPron of {False => obj ! a ; _ => []} ++ vp.n2 ! a;
@@ -432,8 +442,10 @@ param
             { Neg => True ;
               Pos => vp.double2
             } ;
+    subNeg = vp.subNeg ;
     inf = vp.inf ;
-    ppart = vp.ppart
+    ppart = vp.ppart ;
+    ext = vp.ext
 --    a1 = \\a => adv ++ vp.a1 ! a ; -- immer nicht
 --    n0 = vp.n0 ;
 --    n2 = vp.n2 ;
@@ -452,8 +464,10 @@ param
     adV = vp.adV ;
     double1 = True ;
     double2 = vp.double2 ;
+    subNeg = vp.subNeg ;
     inf = vp.inf ;
-    ppart = vp.ppart
+    ppart = vp.ppart ;
+    ext = vp.ext
 --    n0 = vp.n0 ;
 --    n2 = vp.n2 ;
 --    a2 = vp.a2 ++ adv ;
@@ -462,8 +476,19 @@ param
 --    ext = vp.ext
     } ;
 
---  insertExtrapos : Str -> VP -> VP = \ext,vp -> {
---    s = vp.s ;
+  insertExtrapos : Bool -> Str -> VP -> VP = \isNeg,ext,vp -> {
+    s = vp.s ;
+    n = vp.n ;
+    hasPrep = vp.hasPrep ;
+    nPerson = vp.nPerson ;
+    adv = vp.adv ;
+    adV = vp.adV ;
+    double1 = vp.double1 ;
+    double2 = vp.double2 ;
+    subNeg = isNeg ;
+    inf = vp.inf ;
+    ppart = vp.ppart ;
+    ext = vp.ext + ext
 --    a1 = vp.a1 ;
 --    n0 = vp.n0 ;
 --    n2 = vp.n2 ;
@@ -471,7 +496,7 @@ param
 --    isAux = vp.isAux ;
 --    inf = vp.inf ;
 --    ext = vp.ext ++ ext
---    } ;
+    } ;
 
   insertPPart : Str -> VP -> VP = \ppart,vp -> {
     s = vp.s ;
@@ -482,8 +507,10 @@ param
     adV = vp.adV ;
     double1 = vp.double1 ;
     double2 = vp.double2 ;
+    subNeg = vp.subNeg ;
     inf = vp.inf ;
-    ppart = <vp.ppart.p1 ++ ppart,True>
+    ppart = <vp.ppart.p1 ++ ppart,True> ;
+    ext = vp.ext
   } ;
 
   insertInf : Str -> VP -> VP = \inf,vp -> {
@@ -495,8 +522,10 @@ param
     adV = vp.adV ;
     double1 = vp.double1 ;
     double2 = vp.double2 ;
+    subNeg = vp.subNeg ;
     inf = <inf ++ vp.inf.p1, True> ;
-    ppart = vp.ppart
+    ppart = vp.ppart ;
+    ext = vp.ext
 --    s = vp.s ;
 --    a1 = vp.a1 ;
 --    n0 = vp.n0 ;
@@ -510,62 +539,83 @@ param
 -- For $Sentence$.
 
   Clause : Type = {
-    s : Tense => Anteriority => Polarity => Order => Str
+    s : Tense => Anteriority => Polarity => Order => Str ;
+    hasNeg : Tense => Anteriority => Polarity => Bool
     } ;
-  
-    doubleNeg : Bool -> Str = \b -> case b of {True => "nie[u]" ; False => []} ;
     
     orBool : Bool -> Bool -> Bool = \a,b -> 
                 case a of { True => True ;
                             False => case b of { True => True ; False => False } } ;
 
-    mkClause : Str -> Agr -> Bool -> VP -> Clause = \subj,agr,n,vp -> {
+    mkClause : Str -> Agr -> Bool -> VP -> Clause = \subj,agr,n,vp -> 
+        let 
+            n2 = (negation2 vp.subNeg (orBool n vp.double2))
+        in 
+        {
+        hasNeg = \\t,a,p => n2!p ;
         s = \\t,a,p,o => 
             let
                 vform = vForm t ;
                 vperf = vp.s.s ! VPerf ;
                 -- verb : <sal,ophou> , <hou,[]>, <het,opgehou>
-                verb : Str * Str = case <t,a> of {
-                    <Fut,Simul>  => <sal_V.s ! VPres, vp.s.s ! VInf ++ vp.inf.p1> ;
-                    <Fut,Anter>  => <sal_V.s ! VPres, vperf ++ vp.ppart.p1 ++ het_V.s ! VPres> ;
-                    <Cond,Simul>  => <sal_V.s ! VPres, vp.s.s ! VInf ++ vp.inf.p1> ;
-                    <Cond,Anter>  => <sal_V.s ! VPres, vperf ++ vp.ppart.p1 ++ het_V.s ! VPres> ;
-                    <_,       Anter>  => case (vp.s.isAux) of
-                                            { True => <(vp.s.s!VPerf), vp.ppart.p1 ++ het_V.s ! VPres> ;
-                                              False => <het_V.s ! VPres, vperf> } ;
-                    <_,    Simul>  => <vp.s.s ! vform, vp.inf.p1>
+                verb : Order => (Str * Str) = case <t,a> of {
+                    <Fut,Simul>  => \\_ => <sal_V.s ! VPres, vp.s.s ! VInf ++ vp.inf.p1> ;
+                    <Fut,Anter>  => \\_ => <sal_V.s ! VPres, vperf ++ vp.ppart.p1 ++ het_V.s ! VPres> ;
+                    <Cond,Simul> => \\_ => <sal_V.s ! VPres, vp.s.s ! VInf ++ vp.inf.p1> ;
+                    <Cond,Anter> => \\_ => <sal_V.s ! VPres, vperf ++ vp.ppart.p1 ++ het_V.s ! VPres> ;
+                    <_, Anter>   => table { Sub => case (vp.s.isAux) of
+                                                     { True => <(vp.s.s!VPerf), vp.ppart.p1 ++ het_V.s ! VPres> ;
+                                                       False => <vperf, het_V.s ! VPres> } ;
+                                            _ => case (vp.s.isAux) of
+                                                     { True => <(vp.s.s!VPerf), vp.ppart.p1 ++ het_V.s ! VPres> ;
+                                                       False => <het_V.s ! VPres, vperf> } 
+                                          } ;
+                    <_, Simul>   => table { Sub  => <vp.s.s ! VInf, [] > ;
+                                            _ => <vp.s.s ! vform, vp.inf.p1>
+                                          } 
                     } ;
                 neg : Polarity => (Str * Str) = 
                         case <t,a> of {
-                            --<Fut,Simul> => \\p => <negation!p, (negation2 (orBool n vp.double2))!p > ;
-                            --<Fut,Anter> => \\p => <negation!p, (negation2 (orBool n vp.double2))!p > ;
-                            --<_,  Anter> => \\p => <negation!p, (negation2 (orBool n vp.double2))!p > ;
-                            <(Pres|Past),  Simul> => \\p => < case vp.double1 of {True => negation!p ; False => []} , (negation2 (orBool n vp.double2))!p  > ;
-                            <_,_> => \\p => <negation!p, (negation2 (orBool n vp.double2))!p > 
+                            <(Pres|Past),  Simul> => \\p => < case vp.double1 of {True => negation!p ; False => []} , putNeg (n2!p)  > ;
+                            <_,_> => \\p => <negation!p, putNeg (n2!p) > 
                         } ;
-                pref = case <t,a> of {
-                    <Fut,Simul> => [] ;
-                    <Cond,Simul> => [] ;
-                    <Fut,Anter> => [] ;
-                    <Cond,Anter> => [] ;
-                    <_,Simul> => vp.s.prefix ;
-                    <_,_> => []
+                pref = case <t,a,o> of {
+                    <Fut,Simul,(Main|Sub)> => [] ;
+                    <Fut,Simul,Inv> => [] ;
+                    <Cond,Simul,_> => [] ;
+                    <Fut,Anter,_> => [] ;
+                    <Cond,Anter,_> => [] ;
+                    <_,Simul,Main> => vp.s.prefix ;
+                    <_,Simul,_> => [] ;
+                    <_,_,_> => []
                     } ;
             in
-                case <vp.nPerson,vp.hasPrep> of {
-                        <True,True> =>   subj ++ verb.p1 ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ verb.p2 ++ (neg!p).p2 ;
-                        <True,False> =>  subj ++ verb.p1 ++ vp.n ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ verb.p2 ++ (neg!p).p2 ;
-                        <False,True> =>  subj ++ verb.p1 ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ verb.p2 ++ (neg!p).p2;
-                        <False,False> => subj ++ verb.p1 ++ (neg!p).p1 ++ vp.adV ++ vp.n ++ vp.adv ++ pref ++ verb.p2 ++ (neg!p).p2
-                        
-                        } ;
-            
-                --case vp.nPerson of 
-                --    { False => subj ++ verb.p1 ++ (neg!p).p1 ++ vp.adV ++ vp.n ++ vp.adv ++ pref ++ verb.p2 ++ (neg!p).p2;
-                --      True => case vp.hasPrep of
-                --                { False => subj ++ verb.p1 ++ vp.n ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ verb.p2 ++ (neg!p).p2 ;
-                --                  True => subj ++ verb.p1 ++ (neg!p).p1 ++ vp.adV ++ vp.n ++ vp.adv ++ pref ++ verb.p2 ++ (neg!p).p2 } 
-                --    } ;
+                case o of {
+                    Main =>
+                    case <vp.nPerson,vp.hasPrep> of {
+                            <True,True> =>   subj ++ (verb!Main).p1 ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Main).p2 ++ vp.ext ++ (neg!p).p2 ;
+                            <True,False> =>  subj ++ (verb!Main).p1 ++ vp.n ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ (verb!Main).p2 ++ vp.ext ++ (neg!p).p2 ;
+                            <False,True> =>  subj ++ (verb!Main).p1 ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Main).p2 ++ vp.ext ++ (neg!p).p2;
+                            <False,False> => subj ++ (verb!Main).p1 ++ (neg!p).p1 ++ vp.adV ++ vp.n ++ vp.adv ++ pref ++ (verb!Main).p2 ++ vp.ext ++ (neg!p).p2
+                            
+                            } ;
+                    Sub => 
+                    case <vp.nPerson,vp.hasPrep> of {
+                            <True,True> =>   subj ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2 ;
+                            <True,False> =>  subj ++ pref ++ vp.n ++ (negation!p) ++ vp.adV ++ vp.adv ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2 ;
+                            <False,True> =>  subj ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2;
+                            <False,False> => subj ++ pref ++ vp.n ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2
+                            
+                            } ;
+                    -- to finish (copied from Main)
+                    Inv =>
+                    case <vp.nPerson,vp.hasPrep> of {
+                            <True,True> =>   subj ++ (verb!Inv).p1 ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Inv).p2 ++ vp.ext ++ (neg!p).p2 ;
+                            <True,False> =>  subj ++ (verb!Inv).p1 ++ vp.n ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ (verb!Inv).p2 ++ vp.ext ++ (neg!p).p2 ;
+                            <False,True> =>  subj ++ (verb!Inv).p1 ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Inv).p2 ++ vp.ext ++ (neg!p).p2;
+                            <False,False> => subj ++ (verb!Inv).p1 ++ (neg!p).p1 ++ vp.adV ++ vp.n ++ vp.adv ++ pref ++ (verb!Inv).p2 ++ vp.ext ++ (neg!p).p2
+                            }
+                }
     } ;
 
 --  mkClause : Str -> Agr -> VP -> Clause = \subj,agr,vp -> {
@@ -639,7 +689,7 @@ param
 --    {n = Pl ; p = P3} => "hulle"	--afr
 --    } ;
 
---  conjThat : Str = "dat" ;	--afr
+  conjThat : Str = "dat" ;
 
 --  conjThan : Str = "as" ;	--afr
 

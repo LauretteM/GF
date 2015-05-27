@@ -7,8 +7,8 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
 
     ComplVV v vp = vvPred v vp ;
 
---    ComplVS v s = 
---      insertExtrapos (conjThat ++ s.s ! Sub) (predV v) ;
+    ComplVS v s = 
+      insertExtrapos s.hasNeg (conjThat ++ s.s ! Sub) (predV v) ;
 --    ComplVQ v q = 
 --      insertExtrapos (q.s ! QIndir) (predV v) ;
 --    ComplVA  v ap = insertObj (\\ _ => ap.s ! APred) (predV v) ;
