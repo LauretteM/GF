@@ -48,7 +48,7 @@ concrete SentenceAfr of Sentence = CatAfr ** open ResAfr, Prelude in {
 
     UseCl t p cl = {
       s = \\o => t.s ++ p.s ++ cl.s ! t.t ! t.a ! p.p ! o ;
-      hasNeg = cl.hasNeg!t.t!t.a!p.p ; --            case p.p of { Pos => cl.hasNeg!t.t!t.a!p.p ; Neg => True }
+      hasNeg = cl.hasNeg!p.p ;
       } ;
 --    UseQCl t p cl = {
 --      s = \\q => t.s ++ p.s ++ cl.s ! t.t ! t.a ! p.p ! q

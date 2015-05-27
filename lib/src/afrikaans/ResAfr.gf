@@ -540,7 +540,7 @@ param
 
   Clause : Type = {
     s : Tense => Anteriority => Polarity => Order => Str ;
-    hasNeg : Tense => Anteriority => Polarity => Bool
+    hasNeg : Polarity => Bool
     } ;
     
     orBool : Bool -> Bool -> Bool = \a,b -> 
@@ -552,7 +552,7 @@ param
             n2 = (negation2 vp.subNeg (orBool n vp.double2))
         in 
         {
-        hasNeg = \\t,a,p => n2!p ;
+        hasNeg = \\p => n2!p ;
         s = \\t,a,p,o => 
             let
                 vform = vForm t ;
