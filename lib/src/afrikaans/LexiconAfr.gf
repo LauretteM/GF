@@ -15,12 +15,15 @@ lin
   bike_N = mkN "fiets" ;
     man_N = mkN "man" "mans" masculine ;
     woman_N = mkN "vrou" "vrouens" feminine ;
+    tree_N = mkN "boom" ;
+    
     john_PN = mkPN "Jan" masculine ;
     mary_PN = mkPN "Marie" feminine ;
     
     beautiful_A = mkA "mooi" ;
     big_A = mkA "groot" "groot" "groots" "groter" "grootste";
     good_A = mkA "goed" "goeie" "goeds" "beter" "beste" ;
+    green_A = mkA "groen" ;
     
     walk_V = mkV "loop" ;
     stop_V = mkV "op" (mkV "hou") ;

@@ -483,7 +483,7 @@ param
     nPerson = vp.nPerson ;
     adv = vp.adv ;
     adV = vp.adV ;
-    double1 = vp.double1 ;
+    double1 = True ;
     double2 = vp.double2 ;
     subNeg = isNeg ;
     inf = vp.inf ;
@@ -585,8 +585,8 @@ param
                     <Cond,Simul,_> => [] ;
                     <Fut,Anter,_> => [] ;
                     <Cond,Anter,_> => [] ;
-                    <_,Simul,Main> => vp.s.prefix ;
-                    <_,Simul,_> => [] ;
+                    <_,Simul,Main> => vp.s.prefix ; -- hy hou *op*
+                    <_,Simul,_> => [] ;             -- dat hy ophou []
                     <_,_,_> => []
                     } ;
             in
@@ -601,10 +601,10 @@ param
                             } ;
                     Sub => 
                     case <vp.nPerson,vp.hasPrep> of {
-                            <True,True> =>   subj ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2 ;
+                            <True,True> =>   subj ++ (negation!p) ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2 ;
                             <True,False> =>  subj ++ pref ++ vp.n ++ (negation!p) ++ vp.adV ++ vp.adv ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2 ;
-                            <False,True> =>  subj ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2;
-                            <False,False> => subj ++ pref ++ vp.n ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2
+                            <False,True> =>  subj ++ (negation!p) ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2;
+                            <False,False> => subj ++ pref ++ vp.n ++ (negation!p) ++ vp.adV ++ vp.adv ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2
                             
                             } ;
                     -- to finish (copied from Main)

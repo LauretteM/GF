@@ -2,14 +2,10 @@ abstract ExtraAfrAbs = Extra [
   VPI,ListVPI,BaseVPI,ConsVPI,MkVPI,ComplVPIVV,ConjVPI,
   VV,VP,Conj,IComp,ICompAP,IAdvAdv,Adv,AP,IAdv] ** 
 {
---{
---
---  fun
---    PPzuAdv   : CN -> Adv ;  -- zum Lied, zur Flasche
---    TImpfSubj : Tense ;      -- ich möchte...   --# notpresent
---
---    moegen_VV : VV ;         -- ich mag/möchte singen
---
---}
+    fun
+        never_AdV : AdV ;
+        nowehere_AdV : AdV ;
+        --ought_VV : VV ;
+        --hope_VV : VV ;
 
 }

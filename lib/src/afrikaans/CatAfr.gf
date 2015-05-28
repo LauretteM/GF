@@ -41,18 +41,19 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 
 -- Noun
 
---    CN = {s : Adjf => NForm => Str ; g : Gender} ;
+    CN = {s : NForm => Str ; g : Gender} ;
     NP = {s : NPCase => Str ; a : Agr ; isNeg : Bool ; isPerson : Bool } ;
     Pron = Pronoun ;
 
---    Det = {s,sp : Gender => Str ; n : Number ; a : Adjf} ;
+    Det = {s : Str ; n : Number ; isNeg : Bool } ; -- a : Adjf
+    Quant = { s : Str ; isNeg : Bool } ;
 --    Quant = {
 --      s  : Bool => Number => Gender => Str ; 
 --      sp : Number => Gender => Str ; 
 --      a  : Adjf
 --      } ;
 --    Predet = {s : Number => Gender => Str} ;
---    Num = {s : Str ; n : Number ; isNum : Bool} ;
+    Num = {s : Str ; n : Number ; isNum : Bool} ;
 --    Card = {s : Gender => Case => Str ; n : Number} ;
 --    Ord = {s : AForm => Str} ;
 

@@ -3,11 +3,12 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
   flags optimize=all_subs ;
 
   lin
---    DetCN det cn = {
---      s = \\c => det.s ! cn.g ++ cn.s ! det.a ! NF det.n Nom ; -- kan dalk vereenvoudig (2011-01-14)
---      a = agrP3 det.n ;
---      isPron = False
---      } ;
+    DetCN det cn = {
+      s = \\c => det.s ++ cn.s ! NF det.n Nom ; -- kan dalk vereenvoudig (2011-01-14)
+      a = agrP3 det.n ;
+      isPerson = False ;
+      isNeg = det.isNeg
+      } ;
 
 --    DetNP det = {
 --      s = \\_ => det.sp ! Neutr ;
@@ -53,7 +54,7 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
 --        a = a
 --        } ;
 
---    DetQuant quant num = 
+    DetQuant quant num = { s = quant.s ++ num.s ; n = num.n ; isNeg = quant.isNeg } ;
 --      let 
 --        n = num.n ;
 --        a = quant.a
@@ -72,8 +73,8 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
 
 --    NumCard n = {s = n.s ! Neutr ! Nom ; n = n.n ; isNum = True} ;
 
---    NumPl = {s = []; n = Pl ; isNum = False} ; 
---    NumSg = {s = []; n = Sg ; isNum = False} ; 
+    NumPl = {s = []; n = Pl ; isNum = False} ; 
+    NumSg = {s = []; n = Sg ; isNum = False} ; 
 
 --    NumDigits numeral = {s = \\g,c => numeral.s ! NCard g c; n = numeral.n } ;
 --    OrdDigits numeral = {s = \\af => numeral.s ! NOrd af} ;
@@ -85,11 +86,12 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
 
 --    OrdSuperl a = {s = a.s ! Superl} ;
 
---    DefArt = {
---      s = \\_,n,g  => case <n,g> of {<Sg,Neutr> => "die" ; _ => "die"} ;	--afr
---      sp = \\n,g => "hulle" ;	--afr
+    DefArt = { s = "die" ; isNeg = False } ;
+--     {
+--      s = \\_,_,_  => "die" ;	--afr
+--      sp = \\_,_ => "hulle" ;	--afr
 --      a = Weak
---      } ;
+--     } ;
 
 --    IndefArt = {
 --      s = table {
@@ -112,7 +114,12 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
 --      isPron = False
 --      } ;
 
---    UseN, UseN2 = \n -> {
+    UseN = \n -> {
+      s = \\f => n.s!f ;
+      g = n.g
+      } ;
+      
+--    UseN2 = \n -> {
 --      s = \\_ => n.s ;
 --      g = n.g
 --      } ;
