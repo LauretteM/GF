@@ -4,7 +4,7 @@ abstract ExtraAfrAbs = Extra [
 {
     fun
         never_AdV : AdV ;
-        nowehere_AdV : AdV ;
+        nowhere_Adv : Adv ;
         --ought_VV : VV ;
         --hope_VV : VV ;
 
