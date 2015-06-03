@@ -570,7 +570,7 @@ param
                                                      { True => <(vp.s.s!VPerf), vp.ppart.p1 ++ het_V.s ! VPres> ;
                                                        False => <het_V.s ! VPres, vperf> } 
                                           } ;
-                    <_, Simul>   => table { Sub  => <vp.s.s ! VInf, [] > ;
+                    <_, Simul>   => table { Sub  => <vp.s.s ! VInf, vp.inf.p1 > ;
                                             _ => <vp.s.s ! vform, vp.inf.p1>
                                           } 
                     } ;
@@ -604,7 +604,7 @@ param
                             <True,True> =>   subj ++ (negation!p) ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2 ;
                             <True,False> =>  subj ++ pref ++ vp.n ++ (negation!p) ++ vp.adV ++ vp.adv ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2 ;
                             <False,True> =>  subj ++ (negation!p) ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2;
-                            <False,False> => subj ++ pref ++ vp.n ++ (negation!p) ++ vp.adV ++ vp.adv ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2
+                            <False,False> => subj ++ (negation!p) ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.ext ++ (neg!p).p2
                             
                             } ;
                     -- to finish (copied from Main)
