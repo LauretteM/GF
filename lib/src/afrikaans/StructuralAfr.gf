@@ -12,10 +12,10 @@ concrete StructuralAfr of Structural = CatAfr, Prelude **
 --  after_Prep = mkPrep "na" ;
 --  all_Predet = mkPredet "alle" "alle" ; ----
 --  almost_AdA, almost_AdN = ss "byna" ;
---  although_Subj = ss "hoewel" ;
+  although_Subj = mkSubj "hoewel" Sub ;
   always_AdV = lin AdV (mkAdV "altyd" Pos) ;
 --  and_Conj = {s1 = [] ; s2 = "en" ; n = Pl} ;
---  because_Subj = ss "omdat" ; ---- doordat
+  because_Subj = mkSubj "omdat" Sub ; ---- doordat
 --  before_Prep = mkPrep "voor" ;
 --  behind_Prep = mkPrep "agter" ;
 --  between_Prep = mkPrep "tussen" ;
@@ -43,7 +43,7 @@ concrete StructuralAfr of Structural = CatAfr, Prelude **
 --  how_IAdv = ss "hoe" ;
 --  how8much_IAdv = ss "hoeveel" ;
 --  how8many_IDet = mkDet "hoeveel" "hoeveel" Pl ;
---  if_Subj = ss "as" ;
+  if_Subj = mkSubj "as" Sub ;
 --  in8front_Prep = mkPrep "voor" ;
 --  i_Pron = mkPronoun "ek" "my" "my" "ek" "my" "my" "myne" Neutr Sg P1 ;
 --  in_Prep = ss "in" ;
@@ -75,7 +75,7 @@ concrete StructuralAfr of Structural = CatAfr, Prelude **
 --  something_NP = mkNP "iets" Neutr Sg ;
 --  somewhere_Adv = ss "êrens" ;
 --  that_Quant = mkQuant "daardie" "daardie" ;
---  that_Subj = ss "dat" ;
+  that_Subj = mkSubj "dat" Sub ;
 --  there_Adv = ss "daar" ;
 --  there7to_Adv = ss "daar" ;
 --  there7from_Adv = ss "van daar" ;
@@ -97,7 +97,7 @@ concrete StructuralAfr of Structural = CatAfr, Prelude **
 --  whatPl_IP = {s = \\_ => "wat" ; n = Pl} ;
 --
 --  when_IAdv = ss "wanneer" ;
---  when_Subj = ss "as" ;
+  when_Subj = mkSubj "as" Sub ;
 --  where_IAdv = ss "waar" ;
 --  which_IQuant = mkPredet "watter" "watter" ;
 --
