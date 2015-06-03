@@ -42,7 +42,11 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 -- Noun
 
     CN = {s : NForm => Str ; g : Gender} ;
-    NP = {s : NPCase => Str ; a : Agr ; isNeg : Bool ; isPerson : Bool } ;
+    NP = { s : NPCase => Str ;
+           a : Agr ;
+           isNeg : Bool ;
+           isPerson : Bool  -- True if PN or Pron: "hy sien hom/Jan nie" vs "hy sien nie die man nie"
+         } ;
     Pron = Pronoun ;
 
     Det = {s : Str ; n : Number ; isNeg : Bool } ; -- a : Adjf
