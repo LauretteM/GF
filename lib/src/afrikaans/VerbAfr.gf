@@ -37,7 +37,7 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
 --
     ComplSlash vp np = insertObjNP np.isNeg np.isPerson (appPrep vp.c2 np.s) vp ;
 
-    SlashVV v vp = insertPPart (vp.s.s!VPerf) (insertInf (vp.s.s!VInf) (vvPred v vp)) ** {c2 = vp.c2} ;
+    SlashVV v vp = (vvPred v vp) ** {c2 = vp.c2} ;
 --      let 
 --        vpi = infVP v.isAux vp 
 --      in
