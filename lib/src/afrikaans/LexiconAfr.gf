@@ -37,6 +37,7 @@ lin
     say_VS = mkVS (mkV "sê") ;
     
     far_Adv = mkAdv "ver" ;
+    today_Adv = mkAdv "vandag" ;
 
 --  add_V3 = mkV3 (mkV "toe" (mkV "voeg")) (mkPrep "aan") ;
 --  already_Adv = mkAdv "al" ;
