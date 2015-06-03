@@ -373,7 +373,7 @@ param
        subNeg = vp.subNeg ;
        inf = <(vp.s.s!VInf) ++ vp.inf.p1,True> ;
        ppart = <(vp.s.s!VPerf) ++ vp.ppart.p1,True> ;
-       ext = []
+       ext = vp.ext ;
      } ;
 
 --  predVGen : Bool -> VVerb -> VP = \isAux, verb -> {
@@ -610,10 +610,10 @@ param
                     -- to finish (copied from Main)
                     Inv =>
                     case <vp.nPerson,vp.hasPrep> of {
-                            <True,True> =>   subj ++ (verb!Inv).p1 ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Inv).p2 ++ vp.ext ++ (neg!p).p2 ;
-                            <True,False> =>  subj ++ (verb!Inv).p1 ++ vp.n ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ (verb!Inv).p2 ++ vp.ext ++ (neg!p).p2 ;
-                            <False,True> =>  subj ++ (verb!Inv).p1 ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Inv).p2 ++ vp.ext ++ (neg!p).p2;
-                            <False,False> => subj ++ (verb!Inv).p1 ++ (neg!p).p1 ++ vp.adV ++ vp.n ++ vp.adv ++ pref ++ (verb!Inv).p2 ++ vp.ext ++ (neg!p).p2
+                            <True,True> =>   (verb!Inv).p1 ++ subj ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Inv).p2 ++ vp.ext ++ (neg!p).p2 ;
+                            <True,False> =>  (verb!Inv).p1 ++ subj ++ vp.n ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ (verb!Inv).p2 ++ vp.ext ++ (neg!p).p2 ;
+                            <False,True> =>  (verb!Inv).p1 ++ subj ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ (verb!Inv).p2 ++ vp.ext ++ (neg!p).p2;
+                            <False,False> => (verb!Inv).p1 ++ subj ++ (neg!p).p1 ++ vp.adV ++ vp.n ++ vp.adv ++ pref ++ (verb!Inv).p2 ++ vp.ext ++ (neg!p).p2
                             }
                 }
     } ;
