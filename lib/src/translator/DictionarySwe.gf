@@ -1907,8 +1907,8 @@ lin ambassador_N = mkN "ambassadör" "ambassadörer" ; -- comment=2
 lin ambassadorial_A = variants {} ; -- status=guess
 lin ambassadorship_N = mkN "ambassadör" "ambassadörer" ;
 lin ambassadress_N = variants {} ; -- status=guess
-lin amber_A = mkA "gul" ; -- SaldoWN
-lin amber_N = mkN "bärnsten" ; -- status=guess
+lin amber_A = mkA "bärnstensgul";
+lin amber_N = mkN "bärnsten";
 lin ambergris_N = mkN "ambra" ; -- status=guess
 lin amberjack_N = mkN "seriola"; -- src=google
 lin ambiance_N = mkN "atmosfär" | mkN "stämning" | mkN "känsla" ; -- status=guess status=guess status=guess
@@ -1946,7 +1946,6 @@ lin ambush_N = mkN "försåt" neutrum ; -- status=guess
 lin ambush_V2 = variants {} ; -- status=guess
 lin ambusher_N = variants {} ; -- status=guess
 lin ambystomid_N = variants {} ; -- status=guess
-lin ameba_N = variants {} ; -- status=guess
 lin amebiasis_N = mkN "amöbainfektion"; -- src=google
 lin ameboid_A = variants {} ; -- status=guess
 lin ameer_N = variants {} ; -- status=guess
@@ -6245,7 +6244,7 @@ lin blabber_V2 = variants {} ; -- status=guess
 lin blabbermouth_N = variants {} ; -- status=guess
 lin blabbermouthed_A = variants {} ; -- status=guess
 lin black_A = L.black_A ;
-lin black_N = mkN "mörker" neutrum | mkN "svärta" ; -- SaldoWN -- comment=3
+lin black_N = mkN "svärta";
 lin black_V2 = variants {} ; -- status=guess
 lin black_beetle_N = mkN "black-skalbagge"; -- src=google
 lin black_lead_N = variants {} ; -- status=guess
@@ -6604,7 +6603,7 @@ lin bludgeon_N = mkN "klubba" ; -- status=guess
 lin bludgeon_V2 = variants {} ; -- status=guess
 lin bludgeoner_N = variants {} ; -- status=guess
 lin blue_A = L.blue_A ;
-lin blue_N = mkN "blåhet" ; -- status=guess
+lin blue_N = mkN "blå" | mkN "blåa";
 lin blue_V2 = variants {} ; -- status=guess
 lin blue_collar_A = variants {} ; -- status=guess
 lin blue_jacket_N = mkN "blue-jacka"; -- src=google
@@ -7765,7 +7764,7 @@ lin brunswick_PN = mkPN "Brunswick" neutrum ; -- src=geonames status=guess
 lin brunt_N = mkN "brunte" utrum ;
 lin brush_N = mkN "borste" utrum | mkN "sammandrabbning" ; -- SaldoWN -- comment=6
 lin brush_V = mkV "vidröra" "vidrörde" "vidrört" ; -- comment=6
-lin brush_V2 = dirV2 (partV (mkV "borstar")"av") ; -- comment=4
+lin brush_V2 = mkV2 "borstar";
 lin brush_aside_V = mkV "vidröra" "vidrörde" "vidrört" ; -- comment=6
 lin brush_off_N = mkN "pensel-off"; -- src=google
 lin brush_off_V2 = dirV2 (partV (mkV "borstar")"av") ; -- comment=4
@@ -24537,10 +24536,6 @@ lin gravity_N = mkN "gravitation" "gravitationer" ; -- SaldoWN
 lin gravure_N = mkN "gravyr" "gravyrer" ;
 lin gravy_N = mkN "sky" "skyn" "skyar" "skyarna" ; -- comment=2
 lin gravy_boat_N = mkN "såsskål"; -- src=google
-lin gray_A = mkA "grå" "grått" ; -- status=guess
-lin gray_N = mkN "gray" "grayen" "gray" "grayen" ; -- status=guess
-lin gray_V = mkV "gråna" ; -- status=guess, src=wikt
-lin gray_V2 = mkV2 (mkV "gråna") ; -- status=guess, src=wikt
 lin grayly_Adv = variants {} ; -- status=guess
 lin graz_PN = mkPN "Graz" neutrum ; -- src=geonames status=guess
 lin graze_N = mkN "skrapa" ; -- comment=5
@@ -24631,10 +24626,10 @@ lin grenadian_N = variants {} ; -- status=guess
 lin grenadier_N = mkN "grenadjär" ; -- status=guess
 lin grenadine_N = mkN "grenadin" "grenadiner" ;
 lin grevillea_N = variants {} ; -- status=guess
-lin grey_A = mkA "livlös" ; -- comment=5
-lin grey_N = mkN "gråhäger" ; -- status=guess
-lin grey_V = mkV "grånar" ; -- status=guess
-lin grey_V2 = variants {} ; -- status=guess
+lin grey_A = mkA "grå" "grått" ;
+lin grey_N = mkN "grå" | mkN "gråa" ;
+lin grey_V = mkV "gråna" ;
+lin grey_V2 = mkV2 (mkV "gråna") ;
 lin grey_headed_A = variants {} ; -- status=guess
 lin greyback_N = variants {} ; -- status=guess
 lin greybeard_N = variants {} ; -- status=guess
@@ -27110,7 +27105,7 @@ lin hovel_N = mkN "kyffe" ; -- comment=3
 lin hover_V = mkV "sväva" ; -- status=guess, src=wikt
 lin hovercraft_N = mkN "svävare" utrum | mkN "svävfarkost" "svävfarkoster" ; -- SaldoWN -- comment=2
 lin how8many_IDet = S.how8many_IDet ;
-lin how8much_IDet = {s = \\_ => ["hur mycket"] ; n = singular ; det = C.DDef C.Indef} ; -- status=guess
+lin how8much_IDet = {s = \\_ => ["hur mycket"] ; n = singular ; det = C.DIndef} ; -- status=guess
 lin how_IAdv = S.how_IAdv ;
 lin how_d'ye_do_N = variants {} ; -- status=guess
 lin howard_PN = mkPN "Howard" neutrum ; -- src=geonames status=guess
@@ -30970,7 +30965,7 @@ lin knothole_N = variants {} ; -- status=guess
 lin knottingley_PN = mkPN "Knottingley" neutrum ; -- src=geonames status=guess
 lin knotty_A = variants {} ; -- status=guess
 lin knout_N = mkN "knutpiska" ;
-lin know_N = (mkN "viktigpetter") | (mkN "besserwisser") ; -- status=guess status=guess
+lin know_N = mkN "kunskap" "kunskaper" ;
 lin know_V = L.know_VS ;
 lin know_V2 = L.know_V2 ;
 lin know_VQ = L.know_VQ ;
@@ -42195,10 +42190,10 @@ lin pining_N = mkN "längtar"; -- src=google
 lin pinion_N = mkN "drev" neutrum ; -- comment=3
 lin pinion_V2 = variants {} ; -- status=guess
 lin pinite_N = variants {} ; -- status=guess
-lin pink_A = mkA "rosa" ; -- comment=2
+lin pink_A = mkA "rosa" ;
 lin pink_N = mkN "skär" neutrum ; -- status=guess
-lin pink_V = mkV "rosar" ; -- comment=3
-lin pink_V2 = dirV2 (partV (mkV "knackar")"av") ; -- status=guess
+lin pink_V = mkV "rosa" ; -- comment=3
+lin pink_V2 = dirV2 (mkV "rosa") ; -- status=guess
 lin pinkish_A = variants {} ; -- status=guess
 lin pinkness_N = variants {} ; -- status=guess
 lin pinko_N = variants {} ; -- status=guess
@@ -46460,7 +46455,7 @@ lin recusation_N = mkN "jävsregler"; -- src=google
 lin recycle_V2 = mkV2 "återvinna" "återvann" "återvunnit" | mkV2 (mkV "återanvänder") ; -- status=guess
 lin recycling_N = mkN "återvinning" ; -- comment=3
 lin red_A = L.red_A ;
-lin red_N = mkN "rodnad" "rodnader" | mkN "röd" | mkN "rött" ; -- SaldoWN -- status=guess status=guess
+lin red_N = mkN "röda";
 lin red_hot_A = variants {} ; -- status=guess
 lin red_rimmed_A = variants {} ; -- status=guess
 lin redact_N = mkN "redigera"; -- src=google
@@ -54853,7 +54848,7 @@ lin strike_up_V = mkV "träffar" ; -- comment=47
 lin strike_up_V2 = dirV2 (partV (mkV "träffar")"på") ; -- comment=35
 lin strike_upon_V2 = dirV2 (partV (mkV "träffar")"på") ; -- comment=35
 lin strikebound_A = variants {} ; -- status=guess
-lin strikebreaker_N = (mkN "svartfot" "svartfötter") | (mkN "guling") ; -- status=guess status=guess
+lin strikebreaker_N = mkN "strejkbrytare" "strejkbrytare" ;
 lin strikebreaking_N = variants {} ; -- status=guess
 lin strikeout_N = variants {} ; -- status=guess
 lin striker_N = mkN "strejkande" ; -- comment=4
@@ -57491,7 +57486,7 @@ lin thirsk_PN = mkPN "Thirsk" neutrum ; -- src=geonames status=guess
 lin thirst_N = mkN "törst" ;
 lin thirst_V2 = mkV2 (mkV "törsta") ;
 lin thirsty_A = mkA "törstig" ;
-lin this_Quant = S.this_Quant | M.mkQuant "denna" "detta" "dessa" ;
+lin this_Quant = S.this_Quant | M.mkQuant "denna" "detta" "dessa" ** {det = C.DDef C.Indef} ;
 lin thistle_N = mkN "tistel" ; -- status=guess
 lin thistledown_N = variants {} ; -- status=guess
 lin thistlelike_A = variants {} ; -- status=guess
@@ -64277,7 +64272,7 @@ lin yell_V2 = variants {} ; -- mkV "skrika" "skrek" "skrikit" ; -- comment=6
 lin yell_out_V = mkV "skrika" "skrek" "skrikit" ; -- comment=6
 lin yelling_N = mkN "skriker"; -- src=google
 lin yellow_A = L.yellow_A ;
-lin yellow_N = mkN "guling" ; -- status=guess
+lin yellow_N = mkN "gula" ;
 lin yellow_V = mkV "gulnar" ; -- status=guess
 lin yellow_V2 = variants {} ; -- status=guess
 lin yellow_bellied_A = variants {} ; -- status=guess

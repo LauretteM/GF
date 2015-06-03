@@ -1959,7 +1959,6 @@ lin ambush_N = mkN "Hinterhalt" "Hinterhalte" masculine ; -- status=guess
 lin ambush_V2 = mkV2 (compoundV "aus dem Hinterhalt" (prefixV "an" I.greifen_V)) ;
 lin ambusher_N = variants {} ;
 lin ambystomid_N = variants {} ;
-lin ameba_N = variants {} ;
 lin amebiasis_N = variants {} ;
 lin ameboid_A = variants {} ;
 lin ameer_N = variants {} ;
@@ -11535,7 +11534,7 @@ lin coextension_N = variants {} ;
 lin coextensive_A = variants {} ;
 lin coextrude_V2 = variants {} ;
 lin cofactor_N = variants {} ;
-lin coffee_N = mkN "Kaffeebohne" "Kaffeebohnen" feminine ; -- status=guess
+lin coffee_N = mkN "Kaffee" "Kaffees" masculine ;
 lin coffee_house_N = variants {} ;
 lin coffee_mill_N = variants {} ;
 lin coffee_stall_N = variants {} ;
@@ -24758,10 +24757,6 @@ lin gravity_N = mkN "Gravitationsmanöver" neuter | mkN "Schwerkraftumlenkung" f
 lin gravure_N = variants {} ;
 lin gravy_N = mkN "Soße" feminine ; -- status=guess
 lin gravy_boat_N = variants {} ;
-lin gray_A = mk3A "grau" "grauer" "grauste" ; -- status=guess
-lin gray_N = mkN "Grau" neuter ; -- status=guess
-lin gray_V = irregV "ergrauen" "ergraut" "ergraute" "ergraute" "ergraut" | junkV "grau" I.werden_V ; -- status = guess , src = wikt status = guess , src = wikt
-lin gray_V2 = mkV2 ( irregV "ergrauen" "ergraut" "ergraute" "ergraute" "ergraut" | junkV "grau" I.werden_V ) ; -- status = guess , src = wikt status = guess , src = wikt
 lin grayly_Adv = variants {} ;
 lin graz_PN = mkPN "Graz" ; -- src=geonames status=guess
 lin graze_N = mkN "Kratzer" "Kratzer" masculine ; -- status=guess
@@ -24852,10 +24847,10 @@ lin grenadian_N = variants {} ;
 lin grenadier_N = variants {} ;
 lin grenadine_N = variants {} ;
 lin grevillea_N = variants {} ;
-lin grey_A = variants {} ; --
-lin grey_N = mkN "Grauzone" "Grauzonen" feminine ; -- status=guess
-lin grey_V = variants {} ;
-lin grey_V2 = variants {} ;
+lin grey_A = mk3A "grau" "grauer" "grauste" ; -- status=guess
+lin grey_N = mkN "Grau" neuter ; -- status=guess
+lin grey_V = irregV "ergrauen" "ergraut" "ergraute" "ergraute" "ergraut" | junkV "grau" I.werden_V ; -- status = guess , src = wikt status = guess , src = wikt
+lin grey_V2 = mkV2 (irregV "ergrauen" "ergraut" "ergraute" "ergraute" "ergraut" | junkV "grau" I.werden_V) ; -- status = guess , src = wikt status = guess , src = wikt
 lin grey_headed_A = variants {} ;
 lin grey_out_V2 = variants {} ;
 lin greyback_N = variants {} ;

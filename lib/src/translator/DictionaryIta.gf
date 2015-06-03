@@ -964,7 +964,6 @@ lin ambulance_N = mkN "ambulanza" ; -- status=guess
 lin ambulatory_N = mkN "deambulatorio" | mkN "ambulacro" ; -- status=guess status=guess
 lin ambuscade_N = mkN "agguato" | mkN "appostamento" | mkN "imboscata" ; -- UWN
 lin ambush_N = mkN "imboscata" ; -- status=guess
-lin ameba_N = mkN "ameba" ; -- UWN
 lin amebiasis_N = mkN "amebiasi" ; -- UWN
 lin ameboid_A = mkA "ameboide" ; -- UWN
 lin ameer_N = mkN "emiro" ; -- UWN
@@ -1004,7 +1003,7 @@ lin amnesty_N = mkN "amnistia" ; -- status=guess
 lin amniocentesis_N = mkN "amniocentesi" ; -- UWN
 lin amnion_N = mkN "amnio" ; -- status=guess
 lin amniotic_A = mkA "amniotico" ; -- status=guess
-lin amoeba_N = mkN "amoeba" ; -- status=guess
+lin amoeba_N = mkN "amoeba" | mkN "ameba" ; -- UWN
 lin amoebic_A = mkA "amebico" ; -- status=guess
 lin among_Prep = variants {} ; --
 lin amongst_Prep = variants {} ; --
@@ -11841,10 +11840,6 @@ lin gravitational_A = mkA "gravitazionale" ; -- status=guess
 lin graviton_N = mkN "gravitone" masculine ; -- status=guess
 lin gravity_N = mkN "gravità" feminine ; -- status=guess
 lin gravy_N = mkN "sugo" | mkN "salsa" ; -- status=guess status=guess
-lin gray_A = mkA "grigio" ; -- status=guess
-lin gray_N = mkN "grigio" ; -- status=guess
-lin gray_V = mkV "ingrigire" ; -- status=guess, src=wikt
-lin gray_V2 = mkV2 (mkV "ingrigire") ; -- status=guess, src=wikt
 lin graz_PN = mkPN "Graz" ; -- status=guess src=geonames
 lin graze_N = mkN "sbucciatura" ; -- status=guess
 lin graze_V = mkV "pascere" | mkV "pascolare" | mkV "brucare" ; -- status=guess, src=wikt status=guess, src=wikt status=guess, src=wikt
@@ -11882,8 +11877,10 @@ lin gregarious_A = mkA "gregario" ; -- status=guess
 lin gregory_PN = mkPN "Gregory" ; -- status=guess src=geonames
 lin grenada_PN = mkPN "Grenada" ; -- status=guess src=geonames
 lin grenade_N = mkN "granata" ; -- UWN
-lin grey_A = mkA "brizzolato" ; -- status=guess
-lin grey_N = mkN "airone cenerino" | mkN "ardea cinerea" ; -- status=guess status=guess
+lin grey_A = mkA "grigio" | mkA "brizzolato" ; -- status=guess
+lin grey_N = mkN "grigio" | mkN "airone cenerino" | mkN "ardea cinerea" ; -- status=guess status=guess
+lin grey_V = mkV "ingrigire" ; -- status=guess, src=wikt
+lin grey_V2 = mkV2 (mkV "ingrigire") ; -- status=guess, src=wikt
 lin greyhound_N = mkN "levriere" | mkN "levriero" | mkN "veltro" ; -- UWN
 lin greyish_A = mkA "grigio" ; -- UWN
 lin greylag_N = mkN "oca selvatica" ; -- status=guess
