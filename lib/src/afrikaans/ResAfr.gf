@@ -750,5 +750,6 @@ param
 --    np ** {isPron = False} ;
 
   mkAdV : Str -> Polarity -> { s : Str ; p : Polarity }  = \str,p -> {s = str ; p = p } ;
+  mkSubj : Str -> Order -> { s : Str ; o : Order } = \s,o -> { s = s ; o = o } ;
 
 }
