@@ -65,7 +65,7 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 -- Structural
 
 --    Conj = {s1,s2 : Str ; n : Number} ;
---    Subj = {s : Str} ;
+    Subj = {s : Str ; o : Order } ;
 --    Prep = {s : Str} ;
 
 -- Open lexical classes, e.g. Lexicon
