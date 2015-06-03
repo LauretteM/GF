@@ -61,7 +61,7 @@ concrete SentenceAfr of Sentence = CatAfr ** open ResAfr, Prelude in {
 --      c2 = cl.c2
 --      } ;
 
---    AdvS a s = {s = \\o => a.s ++ s.s ! Inv} ;
+    AdvS a s = {s = \\o => a.s ++ s.s ! Inv ; hasNeg = case a.p of {Neg => True ; Pos => s.hasNeg } } ;
 
 --    RelS s r = {s = \\o => s.s ! o ++ "," ++ r.s ! Neutr ! Sg} ;
 
