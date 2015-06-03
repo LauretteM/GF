@@ -62,6 +62,8 @@ concrete SentenceAfr of Sentence = CatAfr ** open ResAfr, Prelude in {
 --      } ;
 
     AdvS a s = {s = \\o => a.s ++ s.s ! Inv ; hasNeg = case a.p of {Neg => True ; Pos => s.hasNeg } } ;
+    -- ExtaAdvS = AdvS in Afrikaans
+    ExtAdvS a s = {s = \\o => a.s ++ s.s ! Inv ; hasNeg = case a.p of {Neg => True ; Pos => s.hasNeg } } ;
 
 --    RelS s r = {s = \\o => s.s ! o ++ "," ++ r.s ! Neutr ! Sg} ;
 
