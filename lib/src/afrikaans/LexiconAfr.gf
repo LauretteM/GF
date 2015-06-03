@@ -29,6 +29,7 @@ lin
     stop_V = mkV "op" (mkV "hou") ;
     see_V2 = mkV2 (mkV "sien") ;
     watch_V2 = mkV2 (mkV "kyk") (mkPrep "na") ;
+    eat_V2 = mkV2 (mkV "op" (mkV "eet")) ;
     
     give_V3 = mkV3 (mkV "gee") ;
     send_V3 = mkV3 (mkV "stuur") (mkPrep "na") ;
