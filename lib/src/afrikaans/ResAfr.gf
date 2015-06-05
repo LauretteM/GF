@@ -488,7 +488,7 @@ param
     subNeg = isNeg ;
     inf = vp.inf ;
     ppart = vp.ppart ;
-    ext = vp.ext + ext
+    ext = vp.ext ++ ext
 --    a1 = vp.a1 ;
 --    n0 = vp.n0 ;
 --    n2 = vp.n2 ;
