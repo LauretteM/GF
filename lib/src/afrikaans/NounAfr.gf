@@ -54,16 +54,11 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
 --        a = a
 --        } ;
 
-    DetQuant quant num = { s = quant.s ++ num.s ; n = num.n ; isNeg = quant.isNeg } ;
---      let 
---        n = num.n ;
---        a = quant.a
---      in {
---        s = \\g => quant.s ! num.isNum ! n ! g ++ num.s ;
---        sp = \\g => quant.sp ! n ! g ++ num.s ;
---        n = n ;
---        a = a
---        } ;
+    DetQuant quant num = {
+        s = quant.s ++ num.s ;
+        n = num.n ;
+        isNeg = quant.isNeg
+        } ;
 
 --    PossPron p = {
 --      s  = \\_,n,g => p.unstressed.poss ;
@@ -93,7 +88,7 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
 --      a = Weak
 --     } ;
 
---    IndefArt = {
+    IndefArt = { s = "'n" ; isNeg = False } ;
 --      s = table {
 --        True => \\_,_ => [] ; 
 --        False => table {
@@ -147,16 +142,10 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
 --      c2 = f.c3
 --      } ;
 
---    AdjCN ap cn = 
---      let 
---        g = cn.g 
---      in {
---        s = \\a,n => 
---               preOrPost ap.isPre
---                 (ap.s ! agrAdj g a n)
---                 (cn.s ! a ! n) ;
---        g = g
---        } ;
+    AdjCN ap cn = {
+        s = \\n => ap.s!AAttr ++ cn.s!n ;
+        g = cn.g
+        } ;
 
 --    RelCN cn rs = {
 --      s = \\a,nc => cn.s ! a ! nc ++ rs.s ! cn.g ! (case nc of {NF n c => n}) ;
