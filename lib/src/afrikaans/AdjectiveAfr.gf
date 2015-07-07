@@ -3,25 +3,25 @@ concrete AdjectiveAfr of Adjective = CatAfr ** open ResAfr, Prelude in
 
   flags optimize=all_subs ;
 
---  lin
+  lin
 
---    PositA  a = {
---      s = a.s ! Posit ;
+    PositA  a = {
+      s = a.s ! Posit ;
 --      isPre = True
---      } ;
---    ComparA a np = {
---      s = \\af => a.s ! Compar ! af ++ "as" ++ np.s ! NPNom ;	--afr
+      } ;
+    ComparA a np = {
+      s = \\af => a.s ! Compar ! af ++ "as" ++ np.s ! NPNom ;	--afr
 --      isPre = True
---      } ;
+      } ;
 --    CAdvAP ad ap np = {
 --      s = \\af => ad.s ++ ap.s ! af ++ ad.p ++ np.s ! NPNom ;
 --      isPre = False
 --      } ;
---    UseComparA a = {
---      s = \\af => a.s ! Compar ! af ;
+    UseComparA a = {
+      s = \\af => a.s ! Compar ! af ;
 --      isPre = True
---      } ;
---    AdjOrd  a = {
+      } ;
+--    AdjOrd a = {
 --      s = a.s ;
 --      isPre = True
 --      } ;
