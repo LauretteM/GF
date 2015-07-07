@@ -32,12 +32,12 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 -- Verb
 
     VP = ResAfr.VP ;
-    VPSlash = ResAfr.VP ** {c2 : Preposition} ;
+    VPSlash = ResAfr.VP ** {c2 : Preposition ; hasDirObj : Bool } ;
 --    Comp = {s : Agr => Str} ; 
 
 -- Adjective
 
---    AP = {s : AForm => Str ; isPre : Bool} ; 
+    AP = {s : AForm => Str } ; -- isPre : Bool} ; 
 
 -- Noun
 
@@ -78,7 +78,7 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
     VV = VVerb ** {om : Str ; te : Str} ;
     V2, V2A, V2S, V2Q = VVerb ** {c2 : Preposition; hasPrep : Bool} ;
 --    V2V = VVerb ** {c2 : Preposition ; isAux : Bool} ;
-    V3 = VVerb ** {c2, c3 : Preposition} ;
+    V3 = VVerb ** {c2 : Preposition ; c3 : Preposition ; hasP3 : Bool } ;
 
     A  = Adjective ;
     A2 = Adjective ** {c2 : Preposition} ;
