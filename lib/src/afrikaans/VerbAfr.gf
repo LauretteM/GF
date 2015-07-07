@@ -8,16 +8,29 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
     ComplVV v vp = vvPred v vp ;
 
     ComplVS v s = 
-      insertExtrapos s.hasNeg (conjThat ++ s.s ! Sub) (predV v) ;
+      insertSubCl s.hasNeg (conjThat ++ s.s ! Sub) (predV v) ;
 --    ComplVQ v q = 
 --      insertExtrapos (q.s ! QIndir) (predV v) ;
---    ComplVA  v ap = insertObj (\\ _ => ap.s ! APred) (predV v) ;
+    ComplVA v ap = insertObjAP (ap.s ! APred) (predV v) ;
 
-    SlashV2a v = predV v ** {c2 = v.c2 ; hasPrep = v.hasPrep } ; 
-      
---    Slash2V3 v np =
+    SlashV2a v = (prepV v.hasPrep v) ** {c2 = v.c2 ; hasDirObj = False } ; 
+    
+    -- inserts the direct object
+    Slash2V3 v np = case np.isPerson of 
+                    { True => insertObjNP np.isNeg np.isPerson (appPrep v.c2 np.s) (predV v) ** { c2 = v.c3 ; hasDirObj = True } ;
+                      False => insertExt np.isNeg (appPrep v.c2 np.s) (prepV v.hasP3 v) ** { c2 = v.c3 ; hasDirObj = True } } ;
+                        
+    -- insertObjNP np.isNeg np.isPerson (appPrep v.c2 np.s) (predV v) ** { c2 = [] ; hasDirObj = False } ;
 --      insertObj (\\_ => appPrep v.c2 np.s) (predVv v) ** {c2 = v.c3} ;
---    Slash3V3 v np =
+
+    -- inserts indirect object
+    Slash3V3 v np = insertExt np.isNeg (appPrep v.c3 np.s) (prepV v.hasP3 v) ** { c2 = v.c2 ; hasDirObj = False } ;
+                    --case <v.hasIndPrep> of {
+                        --<True,_> => insertExt np.isNeg (appPrep v.c3 np.s) (predV v) ** { c2 = v.c2 ; hasDirObj = False } ;
+                        --<False,False> => insertExt np.isNeg (appPrep v.c3 np.s) (predV v) ** { c2 = v.c2 ; hasDirObj = False } ;
+                        --<False,True> => insertObjNP np.isNeg np.isPerson (appPrep v.c3 np.s) (predV v) ** { c2 = v.c2 ; hasDirObj = False } 
+                    --} ;
+    --insertIndObjNP (appPrep v.c2 np.s) (predV v) ** { c2 = v.c2 ; hasDirObj = True } ;
 --      insertObj (\\_ => appPrep v.c3 np.s) (predVv v) ** {c2 = v.c2} ;
 --
 --    SlashV2S v s = 
@@ -35,9 +48,21 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
 --    SlashV2A v ap = 
 --      insertObj (\\_ => ap.s ! APred) (predVv v) ** {c2 = v.c2} ;
 --
-    ComplSlash vp np = insertObjNP np.isNeg np.isPerson (appPrep vp.c2 np.s) vp ;
 
-    SlashVV v vp = (vvPred v vp) ** {c2 = vp.c2} ;
+-- DO NEXT: fix this and Slash2V3 and Slash3V3
+    ComplSlash vp np = case <vp.hasDirObj,np.isPerson,vp.hasPrep> of 
+                        { <False,True,False> => insertObjNP np.isNeg np.isPerson (appPrep vp.c2 np.s) vp ; -- hy sien Jan nie, hy gee [Jan] nie 'n kans nie
+                          <False,False,False> => insertExtPre np.isNeg (appPrep vp.c2 np.s) vp ; -- hy sien nie die man nie, hy gee nie [die man] 'n kans nie
+                          <True,True,False> => insertExt np.isNeg (appPrep vp.c2 np.s) vp ; -- hy gee Jan nie ['n kans] nie
+                          <True,False,False> => insertExt np.isNeg (appPrep vp.c2 np.s) vp ; -- hy gee nie die man ['n kans] nie
+                          
+                          <False,True,True> => insertExtPre np.isNeg (appPrep vp.c2 np.s) vp ; -- hy kyk nie na Jan nie, hy stuur nie die boom [na Jan] nie
+                          <False,False,True> => insertExtPre np.isNeg (appPrep vp.c2 np.s) vp ; -- hy kyk nie na die man nie, hy stuur nie die boom [na die man] nie
+                          <True,True,True> => insertExt np.isNeg (appPrep vp.c2 np.s) vp ; -- hy stuur nie [die boom] na Jan nie
+                          <True,False,True> => insertExt np.isNeg (appPrep vp.c2 np.s) vp  -- hy stuur nie [die boom] na die man nie
+                        } ;
+
+    SlashVV v vp = (vvPred v vp) ** {c2 = vp.c2 ; hasDirObj = False } ;
 --      let 
 --        vpi = infVP v.isAux vp 
 --      in
@@ -70,7 +95,7 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
 --    CompNP np = {s = \\_ => np.s ! NPNom} ;
 --    CompAdv a = {s = \\_ => a.s} ;
 --
-    AdvVP vp adv = insertAdv adv.s vp ;
+    AdvVP vp adv = insertAdv adv.s adv.p vp ;
     AdVVP adv vp = insertAdV adv.s adv.p vp ;
 --
 --    ReflVP vp = insertObj (\\a => appPrep vp.c2 (\\_ => reflPron ! a )) vp ;
