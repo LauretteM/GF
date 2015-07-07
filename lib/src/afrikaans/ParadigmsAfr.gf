@@ -125,7 +125,7 @@ oper
 --  mkV2S : V -> Prep -> V2S ;
 --  mkVV  : V -> Bool -> VV ;
 --  mkV2V : V -> Prep -> V2V ;
---  mkVA  : V -> VA ;
+  mkVA  : V -> VA ;
 --  mkV2A : V -> Prep -> V2A ;
 --  mkVQ  : V -> VQ ;
 --  mkV2Q : V -> Prep -> V2Q ;
@@ -204,12 +204,12 @@ oper
     } ;
 
   mkV3 = overload {
-    mkV3 : V -> Prep -> Prep -> V3 = mkmaxV3 ;
-    mkV3 : V -> Prep -> V3 = \v,p -> mkmaxV3 v (mkPrep []) p ; 
-    mkV3 : V -> V3 = \v -> mkmaxV3 v (mkPrep []) (mkPrep []) ; 
+    mkV3 : V -> Prep -> Prep -> V3 = mkmaxV3 True ;
+    mkV3 : V -> Prep -> V3 = \v,p -> mkmaxV3 True v (mkPrep []) p ; 
+    mkV3 : V -> V3 = \v -> mkmaxV3 False v (mkPrep []) (mkPrep []) ; 
     } ;
 
-  mkmaxV3 : V -> Prep -> Prep -> V3 = \v,c,d -> lin V3 (v ** {c2 = c.s ; c3 = d.s}) ;
+  mkmaxV3 : Bool -> V -> Prep -> Prep -> V3 = \bInd,v,p2,p3 -> lin V3 (v ** {c2 = p2.s ; c3 = p3.s ; hasP3 = bInd }) ;
 
 --  invarA = \s -> lin A {s = \\_,_ => s} ; ---- comparison
 
@@ -222,6 +222,7 @@ oper
 
   mkVS v = lin VS v ;
 --  mkVQ v = lin VQ v ;
+  mkVA v = lin VA v ;
 
   mkVV : V -> Bool -> VV = \v,b -> case b of { True => lin VV (v ** {om = "om" ; te = "te" }) ;
                                                  False => lin VV (v ** {om = [] ; te = "te" }) } ;
