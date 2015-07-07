@@ -37,6 +37,8 @@ lin
     
     say_VS = mkVS (mkV "sê") ;
     
+    become_VA = mkVA (mkV "word") ;
+    
     far_Adv = mkAdv "ver" ;
     today_Adv = mkAdv "vandag" ;
 
