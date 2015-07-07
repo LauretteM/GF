@@ -49,7 +49,6 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
 --      insertObj (\\_ => ap.s ! APred) (predVv v) ** {c2 = v.c2} ;
 --
 
--- DO NEXT: fix this and Slash2V3 and Slash3V3
     ComplSlash vp np = case <vp.hasDirObj,np.isPerson,vp.hasPrep> of 
                         { <False,True,False> => insertObjNP np.isNeg np.isPerson (appPrep vp.c2 np.s) vp ; -- hy sien Jan nie, hy gee [Jan] nie 'n kans nie
                           <False,False,False> => insertExtPre np.isNeg (appPrep vp.c2 np.s) vp ; -- hy sien nie die man nie, hy gee nie [die man] 'n kans nie
