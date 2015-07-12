@@ -334,7 +334,7 @@ param
       adV : Str ; -- altyd/nooit
       double1 : Bool ; -- insert first "nie" if sentence polarity is negative, because certain slots are filled (hy loop nie/hy loop *nie* goed nie)
       double2 : Bool ;  -- always insert second "nie", because of n-word (niemand *nie*), unless...
-      subNeg : Bool ;   -- a final "nie" is present in a subclause
+      subNeg : Bool ;   -- a final "nie" is present in a sub phrase
       inf : Str * Bool ;
       ppart : Str * Bool ;
       ext : Str ;
