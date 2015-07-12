@@ -55,10 +55,10 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
                           <True,True,False> => insertExt np.isNeg (appPrep vp.c2 np.s) vp ; -- hy gee Jan nie ['n kans] nie
                           <True,False,False> => insertExt np.isNeg (appPrep vp.c2 np.s) vp ; -- hy gee nie die man ['n kans] nie
                           
-                          <False,True,True> => insertExtPre np.isNeg (appPrep vp.c2 np.s) vp ; -- hy kyk nie na Jan nie, hy stuur nie die boom [na Jan] nie
-                          <False,False,True> => insertExtPre np.isNeg (appPrep vp.c2 np.s) vp ; -- hy kyk nie na die man nie, hy stuur nie die boom [na die man] nie
-                          <True,True,True> => insertExt np.isNeg (appPrep vp.c2 np.s) vp ; -- hy stuur nie [die boom] na Jan nie
-                          <True,False,True> => insertExt np.isNeg (appPrep vp.c2 np.s) vp  -- hy stuur nie [die boom] na die man nie
+                          <False,True,True> => insertExtPre np.isNeg (appPrep vp.c2 np.s) vp ;  -- hy stuur nie [die boom] na Jan nie
+                          <False,False,True> => insertExtPre np.isNeg (appPrep vp.c2 np.s) vp ;  -- hy stuur nie [die boom] na die man nie
+                          <True,True,True> => insertExt np.isNeg (appPrep vp.c2 np.s) vp ; -- hy kyk nie na Jan nie, hy stuur nie die boom [na Jan] nie
+                          <True,False,True> => insertExt np.isNeg (appPrep vp.c2 np.s) vp -- hy kyk nie na die man nie, hy stuur nie die boom [na die man] nie
                         } ;
 
     SlashVV v vp = (vvPred v vp) ** {c2 = vp.c2 ; hasDirObj = False } ;
