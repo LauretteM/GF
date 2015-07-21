@@ -17,7 +17,7 @@ concrete AdverbAfr of Adverb = CatAfr ** open ResAfr, Prelude in {
 
 --    PositAdAAdj a = {s = a.s ! Posit ! APred} ;
 
---    SubjS subj s = {s = subj.s ++ s.s ! Sub} ;
+lin    SubjS subj s = {s = subj.s ++ s.s ! Sub ; p = case s.hasNeg of {True => Neg ; False => Pos} ; isClause = True } ;
 
 --    AdnCAdv cadv = {s = cadv.s ++ conjThan} ;
 
