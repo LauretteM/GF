@@ -7,22 +7,23 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
       s = \\c => det.s ++ cn.s ! NF det.n Nom ; -- kan dalk vereenvoudig (2011-01-14)
       a = agrP3 det.n ;
       isPerson = False ;
-      isNeg = det.isNeg
+      isNeg = det.isNeg 
       } ;
 
---    DetNP det = {
---      s = \\_ => det.sp ! Neutr ;
---      a = agrP3 det.n ;
---      isPron = False
---      } ;
+    DetNP det = {
+      s = \\_ => det.s ;
+      a = agrP3 det.n ;
+      isPerson = False ;
+      isNeg = det.isNeg 
+      } ;
 
     UsePN pn = {s = pn.s ; a = agrP3 Sg ; isNeg = False ; isPerson = True } ;
 
     UsePron pron = {
       s = table {NPNom => pron.nom ; NPAcc => pron.acc} ;
       a = pron.a ;
-      isNeg = False ;
-      isPerson = True
+      isPerson = True ;
+      isNeg = False 
       } ;
 
 --    PredetNP pred np = heavyNP {
@@ -66,42 +67,24 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
 --      a = Strong
 --      } ;
 
---    NumCard n = {s = n.s ! Neutr ! Nom ; n = n.n ; isNum = True} ;
+    NumCard n = {s = n.s ; n = n.n ; isNum = True} ;
 
     NumPl = {s = []; n = Pl ; isNum = False} ; 
     NumSg = {s = []; n = Sg ; isNum = False} ; 
 
---    NumDigits numeral = {s = \\g,c => numeral.s ! NCard g c; n = numeral.n } ;
---    OrdDigits numeral = {s = \\af => numeral.s ! NOrd af} ;
+    NumDigits numeral = {s = numeral.s ! NCard ; n = numeral.n } ;
+    OrdDigits numeral = {s = numeral.s ! NOrd} ;
 
---    NumNumeral numeral = {s = \\g,c => numeral.s ! NCard g c; n = numeral.n } ;
---    OrdNumeral numeral = {s = \\af => numeral.s ! NOrd af} ;
+    NumNumeral numeral = {s = numeral.s ! NCard ; n = numeral.n } ;
+    OrdNumeral numeral = {s = numeral.s ! NOrd } ;
 
 --    AdNum adn num = {s = \\g,c => adn.s ++ num.s!g!c; n = num.n } ;
 
---    OrdSuperl a = {s = a.s ! Superl} ;
+    OrdSuperl a = {s = a.s ! Superl ! AAttr } ;
 
     DefArt = { s = "die" ; isNeg = False } ;
---     {
---      s = \\_,_,_  => "die" ;	--afr
---      sp = \\_,_ => "hulle" ;	--afr
---      a = Weak
---     } ;
 
     IndefArt = { s = "'n" ; isNeg = False } ;
---      s = table {
---        True => \\_,_ => [] ; 
---        False => table {
---          Sg => \\g => "'n" ;	--afr
---          Pl =>  \\_ => []
---          }
---        } ; 
---      sp = table {
---        Sg => \\g => "'n" ;	--afr
---        Pl => \\_ => "'n" ----	--afr
---        } ;
---      a = Strong
---      } ;
 
 --    MassNP cn = {
 --      s = \\c => cn.s ! Strong ! NF Sg Nom ;
@@ -111,7 +94,8 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
 
     UseN = \n -> {
       s = \\f => n.s!f ;
-      g = n.g
+      g = n.g ;
+      isNeg = False 
       } ;
       
 --    UseN2 = \n -> {
@@ -144,13 +128,15 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
 
     AdjCN ap cn = {
         s = \\n => ap.s!AAttr ++ cn.s!n ;
-        g = cn.g
+        g = cn.g ;
+        isNeg = cn.hasNeg
         } ;
 
---    RelCN cn rs = {
---      s = \\a,nc => cn.s ! a ! nc ++ rs.s ! cn.g ! (case nc of {NF n c => n}) ;
---      g = cn.g
---      } ;
+    RelCN cn rs = {
+      s = \\nc => cn.s ! nc ++ rs.s ! cn.g ! (case nc of {NF n c => n})  ;
+      g = cn.g ;
+      isNeg = orB cn.isNeg rs.hasNeg
+      } ;
 
 --    RelNP np rs = {
 --      s = \\c => np.s ! c ++ "," ++ rs.s ! np.a.g ! np.a.n ;
