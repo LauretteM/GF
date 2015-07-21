@@ -44,7 +44,8 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
     CN = {s : NForm => Str ; g : Gender } ;
     NP = { s : NPCase => Str ;
            a : Agr ;
-           isNeg : Bool ;
+           finNie : Bool ;
+           hasNwd : Bool ;
            isPerson : Bool  -- True if PN or Pron: "hy sien hom/Jan nie" vs "hy sien nie die man nie"
          } ;
     Pron = Pronoun ;

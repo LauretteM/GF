@@ -7,23 +7,26 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
       s = \\c => det.s ++ cn.s ! NF det.n Nom ; -- kan dalk vereenvoudig (2011-01-14)
       a = agrP3 det.n ;
       isPerson = False ;
-      isNeg = det.isNeg 
+      hasNwd = det.isNeg ;
+      finNie = False
       } ;
 
     DetNP det = {
       s = \\_ => det.s ;
       a = agrP3 det.n ;
       isPerson = False ;
-      isNeg = det.isNeg 
+      hasNwd = det.isNeg ;
+      finNie = False
       } ;
 
-    UsePN pn = {s = pn.s ; a = agrP3 Sg ; isNeg = False ; isPerson = True } ;
+    UsePN pn = {s = pn.s ; a = agrP3 Sg ; hasNwd = False ; finNie = False ; isPerson = True } ;
 
     UsePron pron = {
       s = table {NPNom => pron.nom ; NPAcc => pron.acc} ;
       a = pron.a ;
       isPerson = True ;
-      isNeg = False 
+      hasNwd = False ;
+      finNie = False
       } ;
 
 --    PredetNP pred np = heavyNP {
@@ -138,11 +141,13 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
       isNeg = orB cn.isNeg rs.hasNeg
       } ;
 
---    RelNP np rs = {
---      s = \\c => np.s ! c ++ "," ++ rs.s ! np.a.g ! np.a.n ;
---      a = np.a ;
---      isPron = False
---      } ;
+    RelNP np rs = {
+      s = \\c => np.s ! c ++ "," ++ rs.s ! np.a.g ! np.a.n ;
+      a = np.a ;
+      isPerson = False ;
+      hasNwd = np.hasNwd ;
+      finNie = rs.hasNeg
+      } ;
 
 --    SentCN cn s = {
 --      s = \\a,nc => cn.s ! a ! nc ++ s.s ;

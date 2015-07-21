@@ -827,11 +827,12 @@ param
 --      s  = \\n,g => case <n,g> of {<Sg,Neutr> => dit ; _ => deze}
 --      } ;
 
-  mkNP : Str -> Gender -> Number -> Bool -> {s : NPCase => Str ; a : Agr ; isNeg : Bool ; isPerson : Bool } =
+  mkNP : Str -> Gender -> Number -> Bool -> {s : NPCase => Str ; a : Agr ; hasNwd : Bool ; finNie : Bool ; isPerson : Bool } =
     \s,g,n,b -> {
       s = \\_ => s ;
       a = agrgP3 g n ;
-      isNeg = b ;
+      hasNwd = b ;
+      finNie = False ;
       isPerson = False
       } ;
 
@@ -849,6 +850,7 @@ param
 --    {s : NPCase => Str ; a : Agr} -> {s : NPCase => Str ; a : Agr ; isPron : Bool} = \np ->
 --    np ** {isPron = False} ;
 
+  mkAdv : Str -> Polarity -> {s : Str ; p : Polarity ; isClause : Bool }  = \str,p -> {s = str ; p = p ; isClause = False } ;
   mkAdV : Str -> Polarity -> { s : Str ; p : Polarity }  = \str,p -> {s = str ; p = p } ;
   mkSubj : Str -> Order -> { s : Str ; o : Order } = \s,o -> { s = s ; o = o } ;
 

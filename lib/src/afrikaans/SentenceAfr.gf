@@ -4,7 +4,7 @@ concrete SentenceAfr of Sentence = CatAfr ** open ResAfr, Prelude in {
 
   lin
 
-    PredVP np vp = mkClause (np.s ! NPNom) np.a np.isNeg vp ;
+    PredVP np vp = mkClause (np.s ! NPNom) np.a np.hasNwd vp ;
 
 --    PredSCVP sc vp = mkClause sc.s (agrP3 Sg) vp ;
 
