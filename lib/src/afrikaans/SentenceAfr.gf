@@ -53,9 +53,10 @@ concrete SentenceAfr of Sentence = CatAfr ** open ResAfr, Prelude in {
 --    UseQCl t p cl = {
 --      s = \\q => t.s ++ p.s ++ cl.s ! t.t ! t.a ! p.p ! q
 --      } ;
---    UseRCl t p cl = {
---      s = \\g,n => t.s ++ p.s ++ cl.s ! t.t ! t.a ! p.p ! g ! n
---      } ;
+    UseRCl t p cl = {
+      s = \\g,n => t.s ++ p.s ++ cl.s ! t.t ! t.a ! p.p ! g ! n ;
+      hasNeg = cl.hasNeg!p.p
+      } ;
 --    UseSlash t p cl = {
 --      s = \\o => t.s ++ p.s ++ cl.s ! t.t ! t.a ! p.p ! o ;
 --      c2 = cl.c2
@@ -65,7 +66,7 @@ concrete SentenceAfr of Sentence = CatAfr ** open ResAfr, Prelude in {
     -- ExtaAdvS = AdvS in Afrikaans
     ExtAdvS a s = {s = \\o => a.s ++ s.s ! Inv ; hasNeg = case a.p of {Neg => True ; Pos => s.hasNeg } } ;
     
-    SSubjS s1 subj s2 = { s = \\o => s1.s!o ++ subj.s ++ s2.s!subj.o ; hasNeg = orBool s1.hasNeg s2.hasNeg } ;
+    SSubjS s1 subj s2 = { s = \\o => s1.s!o ++ subj.s ++ s2.s!subj.o ; hasNeg = orB s1.hasNeg s2.hasNeg } ;
 
 --    RelS s r = {s = \\o => s.s ! o ++ "," ++ r.s ! Neutr ! Sg} ;
 
