@@ -30,20 +30,12 @@ oper
 
   masculine : Gender ; 
   feminine  : Gender ; 
---  neuter    : Gender ; --%
---  utrum     : Gender ; --%
-----afr!
---  de  : Gender ; -- non-neutrum
---  het : Gender ; -- neutrum
---  --die : Gender ;
-
-
 
 --2 Nouns
 
   mkN : overload {
-    mkN : (muis : Str) -> N ;   -- muis-muise, with some predictable exceptions
-    mkN : (bit : Str) -> Gender -> N ; -- if gender is not predictable
+    mkN : (muis : Str) -> N ;   -- regular, non-gendered
+    mkN : (bit : Str) -> Gender -> N ; -- regular nouns with implicit gender, eg. man
     mkN : (vrou,vrouens : Str) -> Gender -> N ; -- worst-case for nouns
   } ;
 
@@ -79,12 +71,6 @@ oper
     mkA : (goed,goeie,goeds,beter,beste : Str) -> A ; -- irregular adjective
     } ;
 
-
----- Invariable adjective are a special case. 
---
---  invarA : Str -> A ;            -- adjective with just one form
---
---
 -- Two-place adjectives are formed by adding a preposition to an adjective.
 
   mkA2 : A -> Prep -> A2 ;  -- e.g. getroud + met
@@ -94,8 +80,8 @@ oper
 -- Adverbs are formed from strings.
 
   mkAdv : overload {
-    mkAdv : Str -> Adv ;
-    mkAdv : Str -> Polarity -> Adv ;
+    mkAdv : Str -> Adv ; -- polarity is positive by default
+    mkAdv : Str -> Polarity -> Adv ; -- used to specify polarity, eg. "nooit" Neg
   } ;
 
 --2 Prepositions
@@ -108,7 +94,7 @@ oper
 --
 --  zijnV  : V -> V ; -- force zijn as auxiliary (default hebben)
 --
---  reflV  : V -> V ; -- reflexive verb e.g. zich afvragen
+--  reflV  : V -> V ; -- reflexive verb e.g. hom/haar skaam
 --
 ----3 Three-place verbs
 --
@@ -198,26 +184,26 @@ oper
 ----3 Two-place verbs
 
   mkV2 = overload {
-    mkV2 : Str -> V2 = \s -> lin V2 (v2vv (regVerb s) ** {c2 = [] ; hasPrep = False }) ;
-    mkV2 : V -> V2 = \s -> lin V2 (s ** {c2 = [] ; hasPrep = False }) ;
-    mkV2 : V -> Prep -> V2  = \s,p -> lin V2 (s ** {c2 = p.s ; hasPrep = True }) ;
+    mkV2 : Str -> V2 = \s -> lin V2 (v2vv (regVerb s) ** {c2 = [] ; hasPrep2 = False }) ;
+    mkV2 : V -> V2 = \s -> lin V2 (s ** {c2 = [] ; hasPrep2 = False }) ;
+    mkV2 : V -> Prep -> V2  = \s,p -> lin V2 (s ** {c2 = p.s ; hasPrep2 = True }) ;
     } ;
 
   mkV3 = overload {
     mkV3 : V -> Prep -> Prep -> V3 = mkmaxV3 True ;
-    mkV3 : V -> Prep -> V3 = \v,p -> mkmaxV3 True v (mkPrep []) p ; 
+    mkV3 : V -> Prep -> V3 = \v,p -> mkmaxV3 False v (mkPrep []) p ; 
     mkV3 : V -> V3 = \v -> mkmaxV3 False v (mkPrep []) (mkPrep []) ; 
     } ;
 
-  mkmaxV3 : Bool -> V -> Prep -> Prep -> V3 = \bInd,v,p2,p3 -> lin V3 (v ** {c2 = p2.s ; c3 = p3.s ; hasP3 = bInd }) ;
+  mkmaxV3 : Bool -> V -> Prep -> Prep -> V3 = \b,v,p2,p3 -> lin V3 (v ** {c2 = p2.s ; c3 = p3.s ; hasPrep2 = b }) ;
 
 --  invarA = \s -> lin A {s = \\_,_ => s} ; ---- comparison
 
   mkA2 = \a,p -> lin A2 (a ** {c2 = p.s}) ;
 
   mkAdv = overload {
-    mkAdv : Str -> Adv = \s -> lin Adv {s = s ; p = Pos } ;
-    mkAdv : Str -> Polarity -> Adv = \s,p -> lin Adv {s = s ; p = p } ;
+    mkAdv : Str -> Adv = \s -> lin Adv {s = s ; p = Pos ; isClause = False } ;
+    mkAdv : Str -> Polarity -> Adv = \s,p -> lin Adv {s = s ; p = p ; isClause = False } ;
   } ;
 
   mkVS v = lin VS v ;
