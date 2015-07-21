@@ -9,9 +9,9 @@ concrete TestAfr of TestAfrAbs =
 flags startcat = Phr ; unlexer = text ; lexer = text ;
 
   lin
-    fast_Adv = {s = "vinnig" ; p = Pos ; isClause = False } ; 
+    fast_Adv = lin Adv (mkAdv "vinnig" Pos) ; -- {s = "vinnig" ; p = Pos ; isClause = False } ; 
     never_AdV = lin AdV (mkAdV "nooit" Neg) ;
-    nowhere_Adv = {s = "nêrens" ; p = Neg ; isClause = False } ;
+    nowhere_Adv = lin Adv (mkAdv "nêrens" Neg) ; -- {s = "nêrens" ; p = Neg ; isClause = False } ;
     chance_N = lin N (regNoun "kans") ;
     tired_A = lin A (regAdjective "moeg") ;
 
