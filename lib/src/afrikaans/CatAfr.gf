@@ -7,7 +7,7 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 
     S  = {s : Order => Str ; hasNeg : Bool } ;
 --    QS = {s : QForm => Str} ;
---    RS = {s : Gender => Number => Str} ;
+    RS = {s : Gender => Number => Str ; hasNeg : Bool } ;
 --    SSlash = {s : Order => Str} ** {c2 : Preposition} ;
 
 -- Sentence
@@ -26,14 +26,14 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 
 -- Relative
 
---    RCl = {s : ResAfr.Tense => Anteriority => Polarity => Gender => Number => Str} ;
---    RP = {s : Gender => Number => Str ; a : RAgr} ;
+    RCl = {s : ResAfr.Tense => Anteriority => Polarity => Gender => Number => Str ; hasNeg : Polarity => Bool } ;
+    RP = {s : Str ; a : RAgr ; hasPrep : Bool } ;
 
 -- Verb
 
     VP = ResAfr.VP ;
-    VPSlash = ResAfr.VP ** {c2 : Preposition ; hasDirObj : Bool } ;
---    Comp = {s : Agr => Str} ; 
+    VPSlash = ResAfr.VP ** {c2 : Preposition ; hasN2 : Bool ; isV3 : Bool } ;
+    Comp = {s : Agr => Str} ; 
 
 -- Adjective
 
@@ -41,7 +41,7 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 
 -- Noun
 
-    CN = {s : NForm => Str ; g : Gender} ;
+    CN = {s : NForm => Str ; g : Gender } ;
     NP = { s : NPCase => Str ;
            a : Agr ;
            isNeg : Bool ;
@@ -58,27 +58,27 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 --      } ;
 --    Predet = {s : Number => Gender => Str} ;
     Num = {s : Str ; n : Number ; isNum : Bool} ;
---    Card = {s : Gender => Case => Str ; n : Number} ;
---    Ord = {s : AForm => Str} ;
+    Card = {s : Str ; n : Number} ;
+    Ord = {s : Str} ;
 
 -- Numeral
 
---    Numeral = {s : CardOrd => Str ; n : Number } ;
---    Digits = {s : CardOrd => Str ; n : Number } ;
+    Numeral = {s : CardOrd => Str ; n : Number } ;
+    Digits = {s : CardOrd => Str ; n : Number } ;
 
 -- Structural
 
 --    Conj = {s1,s2 : Str ; n : Number} ;
     Subj = {s : Str ; o : Order } ;
---    Prep = {s : Str} ;
+    Prep = {s : Str} ;
 
 -- Open lexical classes, e.g. Lexicon
 
     V, VS, VQ, VA = ResAfr.VVerb ;
     VV = VVerb ** {om : Str ; te : Str} ;
-    V2, V2A, V2S, V2Q = VVerb ** {c2 : Preposition; hasPrep : Bool} ;
+    V2, V2A, V2S, V2Q = VVerb ** {c2 : Preposition; hasPrep2 : Bool} ;
 --    V2V = VVerb ** {c2 : Preposition ; isAux : Bool} ;
-    V3 = VVerb ** {c2 : Preposition ; c3 : Preposition ; hasP3 : Bool } ;
+    V3 = VVerb ** {c2 : Preposition ; c3 : Preposition ; hasPrep2 : Bool } ;
 
     A  = Adjective ;
     A2 = Adjective ** {c2 : Preposition} ;
@@ -89,7 +89,7 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
     PN = {s : NPCase => Str} ;
     
 -- Not inherited from CommonX
-    Adv = {s : Str ; p : Polarity } ;
+    Adv = {s : Str ; p : Polarity ; isClause : Bool } ;
     AdV = {s : Str ; p : Polarity } ;
 
 }
