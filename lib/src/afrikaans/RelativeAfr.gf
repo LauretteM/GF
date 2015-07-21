@@ -1,24 +1,26 @@
-concrete RelativeAfr of Relative = CatAfr ** open ResAfr in {
+concrete RelativeAfr of Relative = CatAfr ** open ResAfr, Prelude in {
 
   flags optimize=all_subs ;
 
---  lin
+  lin
 
---    RelCl cl = {
---      s = \\t,a,b,_,_ => "sodat" ++ cl.s ! t ! a ! b ! Sub
---      } ;
+    RelCl cl = {
+      s = \\t,a,b,_,_ => "sodat" ++ cl.s ! t ! a ! b ! Sub ;
+      hasNeg = cl.hasNeg
+      } ;
 
---    RelVP rp vp = {
---      s = \\t,ant,b,g,n => 
---        let 
---          agr = case rp.a of {
---            RNoAg   => agrgP3 g n ;
---            RAg rn p => {g = Neutr ; n = rn ; p = p} ---- g 
---            } ;
---          cl = mkClause (rp.s ! g ! n) agr vp
---        in
---        cl.s ! t ! ant ! b ! Sub
---      } ;
+    RelVP rp vp = {
+      s = \\t,ant,b,g,n => 
+        let 
+          agr = case rp.a of {
+            RNoAg   => agrgP3 g n ;
+            RAg rn p => {g = g ; n = rn ; p = p}
+            } ;
+          cl = mkClause rp.s agr vp.subNeg vp
+        in
+        cl.s ! t ! ant ! b ! Sub ;
+      hasNeg = table {Pos => vp.subNeg ; Neg => True } 
+      } ;
 
 --    RelSlash rp slash = {
 --      s = \\t,a,p,g,n => 
@@ -31,13 +33,6 @@ concrete RelativeAfr of Relative = CatAfr ** open ResAfr in {
 --      a = RAg np.a.n np.a.p
 --      } ;
 
---    IdRP = {s = relPron ; a = RNoAg} ;
-
---  oper
---    relPron : Gender => Number => Str = \\g,n =>
---      case <g,n> of {
---        <Neutr,Sg> => "wat" ;
---        _ => "wat"
---      } ;
+    IdRP = {s = "wat" ; a = RNoAg ; hasPrep = False } ;
 
 }
