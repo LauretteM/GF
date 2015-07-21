@@ -17,14 +17,14 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
     
     -- inserts n2
     Slash2V3 v np = case <np.isPerson,v.hasPrep2> of 
-                    { <True,False> => insertObjNP2a np.isNeg np.isPerson (appPrep v.c2 np.s) (prepV v.hasPrep2 (predV v)) ** { c2 = v.c3 ; hasN2 = True ; isV3 = True } ;
-                      <_,_>        => insertObjNP2b np.isNeg np.isPerson (appPrep v.c2 np.s) (prepV v.hasPrep2 (predV v)) ** { c2 = v.c3 ; hasN2 = True ; isV3 = True } } ;
+                    { <True,False> => insertObjNP2a np.hasNwd np.isPerson (appPrep v.c2 np.s) (prepV v.hasPrep2 (predV v)) ** { c2 = v.c3 ; hasN2 = True ; isV3 = True } ;
+                      <_,_>        => insertObjNP2b np.hasNwd np.isPerson (appPrep v.c2 np.s) (prepV v.hasPrep2 (predV v)) ** { c2 = v.c3 ; hasN2 = True ; isV3 = True } } ;
                         
     -- insertObjNP np.isNeg np.isPerson (appPrep v.c2 np.s) (predV v) ** { c2 = [] ; hasDirObj = False } ;
 --      insertObj (\\_ => appPrep v.c2 np.s) (predVv v) ** {c2 = v.c3} ;
 
     -- inserts n3
-    Slash3V3 v np = insertObjNP3 np.isNeg np.isPerson (appPrep v.c3 np.s) (prepV v.hasPrep2 (predV v)) ** { c2 = v.c2 ; hasN2 = False ; isV3 = True } ;   
+    Slash3V3 v np = insertObjNP3 np.hasNwd np.isPerson (appPrep v.c3 np.s) (prepV v.hasPrep2 (predV v)) ** { c2 = v.c2 ; hasN2 = False ; isV3 = True } ;   
     
 
 --    SlashV2S v s = 
@@ -45,14 +45,14 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
 
     ComplSlash vp np = case <vp.isV3,vp.hasN2,np.isPerson,vp.hasPrep> of 
                         { 
-                          <False,_,True,False> => insertObjNP2a np.isNeg np.isPerson (appPrep vp.c2 np.s) vp ; -- hy sien [Jan] nie vandag nie
-                          <False,_,_,True> => insertObjNP3 np.isNeg np.isPerson (appPrep vp.c2 np.s) vp ; -- hy sien [Jan] nie vandag nie
-                          <False,_,_,_>        => insertObjNP2b np.isNeg np.isPerson (appPrep vp.c2 np.s) vp ; -- hy sien nie vandag [die man] nie/hy kyk nie vandag [na Jan] nie
+                          <False,_,True,False> => insertObjNP2a np.hasNwd np.isPerson (appPrep vp.c2 np.s) vp ; -- hy sien [Jan] nie vandag nie
+                          <False,_,_,True> => insertObjNP3 np.hasNwd np.isPerson (appPrep vp.c2 np.s) vp ; --! hy kyk nie vandag [na Jan] nie
+                          <False,_,_,_>        => insertObjNP2b np.hasNwd np.isPerson (appPrep vp.c2 np.s) vp ; -- hy sien nie vandag [die man] nie/hy kyk nie vandag [na Jan] nie
                           
-                          <True,False,True,False> => insertObjNP2a np.isNeg np.isPerson (appPrep vp.c2 np.s) vp ; -- hy stuur [Jan] nie vandag na hom nie
-                          <True,False,_,_>    => insertObjNP2b np.isNeg np.isPerson (appPrep vp.c2 np.s) vp ; -- hy stuur nie die man vandag [na hom] nie
+                          <True,False,True,False> => insertObjNP2a np.hasNwd np.isPerson (appPrep vp.c2 np.s) vp ; -- hy stuur [Jan] nie vandag na hom nie
+                          <True,False,_,_>    => insertObjNP2b np.hasNwd np.isPerson (appPrep vp.c2 np.s) vp ; -- hy stuur nie die man vandag [na hom] nie
                           
-                          <True,True,_,_>         => insertObjNP3 np.isNeg np.isPerson (appPrep vp.c2 np.s) vp 
+                          <True,True,_,_>         => insertObjNP3 np.hasNwd np.isPerson (appPrep vp.c2 np.s) vp 
                         
                         } ;
                         
