@@ -97,9 +97,9 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
 --
 
     -- check the kind of adv and insert accordingly
-    AdvVP vp adv = case adv.isClause of { True => insertSubCl (case adv.p of {Pos => False ; Neg => True} ) adv.s vp ;
-                                          False => insertAdv adv.s adv.p vp } ;
-    AdVVP adv vp = insertAdV adv.s adv.p vp ;
+    AdvVP vp adv = case adv.isClause of { True => insertSubCl adv.isNwd adv.s vp ;
+                                          False => insertAdv adv.s adv.isNwd vp } ;
+    AdVVP adv vp = insertAdV adv.s adv.isNwd vp ;
 --
 --    ReflVP vp = insertObj (\\a => appPrep vp.c2 (\\_ => reflPron ! a )) vp ;
 --

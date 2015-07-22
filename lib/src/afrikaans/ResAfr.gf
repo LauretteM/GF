@@ -345,9 +345,9 @@ param
 
   oper VP : Type = {
       s  : VVerb ;
-      n2a : Str ;
-      n2b : Str ;
-      n3  : Str ;
+      n2a, n2b, n3 : Str ;
+      --n2b : Str ;
+      --n3  : Str ;
       hasPrep : Bool ; -- TMP: VP already contains a prep NP
       --nPerson : Bool ; -- true: V2 direct obj is person, V3 indir object is person
       adv : Str ; -- vinnig
@@ -517,7 +517,7 @@ param
     } ;
 
 
-  insertAdV : Str -> Polarity -> VP -> VP = \adv,p,vp -> {
+  insertAdV : Str -> Bool -> VP -> VP = \adv,p,vp -> {
     s = vp.s ;
     n2a = vp.n2a ;
     n2b = vp.n2b ;
@@ -528,8 +528,8 @@ param
     adV = adv ++ vp.adV ;    -- altyd/nooit
     double1 = True ;
     double2 = case p of 
-            { Neg => True ;
-              Pos => vp.double2
+            { True => True ;
+              False => vp.double2
             } ;
     subNeg = vp.subNeg ;
     inf = vp.inf ;
@@ -538,7 +538,7 @@ param
     subcl = vp.subcl 
     } ;
 
-  insertAdv : Str -> Polarity -> VP -> VP = \adv,p,vp -> {
+  insertAdv : Str -> Bool -> VP -> VP = \adv,p,vp -> {
     s = vp.s ;
     n2a = vp.n2a ;
     n2b = vp.n2b ;
@@ -548,7 +548,7 @@ param
     adv = adv ++ vp.adv ;
     adV = vp.adV ;
     double1 = True ;
-    double2 = case p of {Neg => True ; Pos => vp.double2} ;
+    double2 = case p of {True => True ; False => vp.double2} ;
     subNeg = vp.subNeg ;
     inf = vp.inf ;
     ppart = vp.ppart ;
@@ -850,8 +850,7 @@ param
 --    {s : NPCase => Str ; a : Agr} -> {s : NPCase => Str ; a : Agr ; isPron : Bool} = \np ->
 --    np ** {isPron = False} ;
 
-  mkAdv : Str -> Polarity -> {s : Str ; p : Polarity ; isClause : Bool }  = \str,p -> {s = str ; p = p ; isClause = False } ;
-  mkAdV : Str -> Polarity -> { s : Str ; p : Polarity }  = \str,p -> {s = str ; p = p } ;
+  mkAdV : Str -> Bool -> { s : Str ; isNwd : Bool }  = \str,p -> {s = str ; isNwd = p } ;
   mkSubj : Str -> Order -> { s : Str ; o : Order } = \s,o -> { s = s ; o = o } ;
 
 }

@@ -90,7 +90,7 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
     PN = {s : NPCase => Str} ;
     
 -- Not inherited from CommonX
-    Adv = {s : Str ; p : Polarity ; isClause : Bool } ;
-    AdV = {s : Str ; p : Polarity } ;
+    Adv = {s : Str ; isNwd : Bool ; isClause : Bool } ;
+    AdV = {s : Str ; isNwd : Bool } ;
 
 }

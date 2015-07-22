@@ -202,8 +202,8 @@ oper
   mkA2 = \a,p -> lin A2 (a ** {c2 = p.s}) ;
 
   mkAdv = overload {
-    mkAdv : Str -> Adv = \s -> lin Adv {s = s ; p = Pos ; isClause = False } ;
-    mkAdv : Str -> Polarity -> Adv = \s,p -> lin Adv {s = s ; p = p ; isClause = False } ;
+    mkAdv : Str -> Adv = \s -> lin Adv {s = s ; isNwd = False ; isClause = False } ;
+    mkAdv : Str -> Bool -> Adv = \s,p -> lin Adv {s = s ; isNwd = p ; isClause = False } ;
   } ;
 
   mkVS v = lin VS v ;

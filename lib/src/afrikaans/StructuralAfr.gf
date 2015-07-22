@@ -13,7 +13,7 @@ concrete StructuralAfr of Structural = CatAfr, Prelude **
 --  all_Predet = mkPredet "alle" "alle" ; ----
 --  almost_AdA, almost_AdN = ss "byna" ;
   although_Subj = mkSubj "hoewel" Sub ;
-  always_AdV = lin AdV (mkAdV "altyd" Pos) ;
+  always_AdV = lin AdV (mkAdV "altyd" False) ;
 --  and_Conj = {s1 = [] ; s2 = "en" ; n = Pl} ;
   because_Subj = mkSubj "omdat" Sub ; ---- doordat
 --  before_Prep = mkPrep "voor" ;
