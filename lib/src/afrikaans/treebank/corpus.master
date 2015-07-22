@@ -813,387 +813,387 @@
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sien die man nêrens nie"
+		"Afr": "hy sien nêrens die man nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sien die man nêrens nie"
+		"Afr": "hy sien nêrens die man nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sien nie die man nêrens nie"
+		"Afr": "hy sien nie nêrens die man nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sien nie die man nêrens nie"
+		"Afr": "hy sien nie nêrens die man nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het die man nêrens gesien nie"
+		"Afr": "hy het nêrens die man gesien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het die man nêrens gesien nie"
+		"Afr": "hy het nêrens die man gesien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die man nêrens gesien nie"
+		"Afr": "hy het nie nêrens die man gesien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die man nêrens gesien nie"
+		"Afr": "hy het nie nêrens die man gesien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens sien nie"
+		"Afr": "hy sal nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens sien nie"
+		"Afr": "hy sal nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens sien nie"
+		"Afr": "hy sal nie nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens sien nie"
+		"Afr": "hy sal nie nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan die man nêrens sien nie"
+		"Afr": "hy kan nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan die man nêrens sien nie"
+		"Afr": "hy kan nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan die man nêrens sien nie"
+		"Afr": "hy kan nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie die man nêrens sien nie"
+		"Afr": "hy kan nie nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie die man nêrens sien nie"
+		"Afr": "hy kan nie nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan nie die man nêrens sien nie"
+		"Afr": "hy kan nie nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die man nêrens sien nie"
+		"Afr": "hy kon nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die man nêrens sien nie"
+		"Afr": "hy kon nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die man nêrens sien nie"
+		"Afr": "hy kon nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die man nêrens sien nie"
+		"Afr": "hy kon nie nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die man nêrens sien nie"
+		"Afr": "hy kon nie nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die man nêrens sien nie"
+		"Afr": "hy kon nie nêrens die man sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die man nêrens gesien het nie"
+		"Afr": "hy kon nêrens die man gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die man nêrens gesien het nie"
+		"Afr": "hy kon nêrens die man gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die man nêrens gesien het nie"
+		"Afr": "hy kon nêrens die man gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die man nêrens gesien het nie"
+		"Afr": "hy kon nêrens die man gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die man nêrens gesien het nie"
+		"Afr": "hy kon nêrens die man gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die man nêrens gesien het nie"
+		"Afr": "hy kon nêrens die man gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die man nêrens gesien het nie"
+		"Afr": "hy kon nie nêrens die man gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die man nêrens gesien het nie"
+		"Afr": "hy kon nie nêrens die man gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die man nêrens gesien het nie"
+		"Afr": "hy kon nie nêrens die man gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die man nêrens gesien het nie"
+		"Afr": "hy kon nie nêrens die man gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die man nêrens gesien het nie"
+		"Afr": "hy kon nie nêrens die man gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die man nêrens gesien het nie"
+		"Afr": "hy kon nie nêrens die man gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens kan sien nie"
+		"Afr": "hy sal nêrens die man kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens kan sien nie"
+		"Afr": "hy sal nêrens die man kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal die man nêrens kan sien nie"
+		"Afr": "hy sal nêrens die man kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens kan sien nie"
+		"Afr": "hy sal nêrens die man kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens kan sien nie"
+		"Afr": "hy sal nêrens die man kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal die man nêrens kan sien nie"
+		"Afr": "hy sal nêrens die man kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens kan sien nie"
+		"Afr": "hy sal nie nêrens die man kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens kan sien nie"
+		"Afr": "hy sal nie nêrens die man kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die man nêrens kan sien nie"
+		"Afr": "hy sal nie nêrens die man kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens kan sien nie"
+		"Afr": "hy sal nie nêrens die man kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens kan sien nie"
+		"Afr": "hy sal nie nêrens die man kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die man nêrens kan sien nie"
+		"Afr": "hy sal nie nêrens die man kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sien niemand nêrens nie"
+		"Afr": "hy sien nêrens niemand nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sien niemand nêrens nie"
+		"Afr": "hy sien nêrens niemand nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sien nie niemand nêrens nie"
+		"Afr": "hy sien nie nêrens niemand nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sien nie niemand nêrens nie"
+		"Afr": "hy sien nie nêrens niemand nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het niemand nêrens gesien nie"
+		"Afr": "hy het nêrens niemand gesien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het niemand nêrens gesien nie"
+		"Afr": "hy het nêrens niemand gesien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie niemand nêrens gesien nie"
+		"Afr": "hy het nie nêrens niemand gesien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie niemand nêrens gesien nie"
+		"Afr": "hy het nie nêrens niemand gesien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens sien nie"
+		"Afr": "hy sal nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens sien nie"
+		"Afr": "hy sal nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens sien nie"
+		"Afr": "hy sal nie nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens sien nie"
+		"Afr": "hy sal nie nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan niemand nêrens sien nie"
+		"Afr": "hy kan nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan niemand nêrens sien nie"
+		"Afr": "hy kan nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan niemand nêrens sien nie"
+		"Afr": "hy kan nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie niemand nêrens sien nie"
+		"Afr": "hy kan nie nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie niemand nêrens sien nie"
+		"Afr": "hy kan nie nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan nie niemand nêrens sien nie"
+		"Afr": "hy kan nie nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens sien nie"
+		"Afr": "hy kon nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens sien nie"
+		"Afr": "hy kon nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon niemand nêrens sien nie"
+		"Afr": "hy kon nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens sien nie"
+		"Afr": "hy kon nie nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens sien nie"
+		"Afr": "hy kon nie nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens sien nie"
+		"Afr": "hy kon nie nêrens niemand sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens gesien het nie"
+		"Afr": "hy kon nêrens niemand gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens gesien het nie"
+		"Afr": "hy kon nêrens niemand gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon niemand nêrens gesien het nie"
+		"Afr": "hy kon nêrens niemand gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens gesien het nie"
+		"Afr": "hy kon nêrens niemand gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens gesien het nie"
+		"Afr": "hy kon nêrens niemand gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon niemand nêrens gesien het nie"
+		"Afr": "hy kon nêrens niemand gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens gesien het nie"
+		"Afr": "hy kon nie nêrens niemand gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens gesien het nie"
+		"Afr": "hy kon nie nêrens niemand gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens gesien het nie"
+		"Afr": "hy kon nie nêrens niemand gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens gesien het nie"
+		"Afr": "hy kon nie nêrens niemand gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens gesien het nie"
+		"Afr": "hy kon nie nêrens niemand gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens gesien het nie"
+		"Afr": "hy kon nie nêrens niemand gesien het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens kan sien nie"
+		"Afr": "hy sal nêrens niemand kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens kan sien nie"
+		"Afr": "hy sal nêrens niemand kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal niemand nêrens kan sien nie"
+		"Afr": "hy sal nêrens niemand kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens kan sien nie"
+		"Afr": "hy sal nêrens niemand kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens kan sien nie"
+		"Afr": "hy sal nêrens niemand kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal niemand nêrens kan sien nie"
+		"Afr": "hy sal nêrens niemand kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens kan sien nie"
+		"Afr": "hy sal nie nêrens niemand kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens kan sien nie"
+		"Afr": "hy sal nie nêrens niemand kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens kan sien nie"
+		"Afr": "hy sal nie nêrens niemand kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens kan sien nie"
+		"Afr": "hy sal nie nêrens niemand kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens kan sien nie"
+		"Afr": "hy sal nie nêrens niemand kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens kan sien nie"
+		"Afr": "hy sal nie nêrens niemand kan sien nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdVVP always_AdV (ComplSlash (SlashV2a see_V2) somebody_NP))))) NoVoc",
@@ -5046,663 +5046,663 @@
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur die boom nêrens na Jan nie"
+		"Afr": "hy stuur nêrens die boom na Jan nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur die boom nêrens na Jan nie"
+		"Afr": "hy stuur nêrens die boom na Jan nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur die boom nêrens na Jan nie"
+		"Afr": "hy stuur nêrens die boom na Jan nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur die boom nêrens na Jan nie"
+		"Afr": "hy stuur nêrens die boom na Jan nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur nie die boom nêrens na Jan nie"
+		"Afr": "hy stuur nie nêrens die boom na Jan nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur nie die boom nêrens na Jan nie"
+		"Afr": "hy stuur nie nêrens die boom na Jan nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur nie die boom nêrens na Jan nie"
+		"Afr": "hy stuur nie nêrens die boom na Jan nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur nie die boom nêrens na Jan nie"
+		"Afr": "hy stuur nie nêrens die boom na Jan nie"
 	},
 	{
 		"Abs": "",
-		"Afr": "hy het die boom nêrens na Jan gestuur nie"
+		"Afr": "hy het nêrens die boom na Jan gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die boom nêrens na Jan gestuur nie"
+		"Afr": "hy het nie nêrens die boom na Jan gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die boom nêrens na Jan gestuur nie"
+		"Afr": "hy het nie nêrens die boom na Jan gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die boom nêrens na Jan gestuur nie"
+		"Afr": "hy het nie nêrens die boom na Jan gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die boom nêrens na Jan gestuur nie"
+		"Afr": "hy het nie nêrens die boom na Jan gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan die boom nêrens na Jan stuur nie"
+		"Afr": "hy kan nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan die boom nêrens na Jan stuur nie"
+		"Afr": "hy kan nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan die boom nêrens na Jan stuur nie"
+		"Afr": "hy kan nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan die boom nêrens na Jan stuur nie"
+		"Afr": "hy kan nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan die boom nêrens na Jan stuur nie"
+		"Afr": "hy kan nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy kan nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy kan nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy kan nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy kan nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy kan nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan stuur nie"
+		"Afr": "hy kon nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan stuur nie"
+		"Afr": "hy kon nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan stuur nie"
+		"Afr": "hy kon nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan stuur nie"
+		"Afr": "hy kon nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan stuur nie"
+		"Afr": "hy kon nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy kon nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy kon nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy kon nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy kon nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan stuur nie"
+		"Afr": "hy kon nie nêrens die boom na Jan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na Jan gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na Jan gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na Jan kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na Jan kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur die boom nêrens na niemand nie"
+		"Afr": "hy stuur nêrens die boom na niemand nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur die boom nêrens na niemand nie"
+		"Afr": "hy stuur nêrens die boom na niemand nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur die boom nêrens na niemand nie"
+		"Afr": "hy stuur nêrens die boom na niemand nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur die boom nêrens na niemand nie"
+		"Afr": "hy stuur nêrens die boom na niemand nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur nie die boom nêrens na niemand nie"
+		"Afr": "hy stuur nie nêrens die boom na niemand nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur nie die boom nêrens na niemand nie"
+		"Afr": "hy stuur nie nêrens die boom na niemand nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur nie die boom nêrens na niemand nie"
+		"Afr": "hy stuur nie nêrens die boom na niemand nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy stuur nie die boom nêrens na niemand nie"
+		"Afr": "hy stuur nie nêrens die boom na niemand nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het die boom nêrens na niemand gestuur nie"
+		"Afr": "hy het nêrens die boom na niemand gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het die boom nêrens na niemand gestuur nie"
+		"Afr": "hy het nêrens die boom na niemand gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het die boom nêrens na niemand gestuur nie"
+		"Afr": "hy het nêrens die boom na niemand gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het die boom nêrens na niemand gestuur nie"
+		"Afr": "hy het nêrens die boom na niemand gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die boom nêrens na niemand gestuur nie"
+		"Afr": "hy het nie nêrens die boom na niemand gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die boom nêrens na niemand gestuur nie"
+		"Afr": "hy het nie nêrens die boom na niemand gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die boom nêrens na niemand gestuur nie"
+		"Afr": "hy het nie nêrens die boom na niemand gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die boom nêrens na niemand gestuur nie"
+		"Afr": "hy het nie nêrens die boom na niemand gestuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan die boom nêrens na niemand stuur nie"
+		"Afr": "hy kan nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan die boom nêrens na niemand stuur nie"
+		"Afr": "hy kan nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan die boom nêrens na niemand stuur nie"
+		"Afr": "hy kan nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan die boom nêrens na niemand stuur nie"
+		"Afr": "hy kan nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan die boom nêrens na niemand stuur nie"
+		"Afr": "hy kan nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy kan nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy kan nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy kan nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy kan nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy kan nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand stuur nie"
+		"Afr": "hy kon nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand stuur nie"
+		"Afr": "hy kon nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand stuur nie"
+		"Afr": "hy kon nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand stuur nie"
+		"Afr": "hy kon nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand stuur nie"
+		"Afr": "hy kon nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy kon nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy kon nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy kon nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy kon nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand stuur nie"
+		"Afr": "hy kon nie nêrens die boom na niemand stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie die boom nêrens na niemand gestuur het nie"
+		"Afr": "hy kon nie nêrens die boom na niemand gestuur het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die boom nêrens na niemand kan stuur nie"
+		"Afr": "hy sal nie nêrens die boom na niemand kan stuur nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdVVP always_AdV (ComplSlash (Slash3V3 send_V3 somebody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))))))) NoVoc",
@@ -7850,619 +7850,619 @@
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee die man nêrens 'n kans nie"
+		"Afr": "hy gee nêrens die man 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee die man nêrens 'n kans nie"
+		"Afr": "hy gee nêrens die man 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee die man nêrens 'n kans nie"
+		"Afr": "hy gee nêrens die man 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee die man nêrens 'n kans nie"
+		"Afr": "hy gee nêrens die man 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee nie die man nêrens 'n kans nie"
+		"Afr": "hy gee nie nêrens die man 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee nie die man nêrens 'n kans nie"
+		"Afr": "hy gee nie nêrens die man 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee nie die man nêrens 'n kans nie"
+		"Afr": "hy gee nie nêrens die man 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee nie die man nêrens 'n kans nie"
+		"Afr": "hy gee nie nêrens die man 'n kans nie"
 	},
 	{
 		"Abs": "",
-		"Afr": "hy het die man nêrens 'n kans gegee nie"
+		"Afr": "hy het nêrens die man 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die man nêrens 'n kans gegee nie"
+		"Afr": "hy het nie nêrens die man 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die man nêrens 'n kans gegee nie"
+		"Afr": "hy het nie nêrens die man 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die man nêrens 'n kans gegee nie"
+		"Afr": "hy het nie nêrens die man 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie die man nêrens 'n kans gegee nie"
+		"Afr": "hy het nie nêrens die man 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans gee nie"
+		"Afr": "hy sal nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans gee nie"
+		"Afr": "hy sal nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans gee nie"
+		"Afr": "hy sal nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans gee nie"
+		"Afr": "hy sal nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan die man nêrens 'n kans gee nie"
+		"Afr": "hy kan nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan die man nêrens 'n kans gee nie"
+		"Afr": "hy kan nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die man nêrens 'n kans gee nie"
+		"Afr": "hy kon nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die man nêrens 'n kans gee nie"
+		"Afr": "hy kon nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie die man nêrens 'n kans gee nie"
+		"Afr": "hy kan nie nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie die man nêrens 'n kans gee nie"
+		"Afr": "hy kan nie nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die man nêrens 'n kans gee nie"
+		"Afr": "hy kon nie nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die man nêrens 'n kans gee nie"
+		"Afr": "hy kon nie nêrens die man 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan die man nêrens 'n kans gegee het nie"
+		"Afr": "hy kan nêrens die man 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan die man nêrens 'n kans gegee het nie"
+		"Afr": "hy kan nêrens die man 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die man nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens die man 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon die man nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens die man 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie die man nêrens 'n kans gegee het nie"
+		"Afr": "hy kan nie nêrens die man 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie die man nêrens 'n kans gegee het nie"
+		"Afr": "hy kan nie nêrens die man 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die man nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens die man 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie die man nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens die man 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie die man nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens die man 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee niemand nêrens 'n kans nie"
+		"Afr": "hy gee nêrens niemand 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee niemand nêrens 'n kans nie"
+		"Afr": "hy gee nêrens niemand 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee niemand nêrens 'n kans nie"
+		"Afr": "hy gee nêrens niemand 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee niemand nêrens 'n kans nie"
+		"Afr": "hy gee nêrens niemand 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee nie niemand nêrens 'n kans nie"
+		"Afr": "hy gee nie nêrens niemand 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee nie niemand nêrens 'n kans nie"
+		"Afr": "hy gee nie nêrens niemand 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee nie niemand nêrens 'n kans nie"
+		"Afr": "hy gee nie nêrens niemand 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy gee nie niemand nêrens 'n kans nie"
+		"Afr": "hy gee nie nêrens niemand 'n kans nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het niemand nêrens 'n kans gegee nie"
+		"Afr": "hy het nêrens niemand 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het niemand nêrens 'n kans gegee nie"
+		"Afr": "hy het nêrens niemand 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het niemand nêrens 'n kans gegee nie"
+		"Afr": "hy het nêrens niemand 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het niemand nêrens 'n kans gegee nie"
+		"Afr": "hy het nêrens niemand 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie niemand nêrens 'n kans gegee nie"
+		"Afr": "hy het nie nêrens niemand 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie niemand nêrens 'n kans gegee nie"
+		"Afr": "hy het nie nêrens niemand 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie niemand nêrens 'n kans gegee nie"
+		"Afr": "hy het nie nêrens niemand 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy het nie niemand nêrens 'n kans gegee nie"
+		"Afr": "hy het nie nêrens niemand 'n kans gegee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan niemand nêrens 'n kans gee nie"
+		"Afr": "hy kan nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan niemand nêrens 'n kans gee nie"
+		"Afr": "hy kan nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan niemand nêrens 'n kans gee nie"
+		"Afr": "hy kan nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan niemand nêrens 'n kans gee nie"
+		"Afr": "hy kan nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan niemand nêrens 'n kans gee nie"
+		"Afr": "hy kan nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan niemand nêrens 'n kans gee nie"
+		"Afr": "hy kan nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy kan nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy kan nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy kan nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kan nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy kan nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy kan nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kan nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy kan nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gee nie"
+		"Afr": "hy kon nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gee nie"
+		"Afr": "hy kon nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gee nie"
+		"Afr": "hy kon nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gee nie"
+		"Afr": "hy kon nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gee nie"
+		"Afr": "hy kon nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gee nie"
+		"Afr": "hy kon nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gee nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy kon nie niemand nêrens 'n kans gegee het nie"
+		"Afr": "hy kon nie nêrens niemand 'n kans gegee het nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc",
-		"Afr": "hy sal nie niemand nêrens 'n kans kan gee nie"
+		"Afr": "hy sal nie nêrens niemand 'n kans kan gee nie"
 	},
 	{
 		"Abs": "PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdVVP always_AdV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) somebody_NP))))) NoVoc",

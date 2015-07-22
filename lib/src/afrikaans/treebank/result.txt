@@ -3,8 +3,8 @@
   Abstract: TestAfrAbs.pgf
   Concrete: TestAfr
 
-  Successes: 2396
-  Failures : 70
+  Successes: 2398
+  Failures : 68
 
 ----------------------------------------
 
@@ -821,388 +821,388 @@ Gold: hy sal nie niemand kan sien nie
 Succ: hy sal nie niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sien die man nêrens nie
-Succ: hy sien die man nêrens nie
+Gold: hy sien nêrens die man nie
+Succ: hy sien nêrens die man nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sien die man nêrens nie
-Succ: hy sien die man nêrens nie
+Gold: hy sien nêrens die man nie
+Succ: hy sien nêrens die man nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sien nie die man nêrens nie
-Succ: hy sien nie die man nêrens nie
+Gold: hy sien nie nêrens die man nie
+Succ: hy sien nie nêrens die man nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sien nie die man nêrens nie
-Succ: hy sien nie die man nêrens nie
+Gold: hy sien nie nêrens die man nie
+Succ: hy sien nie nêrens die man nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy het die man nêrens gesien nie
-Succ: hy het die man nêrens gesien nie
+Gold: hy het nêrens die man gesien nie
+Succ: hy het nêrens die man gesien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy het die man nêrens gesien nie
-Succ: hy het die man nêrens gesien nie
+Gold: hy het nêrens die man gesien nie
+Succ: hy het nêrens die man gesien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy het nie die man nêrens gesien nie
-Succ: hy het nie die man nêrens gesien nie
+Gold: hy het nie nêrens die man gesien nie
+Succ: hy het nie nêrens die man gesien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy het nie die man nêrens gesien nie
-Succ: hy het nie die man nêrens gesien nie
+Gold: hy het nie nêrens die man gesien nie
+Succ: hy het nie nêrens die man gesien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens sien nie
-Succ: hy sal die man nêrens sien nie
+Gold: hy sal nêrens die man sien nie
+Succ: hy sal nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens sien nie
-Succ: hy sal die man nêrens sien nie
+Gold: hy sal nêrens die man sien nie
+Succ: hy sal nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens sien nie
-Succ: hy sal nie die man nêrens sien nie
+Gold: hy sal nie nêrens die man sien nie
+Succ: hy sal nie nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens sien nie
-Succ: hy sal nie die man nêrens sien nie
+Gold: hy sal nie nêrens die man sien nie
+Succ: hy sal nie nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kan die man nêrens sien nie
-Succ: hy kan die man nêrens sien nie
+Gold: hy kan nêrens die man sien nie
+Succ: hy kan nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan die man nêrens sien nie
-Succ: hy kan die man nêrens sien nie
+Gold: hy kan nêrens die man sien nie
+Succ: hy kan nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy kan die man nêrens sien nie
-Succ: hy kan die man nêrens sien nie
+Gold: hy kan nêrens die man sien nie
+Succ: hy kan nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie die man nêrens sien nie
-Succ: hy kan nie die man nêrens sien nie
+Gold: hy kan nie nêrens die man sien nie
+Succ: hy kan nie nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie die man nêrens sien nie
-Succ: hy kan nie die man nêrens sien nie
+Gold: hy kan nie nêrens die man sien nie
+Succ: hy kan nie nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy kan nie die man nêrens sien nie
-Succ: hy kan nie die man nêrens sien nie
+Gold: hy kan nie nêrens die man sien nie
+Succ: hy kan nie nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon die man nêrens sien nie
-Succ: hy kon die man nêrens sien nie
+Gold: hy kon nêrens die man sien nie
+Succ: hy kon nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon die man nêrens sien nie
-Succ: hy kon die man nêrens sien nie
+Gold: hy kon nêrens die man sien nie
+Succ: hy kon nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon die man nêrens sien nie
-Succ: hy kon die man nêrens sien nie
+Gold: hy kon nêrens die man sien nie
+Succ: hy kon nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die man nêrens sien nie
-Succ: hy kon nie die man nêrens sien nie
+Gold: hy kon nie nêrens die man sien nie
+Succ: hy kon nie nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die man nêrens sien nie
-Succ: hy kon nie die man nêrens sien nie
+Gold: hy kon nie nêrens die man sien nie
+Succ: hy kon nie nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die man nêrens sien nie
-Succ: hy kon nie die man nêrens sien nie
+Gold: hy kon nie nêrens die man sien nie
+Succ: hy kon nie nêrens die man sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon die man nêrens gesien het nie
-Succ: hy kon die man nêrens gesien het nie
+Gold: hy kon nêrens die man gesien het nie
+Succ: hy kon nêrens die man gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon die man nêrens gesien het nie
-Succ: hy kon die man nêrens gesien het nie
+Gold: hy kon nêrens die man gesien het nie
+Succ: hy kon nêrens die man gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon die man nêrens gesien het nie
-Succ: hy kon die man nêrens gesien het nie
+Gold: hy kon nêrens die man gesien het nie
+Succ: hy kon nêrens die man gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon die man nêrens gesien het nie
-Succ: hy kon die man nêrens gesien het nie
+Gold: hy kon nêrens die man gesien het nie
+Succ: hy kon nêrens die man gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon die man nêrens gesien het nie
-Succ: hy kon die man nêrens gesien het nie
+Gold: hy kon nêrens die man gesien het nie
+Succ: hy kon nêrens die man gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon die man nêrens gesien het nie
-Succ: hy kon die man nêrens gesien het nie
+Gold: hy kon nêrens die man gesien het nie
+Succ: hy kon nêrens die man gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die man nêrens gesien het nie
-Succ: hy kon nie die man nêrens gesien het nie
+Gold: hy kon nie nêrens die man gesien het nie
+Succ: hy kon nie nêrens die man gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die man nêrens gesien het nie
-Succ: hy kon nie die man nêrens gesien het nie
+Gold: hy kon nie nêrens die man gesien het nie
+Succ: hy kon nie nêrens die man gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die man nêrens gesien het nie
-Succ: hy kon nie die man nêrens gesien het nie
+Gold: hy kon nie nêrens die man gesien het nie
+Succ: hy kon nie nêrens die man gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die man nêrens gesien het nie
-Succ: hy kon nie die man nêrens gesien het nie
+Gold: hy kon nie nêrens die man gesien het nie
+Succ: hy kon nie nêrens die man gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die man nêrens gesien het nie
-Succ: hy kon nie die man nêrens gesien het nie
+Gold: hy kon nie nêrens die man gesien het nie
+Succ: hy kon nie nêrens die man gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die man nêrens gesien het nie
-Succ: hy kon nie die man nêrens gesien het nie
+Gold: hy kon nie nêrens die man gesien het nie
+Succ: hy kon nie nêrens die man gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens kan sien nie
-Succ: hy sal die man nêrens kan sien nie
+Gold: hy sal nêrens die man kan sien nie
+Succ: hy sal nêrens die man kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens kan sien nie
-Succ: hy sal die man nêrens kan sien nie
+Gold: hy sal nêrens die man kan sien nie
+Succ: hy sal nêrens die man kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal die man nêrens kan sien nie
-Succ: hy sal die man nêrens kan sien nie
+Gold: hy sal nêrens die man kan sien nie
+Succ: hy sal nêrens die man kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens kan sien nie
-Succ: hy sal die man nêrens kan sien nie
+Gold: hy sal nêrens die man kan sien nie
+Succ: hy sal nêrens die man kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens kan sien nie
-Succ: hy sal die man nêrens kan sien nie
+Gold: hy sal nêrens die man kan sien nie
+Succ: hy sal nêrens die man kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal die man nêrens kan sien nie
-Succ: hy sal die man nêrens kan sien nie
+Gold: hy sal nêrens die man kan sien nie
+Succ: hy sal nêrens die man kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens kan sien nie
-Succ: hy sal nie die man nêrens kan sien nie
+Gold: hy sal nie nêrens die man kan sien nie
+Succ: hy sal nie nêrens die man kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens kan sien nie
-Succ: hy sal nie die man nêrens kan sien nie
+Gold: hy sal nie nêrens die man kan sien nie
+Succ: hy sal nie nêrens die man kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die man nêrens kan sien nie
-Succ: hy sal nie die man nêrens kan sien nie
+Gold: hy sal nie nêrens die man kan sien nie
+Succ: hy sal nie nêrens die man kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens kan sien nie
-Succ: hy sal nie die man nêrens kan sien nie
+Gold: hy sal nie nêrens die man kan sien nie
+Succ: hy sal nie nêrens die man kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens kan sien nie
-Succ: hy sal nie die man nêrens kan sien nie
+Gold: hy sal nie nêrens die man kan sien nie
+Succ: hy sal nie nêrens die man kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die man nêrens kan sien nie
-Succ: hy sal nie die man nêrens kan sien nie
+Gold: hy sal nie nêrens die man kan sien nie
+Succ: hy sal nie nêrens die man kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sien niemand nêrens nie
-Succ: hy sien niemand nêrens nie
+Gold: hy sien nêrens niemand nie
+Succ: hy sien nêrens niemand nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sien niemand nêrens nie
-Succ: hy sien niemand nêrens nie
+Gold: hy sien nêrens niemand nie
+Succ: hy sien nêrens niemand nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sien nie niemand nêrens nie
-Succ: hy sien nie niemand nêrens nie
+Gold: hy sien nie nêrens niemand nie
+Succ: hy sien nie nêrens niemand nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sien nie niemand nêrens nie
-Succ: hy sien nie niemand nêrens nie
+Gold: hy sien nie nêrens niemand nie
+Succ: hy sien nie nêrens niemand nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy het niemand nêrens gesien nie
-Succ: hy het niemand nêrens gesien nie
+Gold: hy het nêrens niemand gesien nie
+Succ: hy het nêrens niemand gesien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy het niemand nêrens gesien nie
-Succ: hy het niemand nêrens gesien nie
+Gold: hy het nêrens niemand gesien nie
+Succ: hy het nêrens niemand gesien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy het nie niemand nêrens gesien nie
-Succ: hy het nie niemand nêrens gesien nie
+Gold: hy het nie nêrens niemand gesien nie
+Succ: hy het nie nêrens niemand gesien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy het nie niemand nêrens gesien nie
-Succ: hy het nie niemand nêrens gesien nie
+Gold: hy het nie nêrens niemand gesien nie
+Succ: hy het nie nêrens niemand gesien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens sien nie
-Succ: hy sal niemand nêrens sien nie
+Gold: hy sal nêrens niemand sien nie
+Succ: hy sal nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens sien nie
-Succ: hy sal niemand nêrens sien nie
+Gold: hy sal nêrens niemand sien nie
+Succ: hy sal nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens sien nie
-Succ: hy sal nie niemand nêrens sien nie
+Gold: hy sal nie nêrens niemand sien nie
+Succ: hy sal nie nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens sien nie
-Succ: hy sal nie niemand nêrens sien nie
+Gold: hy sal nie nêrens niemand sien nie
+Succ: hy sal nie nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kan niemand nêrens sien nie
-Succ: hy kan niemand nêrens sien nie
+Gold: hy kan nêrens niemand sien nie
+Succ: hy kan nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kan niemand nêrens sien nie
-Succ: hy kan niemand nêrens sien nie
+Gold: hy kan nêrens niemand sien nie
+Succ: hy kan nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kan niemand nêrens sien nie
-Succ: hy kan niemand nêrens sien nie
+Gold: hy kan nêrens niemand sien nie
+Succ: hy kan nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kan nie niemand nêrens sien nie
-Succ: hy kan nie niemand nêrens sien nie
+Gold: hy kan nie nêrens niemand sien nie
+Succ: hy kan nie nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kan nie niemand nêrens sien nie
-Succ: hy kan nie niemand nêrens sien nie
+Gold: hy kan nie nêrens niemand sien nie
+Succ: hy kan nie nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kan nie niemand nêrens sien nie
-Succ: hy kan nie niemand nêrens sien nie
+Gold: hy kan nie nêrens niemand sien nie
+Succ: hy kan nie nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens sien nie
-Succ: hy kon niemand nêrens sien nie
+Gold: hy kon nêrens niemand sien nie
+Succ: hy kon nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens sien nie
-Succ: hy kon niemand nêrens sien nie
+Gold: hy kon nêrens niemand sien nie
+Succ: hy kon nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon niemand nêrens sien nie
-Succ: hy kon niemand nêrens sien nie
+Gold: hy kon nêrens niemand sien nie
+Succ: hy kon nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens sien nie
-Succ: hy kon nie niemand nêrens sien nie
+Gold: hy kon nie nêrens niemand sien nie
+Succ: hy kon nie nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens sien nie
-Succ: hy kon nie niemand nêrens sien nie
+Gold: hy kon nie nêrens niemand sien nie
+Succ: hy kon nie nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon nie niemand nêrens sien nie
-Succ: hy kon nie niemand nêrens sien nie
+Gold: hy kon nie nêrens niemand sien nie
+Succ: hy kon nie nêrens niemand sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens gesien het nie
-Succ: hy kon niemand nêrens gesien het nie
+Gold: hy kon nêrens niemand gesien het nie
+Succ: hy kon nêrens niemand gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens gesien het nie
-Succ: hy kon niemand nêrens gesien het nie
+Gold: hy kon nêrens niemand gesien het nie
+Succ: hy kon nêrens niemand gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon niemand nêrens gesien het nie
-Succ: hy kon niemand nêrens gesien het nie
+Gold: hy kon nêrens niemand gesien het nie
+Succ: hy kon nêrens niemand gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens gesien het nie
-Succ: hy kon niemand nêrens gesien het nie
+Gold: hy kon nêrens niemand gesien het nie
+Succ: hy kon nêrens niemand gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens gesien het nie
-Succ: hy kon niemand nêrens gesien het nie
+Gold: hy kon nêrens niemand gesien het nie
+Succ: hy kon nêrens niemand gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon niemand nêrens gesien het nie
-Succ: hy kon niemand nêrens gesien het nie
+Gold: hy kon nêrens niemand gesien het nie
+Succ: hy kon nêrens niemand gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens gesien het nie
-Succ: hy kon nie niemand nêrens gesien het nie
+Gold: hy kon nie nêrens niemand gesien het nie
+Succ: hy kon nie nêrens niemand gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens gesien het nie
-Succ: hy kon nie niemand nêrens gesien het nie
+Gold: hy kon nie nêrens niemand gesien het nie
+Succ: hy kon nie nêrens niemand gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon nie niemand nêrens gesien het nie
-Succ: hy kon nie niemand nêrens gesien het nie
+Gold: hy kon nie nêrens niemand gesien het nie
+Succ: hy kon nie nêrens niemand gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens gesien het nie
-Succ: hy kon nie niemand nêrens gesien het nie
+Gold: hy kon nie nêrens niemand gesien het nie
+Succ: hy kon nie nêrens niemand gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens gesien het nie
-Succ: hy kon nie niemand nêrens gesien het nie
+Gold: hy kon nie nêrens niemand gesien het nie
+Succ: hy kon nie nêrens niemand gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon nie niemand nêrens gesien het nie
-Succ: hy kon nie niemand nêrens gesien het nie
+Gold: hy kon nie nêrens niemand gesien het nie
+Succ: hy kon nie nêrens niemand gesien het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens kan sien nie
-Succ: hy sal niemand nêrens kan sien nie
+Gold: hy sal nêrens niemand kan sien nie
+Succ: hy sal nêrens niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens kan sien nie
-Succ: hy sal niemand nêrens kan sien nie
+Gold: hy sal nêrens niemand kan sien nie
+Succ: hy sal nêrens niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy sal niemand nêrens kan sien nie
-Succ: hy sal niemand nêrens kan sien nie
+Gold: hy sal nêrens niemand kan sien nie
+Succ: hy sal nêrens niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens kan sien nie
-Succ: hy sal niemand nêrens kan sien nie
+Gold: hy sal nêrens niemand kan sien nie
+Succ: hy sal nêrens niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens kan sien nie
-Succ: hy sal niemand nêrens kan sien nie
+Gold: hy sal nêrens niemand kan sien nie
+Succ: hy sal nêrens niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy sal niemand nêrens kan sien nie
-Succ: hy sal niemand nêrens kan sien nie
+Gold: hy sal nêrens niemand kan sien nie
+Succ: hy sal nêrens niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens kan sien nie
-Succ: hy sal nie niemand nêrens kan sien nie
+Gold: hy sal nie nêrens niemand kan sien nie
+Succ: hy sal nie nêrens niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens kan sien nie
-Succ: hy sal nie niemand nêrens kan sien nie
+Gold: hy sal nie nêrens niemand kan sien nie
+Succ: hy sal nie nêrens niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy sal nie niemand nêrens kan sien nie
-Succ: hy sal nie niemand nêrens kan sien nie
+Gold: hy sal nie nêrens niemand kan sien nie
+Succ: hy sal nie nêrens niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (SlashV2a see_V2)) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens kan sien nie
-Succ: hy sal nie niemand nêrens kan sien nie
+Gold: hy sal nie nêrens niemand kan sien nie
+Succ: hy sal nie nêrens niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (SlashV2a see_V2) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens kan sien nie
-Succ: hy sal nie niemand nêrens kan sien nie
+Gold: hy sal nie nêrens niemand kan sien nie
+Succ: hy sal nie nêrens niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (SlashV2a see_V2) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy sal nie niemand nêrens kan sien nie
-Succ: hy sal nie niemand nêrens kan sien nie
+Gold: hy sal nie nêrens niemand kan sien nie
+Succ: hy sal nie nêrens niemand kan sien nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdVVP always_AdV (ComplSlash (SlashV2a see_V2) somebody_NP))))) NoVoc
 Gold: hy sien altyd iemand
@@ -2814,7 +2814,7 @@ Succ: die man wat loop sien nie die boom wat groen is nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (DetCN (DetQuant DefArt NumSg) (RelCN (UseN man_N) (UseRCl (TTAnt TPres ASimul) PPos (RelVP IdRP (UseV walk_V))))) (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (RelCN (UseN tree_N) (UseRCl (TTAnt TPres ASimul) PNeg (RelVP IdRP (UseComp (CompAP (PositA green_A))))))))))) NoVoc
 Gold: die man wat loop sien nie die boom wat nie groen is nie
-Fail: die man wat loop sien nie die boom wat nie groen is nie nie
+Succ: die man wat loop sien nie die boom wat nie groen is nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (RelCN (UseN man_N) (UseRCl (TTAnt TPres ASimul) PNeg (RelVP IdRP (UseV walk_V))))) (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (RelCN (UseN tree_N) (UseRCl (TTAnt TPres ASimul) PPos (RelVP IdRP (UseComp (CompAP (PositA green_A))))))))))) NoVoc
 Gold: die man wat nie loop nie sien die boom wat groen is
@@ -2826,7 +2826,7 @@ Succ: die man wat nie loop nie sien nie die boom wat groen is nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (DetCN (DetQuant DefArt NumSg) (RelCN (UseN man_N) (UseRCl (TTAnt TPres ASimul) PNeg (RelVP IdRP (UseV walk_V))))) (ComplSlash (SlashV2a see_V2) (DetCN (DetQuant DefArt NumSg) (RelCN (UseN tree_N) (UseRCl (TTAnt TPres ASimul) PNeg (RelVP IdRP (UseComp (CompAP (PositA green_A))))))))))) NoVoc
 Gold: die man wat nie loop nie sien nie die boom wat nie groen is nie
-Fail: die man wat nie loop nie sien nie die boom wat nie groen is nie nie
+Succ: die man wat nie loop nie sien nie die boom wat nie groen is nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (UseV stop_V)))) NoVoc
 Gold: hy hou op
@@ -4925,660 +4925,660 @@ Gold: hy sal nie die boom na niemand kan stuur nie
 Succ: hy sal nie die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy stuur die boom nêrens na Jan nie
-Succ: hy stuur die boom nêrens na Jan nie
+Gold: hy stuur nêrens die boom na Jan nie
+Succ: hy stuur nêrens die boom na Jan nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc
-Gold: hy stuur die boom nêrens na Jan nie
-Succ: hy stuur die boom nêrens na Jan nie
+Gold: hy stuur nêrens die boom na Jan nie
+Succ: hy stuur nêrens die boom na Jan nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy stuur die boom nêrens na Jan nie
-Succ: hy stuur die boom nêrens na Jan nie
+Gold: hy stuur nêrens die boom na Jan nie
+Succ: hy stuur nêrens die boom na Jan nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc
-Gold: hy stuur die boom nêrens na Jan nie
-Succ: hy stuur die boom nêrens na Jan nie
+Gold: hy stuur nêrens die boom na Jan nie
+Succ: hy stuur nêrens die boom na Jan nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy stuur nie die boom nêrens na Jan nie
-Succ: hy stuur nie die boom nêrens na Jan nie
+Gold: hy stuur nie nêrens die boom na Jan nie
+Succ: hy stuur nie nêrens die boom na Jan nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc
-Gold: hy stuur nie die boom nêrens na Jan nie
-Succ: hy stuur nie die boom nêrens na Jan nie
+Gold: hy stuur nie nêrens die boom na Jan nie
+Succ: hy stuur nie nêrens die boom na Jan nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy stuur nie die boom nêrens na Jan nie
-Succ: hy stuur nie die boom nêrens na Jan nie
+Gold: hy stuur nie nêrens die boom na Jan nie
+Succ: hy stuur nie nêrens die boom na Jan nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc
-Gold: hy stuur nie die boom nêrens na Jan nie
-Succ: hy stuur nie die boom nêrens na Jan nie
+Gold: hy stuur nie nêrens die boom na Jan nie
+Succ: hy stuur nie nêrens die boom na Jan nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy het nie die boom nêrens na Jan gestuur nie
-Succ: hy het nie die boom nêrens na Jan gestuur nie
+Gold: hy het nie nêrens die boom na Jan gestuur nie
+Succ: hy het nie nêrens die boom na Jan gestuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc
-Gold: hy het nie die boom nêrens na Jan gestuur nie
-Succ: hy het nie die boom nêrens na Jan gestuur nie
+Gold: hy het nie nêrens die boom na Jan gestuur nie
+Succ: hy het nie nêrens die boom na Jan gestuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy het nie die boom nêrens na Jan gestuur nie
-Succ: hy het nie die boom nêrens na Jan gestuur nie
+Gold: hy het nie nêrens die boom na Jan gestuur nie
+Succ: hy het nie nêrens die boom na Jan gestuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc
-Gold: hy het nie die boom nêrens na Jan gestuur nie
-Succ: hy het nie die boom nêrens na Jan gestuur nie
+Gold: hy het nie nêrens die boom na Jan gestuur nie
+Succ: hy het nie nêrens die boom na Jan gestuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na Jan stuur nie
-Succ: hy sal die boom nêrens na Jan stuur nie
+Gold: hy sal nêrens die boom na Jan stuur nie
+Succ: hy sal nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na Jan stuur nie
-Succ: hy sal die boom nêrens na Jan stuur nie
+Gold: hy sal nêrens die boom na Jan stuur nie
+Succ: hy sal nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na Jan stuur nie
-Succ: hy sal die boom nêrens na Jan stuur nie
+Gold: hy sal nêrens die boom na Jan stuur nie
+Succ: hy sal nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na Jan stuur nie
-Succ: hy sal die boom nêrens na Jan stuur nie
+Gold: hy sal nêrens die boom na Jan stuur nie
+Succ: hy sal nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan stuur nie
-Succ: hy sal nie die boom nêrens na Jan stuur nie
+Gold: hy sal nie nêrens die boom na Jan stuur nie
+Succ: hy sal nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan stuur nie
-Succ: hy sal nie die boom nêrens na Jan stuur nie
+Gold: hy sal nie nêrens die boom na Jan stuur nie
+Succ: hy sal nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan stuur nie
-Succ: hy sal nie die boom nêrens na Jan stuur nie
+Gold: hy sal nie nêrens die boom na Jan stuur nie
+Succ: hy sal nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan stuur nie
-Succ: hy sal nie die boom nêrens na Jan stuur nie
+Gold: hy sal nie nêrens die boom na Jan stuur nie
+Succ: hy sal nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kan die boom nêrens na Jan stuur nie
-Succ: hy kan die boom nêrens na Jan stuur nie
+Gold: hy kan nêrens die boom na Jan stuur nie
+Succ: hy kan nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan die boom nêrens na Jan stuur nie
-Succ: hy kan die boom nêrens na Jan stuur nie
+Gold: hy kan nêrens die boom na Jan stuur nie
+Succ: hy kan nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc
-Gold: hy kan die boom nêrens na Jan stuur nie
-Succ: hy kan die boom nêrens na Jan stuur nie
+Gold: hy kan nêrens die boom na Jan stuur nie
+Succ: hy kan nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kan die boom nêrens na Jan stuur nie
-Succ: hy kan die boom nêrens na Jan stuur nie
+Gold: hy kan nêrens die boom na Jan stuur nie
+Succ: hy kan nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc
-Gold: hy kan die boom nêrens na Jan stuur nie
-Succ: hy kan die boom nêrens na Jan stuur nie
+Gold: hy kan nêrens die boom na Jan stuur nie
+Succ: hy kan nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie die boom nêrens na Jan stuur nie
-Succ: hy kan nie die boom nêrens na Jan stuur nie
+Gold: hy kan nie nêrens die boom na Jan stuur nie
+Succ: hy kan nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie die boom nêrens na Jan stuur nie
-Succ: hy kan nie die boom nêrens na Jan stuur nie
+Gold: hy kan nie nêrens die boom na Jan stuur nie
+Succ: hy kan nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie die boom nêrens na Jan stuur nie
-Succ: hy kan nie die boom nêrens na Jan stuur nie
+Gold: hy kan nie nêrens die boom na Jan stuur nie
+Succ: hy kan nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kan nie die boom nêrens na Jan stuur nie
-Succ: hy kan nie die boom nêrens na Jan stuur nie
+Gold: hy kan nie nêrens die boom na Jan stuur nie
+Succ: hy kan nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc
-Gold: hy kan nie die boom nêrens na Jan stuur nie
-Succ: hy kan nie die boom nêrens na Jan stuur nie
+Gold: hy kan nie nêrens die boom na Jan stuur nie
+Succ: hy kan nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na Jan stuur nie
-Succ: hy kon die boom nêrens na Jan stuur nie
+Gold: hy kon nêrens die boom na Jan stuur nie
+Succ: hy kon nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na Jan stuur nie
-Succ: hy kon die boom nêrens na Jan stuur nie
+Gold: hy kon nêrens die boom na Jan stuur nie
+Succ: hy kon nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na Jan stuur nie
-Succ: hy kon die boom nêrens na Jan stuur nie
+Gold: hy kon nêrens die boom na Jan stuur nie
+Succ: hy kon nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon die boom nêrens na Jan stuur nie
-Succ: hy kon die boom nêrens na Jan stuur nie
+Gold: hy kon nêrens die boom na Jan stuur nie
+Succ: hy kon nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc
-Gold: hy kon die boom nêrens na Jan stuur nie
-Succ: hy kon die boom nêrens na Jan stuur nie
+Gold: hy kon nêrens die boom na Jan stuur nie
+Succ: hy kon nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan stuur nie
-Succ: hy kon nie die boom nêrens na Jan stuur nie
+Gold: hy kon nie nêrens die boom na Jan stuur nie
+Succ: hy kon nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan stuur nie
-Succ: hy kon nie die boom nêrens na Jan stuur nie
+Gold: hy kon nie nêrens die boom na Jan stuur nie
+Succ: hy kon nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan stuur nie
-Succ: hy kon nie die boom nêrens na Jan stuur nie
+Gold: hy kon nie nêrens die boom na Jan stuur nie
+Succ: hy kon nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan stuur nie
-Succ: hy kon nie die boom nêrens na Jan stuur nie
+Gold: hy kon nie nêrens die boom na Jan stuur nie
+Succ: hy kon nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan stuur nie
-Succ: hy kon nie die boom nêrens na Jan stuur nie
+Gold: hy kon nie nêrens die boom na Jan stuur nie
+Succ: hy kon nie nêrens die boom na Jan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na Jan gestuur het nie
-Succ: hy kon die boom nêrens na Jan gestuur het nie
+Gold: hy kon nêrens die boom na Jan gestuur het nie
+Succ: hy kon nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na Jan gestuur het nie
-Succ: hy kon die boom nêrens na Jan gestuur het nie
+Gold: hy kon nêrens die boom na Jan gestuur het nie
+Succ: hy kon nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na Jan gestuur het nie
-Succ: hy kon die boom nêrens na Jan gestuur het nie
+Gold: hy kon nêrens die boom na Jan gestuur het nie
+Succ: hy kon nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon die boom nêrens na Jan gestuur het nie
-Succ: hy kon die boom nêrens na Jan gestuur het nie
+Gold: hy kon nêrens die boom na Jan gestuur het nie
+Succ: hy kon nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc
-Gold: hy kon die boom nêrens na Jan gestuur het nie
-Succ: hy kon die boom nêrens na Jan gestuur het nie
+Gold: hy kon nêrens die boom na Jan gestuur het nie
+Succ: hy kon nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na Jan gestuur het nie
-Succ: hy kon die boom nêrens na Jan gestuur het nie
+Gold: hy kon nêrens die boom na Jan gestuur het nie
+Succ: hy kon nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na Jan gestuur het nie
-Succ: hy kon die boom nêrens na Jan gestuur het nie
+Gold: hy kon nêrens die boom na Jan gestuur het nie
+Succ: hy kon nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na Jan gestuur het nie
-Succ: hy kon die boom nêrens na Jan gestuur het nie
+Gold: hy kon nêrens die boom na Jan gestuur het nie
+Succ: hy kon nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon die boom nêrens na Jan gestuur het nie
-Succ: hy kon die boom nêrens na Jan gestuur het nie
+Gold: hy kon nêrens die boom na Jan gestuur het nie
+Succ: hy kon nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc
-Gold: hy kon die boom nêrens na Jan gestuur het nie
-Succ: hy kon die boom nêrens na Jan gestuur het nie
+Gold: hy kon nêrens die boom na Jan gestuur het nie
+Succ: hy kon nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan gestuur het nie
-Succ: hy kon nie die boom nêrens na Jan gestuur het nie
+Gold: hy kon nie nêrens die boom na Jan gestuur het nie
+Succ: hy kon nie nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan gestuur het nie
-Succ: hy kon nie die boom nêrens na Jan gestuur het nie
+Gold: hy kon nie nêrens die boom na Jan gestuur het nie
+Succ: hy kon nie nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan gestuur het nie
-Succ: hy kon nie die boom nêrens na Jan gestuur het nie
+Gold: hy kon nie nêrens die boom na Jan gestuur het nie
+Succ: hy kon nie nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan gestuur het nie
-Succ: hy kon nie die boom nêrens na Jan gestuur het nie
+Gold: hy kon nie nêrens die boom na Jan gestuur het nie
+Succ: hy kon nie nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan gestuur het nie
-Succ: hy kon nie die boom nêrens na Jan gestuur het nie
+Gold: hy kon nie nêrens die boom na Jan gestuur het nie
+Succ: hy kon nie nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan gestuur het nie
-Succ: hy kon nie die boom nêrens na Jan gestuur het nie
+Gold: hy kon nie nêrens die boom na Jan gestuur het nie
+Succ: hy kon nie nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan gestuur het nie
-Succ: hy kon nie die boom nêrens na Jan gestuur het nie
+Gold: hy kon nie nêrens die boom na Jan gestuur het nie
+Succ: hy kon nie nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan gestuur het nie
-Succ: hy kon nie die boom nêrens na Jan gestuur het nie
+Gold: hy kon nie nêrens die boom na Jan gestuur het nie
+Succ: hy kon nie nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan gestuur het nie
-Succ: hy kon nie die boom nêrens na Jan gestuur het nie
+Gold: hy kon nie nêrens die boom na Jan gestuur het nie
+Succ: hy kon nie nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die boom nêrens na Jan gestuur het nie
-Succ: hy kon nie die boom nêrens na Jan gestuur het nie
+Gold: hy kon nie nêrens die boom na Jan gestuur het nie
+Succ: hy kon nie nêrens die boom na Jan gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na Jan kan stuur nie
-Succ: hy sal die boom nêrens na Jan kan stuur nie
+Gold: hy sal nêrens die boom na Jan kan stuur nie
+Succ: hy sal nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na Jan kan stuur nie
-Succ: hy sal die boom nêrens na Jan kan stuur nie
+Gold: hy sal nêrens die boom na Jan kan stuur nie
+Succ: hy sal nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na Jan kan stuur nie
-Succ: hy sal die boom nêrens na Jan kan stuur nie
+Gold: hy sal nêrens die boom na Jan kan stuur nie
+Succ: hy sal nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal die boom nêrens na Jan kan stuur nie
-Succ: hy sal die boom nêrens na Jan kan stuur nie
+Gold: hy sal nêrens die boom na Jan kan stuur nie
+Succ: hy sal nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc
-Gold: hy sal die boom nêrens na Jan kan stuur nie
-Succ: hy sal die boom nêrens na Jan kan stuur nie
+Gold: hy sal nêrens die boom na Jan kan stuur nie
+Succ: hy sal nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na Jan kan stuur nie
-Succ: hy sal die boom nêrens na Jan kan stuur nie
+Gold: hy sal nêrens die boom na Jan kan stuur nie
+Succ: hy sal nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na Jan kan stuur nie
-Succ: hy sal die boom nêrens na Jan kan stuur nie
+Gold: hy sal nêrens die boom na Jan kan stuur nie
+Succ: hy sal nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na Jan kan stuur nie
-Succ: hy sal die boom nêrens na Jan kan stuur nie
+Gold: hy sal nêrens die boom na Jan kan stuur nie
+Succ: hy sal nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal die boom nêrens na Jan kan stuur nie
-Succ: hy sal die boom nêrens na Jan kan stuur nie
+Gold: hy sal nêrens die boom na Jan kan stuur nie
+Succ: hy sal nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc
-Gold: hy sal die boom nêrens na Jan kan stuur nie
-Succ: hy sal die boom nêrens na Jan kan stuur nie
+Gold: hy sal nêrens die boom na Jan kan stuur nie
+Succ: hy sal nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan kan stuur nie
-Succ: hy sal nie die boom nêrens na Jan kan stuur nie
+Gold: hy sal nie nêrens die boom na Jan kan stuur nie
+Succ: hy sal nie nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan kan stuur nie
-Succ: hy sal nie die boom nêrens na Jan kan stuur nie
+Gold: hy sal nie nêrens die boom na Jan kan stuur nie
+Succ: hy sal nie nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan kan stuur nie
-Succ: hy sal nie die boom nêrens na Jan kan stuur nie
+Gold: hy sal nie nêrens die boom na Jan kan stuur nie
+Succ: hy sal nie nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan kan stuur nie
-Succ: hy sal nie die boom nêrens na Jan kan stuur nie
+Gold: hy sal nie nêrens die boom na Jan kan stuur nie
+Succ: hy sal nie nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan kan stuur nie
-Succ: hy sal nie die boom nêrens na Jan kan stuur nie
+Gold: hy sal nie nêrens die boom na Jan kan stuur nie
+Succ: hy sal nie nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 (UsePN john_PN))) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan kan stuur nie
-Succ: hy sal nie die boom nêrens na Jan kan stuur nie
+Gold: hy sal nie nêrens die boom na Jan kan stuur nie
+Succ: hy sal nie nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan kan stuur nie
-Succ: hy sal nie die boom nêrens na Jan kan stuur nie
+Gold: hy sal nie nêrens die boom na Jan kan stuur nie
+Succ: hy sal nie nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan kan stuur nie
-Succ: hy sal nie die boom nêrens na Jan kan stuur nie
+Gold: hy sal nie nêrens die boom na Jan kan stuur nie
+Succ: hy sal nie nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 (UsePN john_PN)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan kan stuur nie
-Succ: hy sal nie die boom nêrens na Jan kan stuur nie
+Gold: hy sal nie nêrens die boom na Jan kan stuur nie
+Succ: hy sal nie nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) (UsePN john_PN)) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die boom nêrens na Jan kan stuur nie
-Succ: hy sal nie die boom nêrens na Jan kan stuur nie
+Gold: hy sal nie nêrens die boom na Jan kan stuur nie
+Succ: hy sal nie nêrens die boom na Jan kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy stuur die boom nêrens na niemand nie
-Succ: hy stuur die boom nêrens na niemand nie
+Gold: hy stuur nêrens die boom na niemand nie
+Succ: hy stuur nêrens die boom na niemand nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy stuur die boom nêrens na niemand nie
-Succ: hy stuur die boom nêrens na niemand nie
+Gold: hy stuur nêrens die boom na niemand nie
+Succ: hy stuur nêrens die boom na niemand nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy stuur die boom nêrens na niemand nie
-Succ: hy stuur die boom nêrens na niemand nie
+Gold: hy stuur nêrens die boom na niemand nie
+Succ: hy stuur nêrens die boom na niemand nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy stuur die boom nêrens na niemand nie
-Succ: hy stuur die boom nêrens na niemand nie
+Gold: hy stuur nêrens die boom na niemand nie
+Succ: hy stuur nêrens die boom na niemand nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy stuur nie die boom nêrens na niemand nie
-Succ: hy stuur nie die boom nêrens na niemand nie
+Gold: hy stuur nie nêrens die boom na niemand nie
+Succ: hy stuur nie nêrens die boom na niemand nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy stuur nie die boom nêrens na niemand nie
-Succ: hy stuur nie die boom nêrens na niemand nie
+Gold: hy stuur nie nêrens die boom na niemand nie
+Succ: hy stuur nie nêrens die boom na niemand nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy stuur nie die boom nêrens na niemand nie
-Succ: hy stuur nie die boom nêrens na niemand nie
+Gold: hy stuur nie nêrens die boom na niemand nie
+Succ: hy stuur nie nêrens die boom na niemand nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy stuur nie die boom nêrens na niemand nie
-Succ: hy stuur nie die boom nêrens na niemand nie
+Gold: hy stuur nie nêrens die boom na niemand nie
+Succ: hy stuur nie nêrens die boom na niemand nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy het die boom nêrens na niemand gestuur nie
-Succ: hy het die boom nêrens na niemand gestuur nie
+Gold: hy het nêrens die boom na niemand gestuur nie
+Succ: hy het nêrens die boom na niemand gestuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy het die boom nêrens na niemand gestuur nie
-Succ: hy het die boom nêrens na niemand gestuur nie
+Gold: hy het nêrens die boom na niemand gestuur nie
+Succ: hy het nêrens die boom na niemand gestuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy het die boom nêrens na niemand gestuur nie
-Succ: hy het die boom nêrens na niemand gestuur nie
+Gold: hy het nêrens die boom na niemand gestuur nie
+Succ: hy het nêrens die boom na niemand gestuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy het die boom nêrens na niemand gestuur nie
-Succ: hy het die boom nêrens na niemand gestuur nie
+Gold: hy het nêrens die boom na niemand gestuur nie
+Succ: hy het nêrens die boom na niemand gestuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy het nie die boom nêrens na niemand gestuur nie
-Succ: hy het nie die boom nêrens na niemand gestuur nie
+Gold: hy het nie nêrens die boom na niemand gestuur nie
+Succ: hy het nie nêrens die boom na niemand gestuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy het nie die boom nêrens na niemand gestuur nie
-Succ: hy het nie die boom nêrens na niemand gestuur nie
+Gold: hy het nie nêrens die boom na niemand gestuur nie
+Succ: hy het nie nêrens die boom na niemand gestuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy het nie die boom nêrens na niemand gestuur nie
-Succ: hy het nie die boom nêrens na niemand gestuur nie
+Gold: hy het nie nêrens die boom na niemand gestuur nie
+Succ: hy het nie nêrens die boom na niemand gestuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy het nie die boom nêrens na niemand gestuur nie
-Succ: hy het nie die boom nêrens na niemand gestuur nie
+Gold: hy het nie nêrens die boom na niemand gestuur nie
+Succ: hy het nie nêrens die boom na niemand gestuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na niemand stuur nie
-Succ: hy sal die boom nêrens na niemand stuur nie
+Gold: hy sal nêrens die boom na niemand stuur nie
+Succ: hy sal nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na niemand stuur nie
-Succ: hy sal die boom nêrens na niemand stuur nie
+Gold: hy sal nêrens die boom na niemand stuur nie
+Succ: hy sal nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na niemand stuur nie
-Succ: hy sal die boom nêrens na niemand stuur nie
+Gold: hy sal nêrens die boom na niemand stuur nie
+Succ: hy sal nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na niemand stuur nie
-Succ: hy sal die boom nêrens na niemand stuur nie
+Gold: hy sal nêrens die boom na niemand stuur nie
+Succ: hy sal nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand stuur nie
-Succ: hy sal nie die boom nêrens na niemand stuur nie
+Gold: hy sal nie nêrens die boom na niemand stuur nie
+Succ: hy sal nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand stuur nie
-Succ: hy sal nie die boom nêrens na niemand stuur nie
+Gold: hy sal nie nêrens die boom na niemand stuur nie
+Succ: hy sal nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand stuur nie
-Succ: hy sal nie die boom nêrens na niemand stuur nie
+Gold: hy sal nie nêrens die boom na niemand stuur nie
+Succ: hy sal nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand stuur nie
-Succ: hy sal nie die boom nêrens na niemand stuur nie
+Gold: hy sal nie nêrens die boom na niemand stuur nie
+Succ: hy sal nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kan die boom nêrens na niemand stuur nie
-Succ: hy kan die boom nêrens na niemand stuur nie
+Gold: hy kan nêrens die boom na niemand stuur nie
+Succ: hy kan nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan die boom nêrens na niemand stuur nie
-Succ: hy kan die boom nêrens na niemand stuur nie
+Gold: hy kan nêrens die boom na niemand stuur nie
+Succ: hy kan nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kan die boom nêrens na niemand stuur nie
-Succ: hy kan die boom nêrens na niemand stuur nie
+Gold: hy kan nêrens die boom na niemand stuur nie
+Succ: hy kan nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kan die boom nêrens na niemand stuur nie
-Succ: hy kan die boom nêrens na niemand stuur nie
+Gold: hy kan nêrens die boom na niemand stuur nie
+Succ: hy kan nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kan die boom nêrens na niemand stuur nie
-Succ: hy kan die boom nêrens na niemand stuur nie
+Gold: hy kan nêrens die boom na niemand stuur nie
+Succ: hy kan nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie die boom nêrens na niemand stuur nie
-Succ: hy kan nie die boom nêrens na niemand stuur nie
+Gold: hy kan nie nêrens die boom na niemand stuur nie
+Succ: hy kan nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie die boom nêrens na niemand stuur nie
-Succ: hy kan nie die boom nêrens na niemand stuur nie
+Gold: hy kan nie nêrens die boom na niemand stuur nie
+Succ: hy kan nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kan nie die boom nêrens na niemand stuur nie
-Succ: hy kan nie die boom nêrens na niemand stuur nie
+Gold: hy kan nie nêrens die boom na niemand stuur nie
+Succ: hy kan nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kan nie die boom nêrens na niemand stuur nie
-Succ: hy kan nie die boom nêrens na niemand stuur nie
+Gold: hy kan nie nêrens die boom na niemand stuur nie
+Succ: hy kan nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kan nie die boom nêrens na niemand stuur nie
-Succ: hy kan nie die boom nêrens na niemand stuur nie
+Gold: hy kan nie nêrens die boom na niemand stuur nie
+Succ: hy kan nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na niemand stuur nie
-Succ: hy kon die boom nêrens na niemand stuur nie
+Gold: hy kon nêrens die boom na niemand stuur nie
+Succ: hy kon nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na niemand stuur nie
-Succ: hy kon die boom nêrens na niemand stuur nie
+Gold: hy kon nêrens die boom na niemand stuur nie
+Succ: hy kon nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na niemand stuur nie
-Succ: hy kon die boom nêrens na niemand stuur nie
+Gold: hy kon nêrens die boom na niemand stuur nie
+Succ: hy kon nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon die boom nêrens na niemand stuur nie
-Succ: hy kon die boom nêrens na niemand stuur nie
+Gold: hy kon nêrens die boom na niemand stuur nie
+Succ: hy kon nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon die boom nêrens na niemand stuur nie
-Succ: hy kon die boom nêrens na niemand stuur nie
+Gold: hy kon nêrens die boom na niemand stuur nie
+Succ: hy kon nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand stuur nie
-Succ: hy kon nie die boom nêrens na niemand stuur nie
+Gold: hy kon nie nêrens die boom na niemand stuur nie
+Succ: hy kon nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand stuur nie
-Succ: hy kon nie die boom nêrens na niemand stuur nie
+Gold: hy kon nie nêrens die boom na niemand stuur nie
+Succ: hy kon nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand stuur nie
-Succ: hy kon nie die boom nêrens na niemand stuur nie
+Gold: hy kon nie nêrens die boom na niemand stuur nie
+Succ: hy kon nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand stuur nie
-Succ: hy kon nie die boom nêrens na niemand stuur nie
+Gold: hy kon nie nêrens die boom na niemand stuur nie
+Succ: hy kon nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand stuur nie
-Succ: hy kon nie die boom nêrens na niemand stuur nie
+Gold: hy kon nie nêrens die boom na niemand stuur nie
+Succ: hy kon nie nêrens die boom na niemand stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na niemand gestuur het nie
-Succ: hy kon die boom nêrens na niemand gestuur het nie
+Gold: hy kon nêrens die boom na niemand gestuur het nie
+Succ: hy kon nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na niemand gestuur het nie
-Succ: hy kon die boom nêrens na niemand gestuur het nie
+Gold: hy kon nêrens die boom na niemand gestuur het nie
+Succ: hy kon nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na niemand gestuur het nie
-Succ: hy kon die boom nêrens na niemand gestuur het nie
+Gold: hy kon nêrens die boom na niemand gestuur het nie
+Succ: hy kon nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon die boom nêrens na niemand gestuur het nie
-Succ: hy kon die boom nêrens na niemand gestuur het nie
+Gold: hy kon nêrens die boom na niemand gestuur het nie
+Succ: hy kon nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon die boom nêrens na niemand gestuur het nie
-Succ: hy kon die boom nêrens na niemand gestuur het nie
+Gold: hy kon nêrens die boom na niemand gestuur het nie
+Succ: hy kon nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na niemand gestuur het nie
-Succ: hy kon die boom nêrens na niemand gestuur het nie
+Gold: hy kon nêrens die boom na niemand gestuur het nie
+Succ: hy kon nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na niemand gestuur het nie
-Succ: hy kon die boom nêrens na niemand gestuur het nie
+Gold: hy kon nêrens die boom na niemand gestuur het nie
+Succ: hy kon nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon die boom nêrens na niemand gestuur het nie
-Succ: hy kon die boom nêrens na niemand gestuur het nie
+Gold: hy kon nêrens die boom na niemand gestuur het nie
+Succ: hy kon nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon die boom nêrens na niemand gestuur het nie
-Succ: hy kon die boom nêrens na niemand gestuur het nie
+Gold: hy kon nêrens die boom na niemand gestuur het nie
+Succ: hy kon nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon die boom nêrens na niemand gestuur het nie
-Succ: hy kon die boom nêrens na niemand gestuur het nie
+Gold: hy kon nêrens die boom na niemand gestuur het nie
+Succ: hy kon nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand gestuur het nie
-Succ: hy kon nie die boom nêrens na niemand gestuur het nie
+Gold: hy kon nie nêrens die boom na niemand gestuur het nie
+Succ: hy kon nie nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand gestuur het nie
-Succ: hy kon nie die boom nêrens na niemand gestuur het nie
+Gold: hy kon nie nêrens die boom na niemand gestuur het nie
+Succ: hy kon nie nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand gestuur het nie
-Succ: hy kon nie die boom nêrens na niemand gestuur het nie
+Gold: hy kon nie nêrens die boom na niemand gestuur het nie
+Succ: hy kon nie nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand gestuur het nie
-Succ: hy kon nie die boom nêrens na niemand gestuur het nie
+Gold: hy kon nie nêrens die boom na niemand gestuur het nie
+Succ: hy kon nie nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand gestuur het nie
-Succ: hy kon nie die boom nêrens na niemand gestuur het nie
+Gold: hy kon nie nêrens die boom na niemand gestuur het nie
+Succ: hy kon nie nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand gestuur het nie
-Succ: hy kon nie die boom nêrens na niemand gestuur het nie
+Gold: hy kon nie nêrens die boom na niemand gestuur het nie
+Succ: hy kon nie nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand gestuur het nie
-Succ: hy kon nie die boom nêrens na niemand gestuur het nie
+Gold: hy kon nie nêrens die boom na niemand gestuur het nie
+Succ: hy kon nie nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand gestuur het nie
-Succ: hy kon nie die boom nêrens na niemand gestuur het nie
+Gold: hy kon nie nêrens die boom na niemand gestuur het nie
+Succ: hy kon nie nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand gestuur het nie
-Succ: hy kon nie die boom nêrens na niemand gestuur het nie
+Gold: hy kon nie nêrens die boom na niemand gestuur het nie
+Succ: hy kon nie nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon nie die boom nêrens na niemand gestuur het nie
-Succ: hy kon nie die boom nêrens na niemand gestuur het nie
+Gold: hy kon nie nêrens die boom na niemand gestuur het nie
+Succ: hy kon nie nêrens die boom na niemand gestuur het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na niemand kan stuur nie
-Succ: hy sal die boom nêrens na niemand kan stuur nie
+Gold: hy sal nêrens die boom na niemand kan stuur nie
+Succ: hy sal nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na niemand kan stuur nie
-Succ: hy sal die boom nêrens na niemand kan stuur nie
+Gold: hy sal nêrens die boom na niemand kan stuur nie
+Succ: hy sal nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na niemand kan stuur nie
-Succ: hy sal die boom nêrens na niemand kan stuur nie
+Gold: hy sal nêrens die boom na niemand kan stuur nie
+Succ: hy sal nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal die boom nêrens na niemand kan stuur nie
-Succ: hy sal die boom nêrens na niemand kan stuur nie
+Gold: hy sal nêrens die boom na niemand kan stuur nie
+Succ: hy sal nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy sal die boom nêrens na niemand kan stuur nie
-Succ: hy sal die boom nêrens na niemand kan stuur nie
+Gold: hy sal nêrens die boom na niemand kan stuur nie
+Succ: hy sal nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na niemand kan stuur nie
-Succ: hy sal die boom nêrens na niemand kan stuur nie
+Gold: hy sal nêrens die boom na niemand kan stuur nie
+Succ: hy sal nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na niemand kan stuur nie
-Succ: hy sal die boom nêrens na niemand kan stuur nie
+Gold: hy sal nêrens die boom na niemand kan stuur nie
+Succ: hy sal nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy sal die boom nêrens na niemand kan stuur nie
-Succ: hy sal die boom nêrens na niemand kan stuur nie
+Gold: hy sal nêrens die boom na niemand kan stuur nie
+Succ: hy sal nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal die boom nêrens na niemand kan stuur nie
-Succ: hy sal die boom nêrens na niemand kan stuur nie
+Gold: hy sal nêrens die boom na niemand kan stuur nie
+Succ: hy sal nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy sal die boom nêrens na niemand kan stuur nie
-Succ: hy sal die boom nêrens na niemand kan stuur nie
+Gold: hy sal nêrens die boom na niemand kan stuur nie
+Succ: hy sal nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand kan stuur nie
-Succ: hy sal nie die boom nêrens na niemand kan stuur nie
+Gold: hy sal nie nêrens die boom na niemand kan stuur nie
+Succ: hy sal nie nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand kan stuur nie
-Succ: hy sal nie die boom nêrens na niemand kan stuur nie
+Gold: hy sal nie nêrens die boom na niemand kan stuur nie
+Succ: hy sal nie nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand kan stuur nie
-Succ: hy sal nie die boom nêrens na niemand kan stuur nie
+Gold: hy sal nie nêrens die boom na niemand kan stuur nie
+Succ: hy sal nie nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand kan stuur nie
-Succ: hy sal nie die boom nêrens na niemand kan stuur nie
+Gold: hy sal nie nêrens die boom na niemand kan stuur nie
+Succ: hy sal nie nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand kan stuur nie
-Succ: hy sal nie die boom nêrens na niemand kan stuur nie
+Gold: hy sal nie nêrens die boom na niemand kan stuur nie
+Succ: hy sal nie nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 send_V3 nobody_NP)) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand kan stuur nie
-Succ: hy sal nie die boom nêrens na niemand kan stuur nie
+Gold: hy sal nie nêrens die boom na niemand kan stuur nie
+Succ: hy sal nie nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand kan stuur nie
-Succ: hy sal nie die boom nêrens na niemand kan stuur nie
+Gold: hy sal nie nêrens die boom na niemand kan stuur nie
+Succ: hy sal nie nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand kan stuur nie
-Succ: hy sal nie die boom nêrens na niemand kan stuur nie
+Gold: hy sal nie nêrens die boom na niemand kan stuur nie
+Succ: hy sal nie nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 send_V3 nobody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand kan stuur nie
-Succ: hy sal nie die boom nêrens na niemand kan stuur nie
+Gold: hy sal nie nêrens die boom na niemand kan stuur nie
+Succ: hy sal nie nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 send_V3 (DetCN (DetQuant DefArt NumSg) (UseN tree_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die boom nêrens na niemand kan stuur nie
-Succ: hy sal nie die boom nêrens na niemand kan stuur nie
+Gold: hy sal nie nêrens die boom na niemand kan stuur nie
+Succ: hy sal nie nêrens die boom na niemand kan stuur nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdVVP always_AdV (ComplSlash (Slash3V3 send_V3 somebody_NP) (DetCN (DetQuant DefArt NumSg) (UseN tree_N))))))) NoVoc
 Gold: hy stuur altyd die boom na iemand
@@ -7725,616 +7725,616 @@ Gold: hy sal nie niemand 'n kans kan gee nie
 Succ: hy sal nie niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy gee die man nêrens 'n kans nie
-Succ: hy gee die man nêrens 'n kans nie
+Gold: hy gee nêrens die man 'n kans nie
+Succ: hy gee nêrens die man 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy gee die man nêrens 'n kans nie
-Succ: hy gee die man nêrens 'n kans nie
+Gold: hy gee nêrens die man 'n kans nie
+Succ: hy gee nêrens die man 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy gee die man nêrens 'n kans nie
-Succ: hy gee die man nêrens 'n kans nie
+Gold: hy gee nêrens die man 'n kans nie
+Succ: hy gee nêrens die man 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy gee die man nêrens 'n kans nie
-Succ: hy gee die man nêrens 'n kans nie
+Gold: hy gee nêrens die man 'n kans nie
+Succ: hy gee nêrens die man 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy gee nie die man nêrens 'n kans nie
-Succ: hy gee nie die man nêrens 'n kans nie
+Gold: hy gee nie nêrens die man 'n kans nie
+Succ: hy gee nie nêrens die man 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy gee nie die man nêrens 'n kans nie
-Succ: hy gee nie die man nêrens 'n kans nie
+Gold: hy gee nie nêrens die man 'n kans nie
+Succ: hy gee nie nêrens die man 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy gee nie die man nêrens 'n kans nie
-Succ: hy gee nie die man nêrens 'n kans nie
+Gold: hy gee nie nêrens die man 'n kans nie
+Succ: hy gee nie nêrens die man 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy gee nie die man nêrens 'n kans nie
-Succ: hy gee nie die man nêrens 'n kans nie
+Gold: hy gee nie nêrens die man 'n kans nie
+Succ: hy gee nie nêrens die man 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy het nie die man nêrens 'n kans gegee nie
-Succ: hy het nie die man nêrens 'n kans gegee nie
+Gold: hy het nie nêrens die man 'n kans gegee nie
+Succ: hy het nie nêrens die man 'n kans gegee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy het nie die man nêrens 'n kans gegee nie
-Succ: hy het nie die man nêrens 'n kans gegee nie
+Gold: hy het nie nêrens die man 'n kans gegee nie
+Succ: hy het nie nêrens die man 'n kans gegee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy het nie die man nêrens 'n kans gegee nie
-Succ: hy het nie die man nêrens 'n kans gegee nie
+Gold: hy het nie nêrens die man 'n kans gegee nie
+Succ: hy het nie nêrens die man 'n kans gegee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy het nie die man nêrens 'n kans gegee nie
-Succ: hy het nie die man nêrens 'n kans gegee nie
+Gold: hy het nie nêrens die man 'n kans gegee nie
+Succ: hy het nie nêrens die man 'n kans gegee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans gee nie
-Succ: hy sal die man nêrens 'n kans gee nie
+Gold: hy sal nêrens die man 'n kans gee nie
+Succ: hy sal nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans gee nie
-Succ: hy sal die man nêrens 'n kans gee nie
+Gold: hy sal nêrens die man 'n kans gee nie
+Succ: hy sal nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans gee nie
-Succ: hy sal die man nêrens 'n kans gee nie
+Gold: hy sal nêrens die man 'n kans gee nie
+Succ: hy sal nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans gee nie
-Succ: hy sal die man nêrens 'n kans gee nie
+Gold: hy sal nêrens die man 'n kans gee nie
+Succ: hy sal nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans gee nie
-Succ: hy sal nie die man nêrens 'n kans gee nie
+Gold: hy sal nie nêrens die man 'n kans gee nie
+Succ: hy sal nie nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans gee nie
-Succ: hy sal nie die man nêrens 'n kans gee nie
+Gold: hy sal nie nêrens die man 'n kans gee nie
+Succ: hy sal nie nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans gee nie
-Succ: hy sal nie die man nêrens 'n kans gee nie
+Gold: hy sal nie nêrens die man 'n kans gee nie
+Succ: hy sal nie nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans gee nie
-Succ: hy sal nie die man nêrens 'n kans gee nie
+Gold: hy sal nie nêrens die man 'n kans gee nie
+Succ: hy sal nie nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan die man nêrens 'n kans gee nie
-Succ: hy kan die man nêrens 'n kans gee nie
+Gold: hy kan nêrens die man 'n kans gee nie
+Succ: hy kan nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kan die man nêrens 'n kans gee nie
-Succ: hy kan die man nêrens 'n kans gee nie
+Gold: hy kan nêrens die man 'n kans gee nie
+Succ: hy kan nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon die man nêrens 'n kans gee nie
-Succ: hy kon die man nêrens 'n kans gee nie
+Gold: hy kon nêrens die man 'n kans gee nie
+Succ: hy kon nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon die man nêrens 'n kans gee nie
-Succ: hy kon die man nêrens 'n kans gee nie
+Gold: hy kon nêrens die man 'n kans gee nie
+Succ: hy kon nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie die man nêrens 'n kans gee nie
-Succ: hy kan nie die man nêrens 'n kans gee nie
+Gold: hy kan nie nêrens die man 'n kans gee nie
+Succ: hy kan nie nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie die man nêrens 'n kans gee nie
-Succ: hy kan nie die man nêrens 'n kans gee nie
+Gold: hy kan nie nêrens die man 'n kans gee nie
+Succ: hy kan nie nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die man nêrens 'n kans gee nie
-Succ: hy kon nie die man nêrens 'n kans gee nie
+Gold: hy kon nie nêrens die man 'n kans gee nie
+Succ: hy kon nie nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die man nêrens 'n kans gee nie
-Succ: hy kon nie die man nêrens 'n kans gee nie
+Gold: hy kon nie nêrens die man 'n kans gee nie
+Succ: hy kon nie nêrens die man 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan die man nêrens 'n kans gegee het nie
-Fail: hy kon die man nêrens 'n kans gegee het nie
+Gold: hy kan nêrens die man 'n kans gegee het nie
+Fail: hy kon nêrens die man 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kan die man nêrens 'n kans gegee het nie
-Fail: hy kon die man nêrens 'n kans gegee het nie
+Gold: hy kan nêrens die man 'n kans gegee het nie
+Fail: hy kon nêrens die man 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon die man nêrens 'n kans gegee het nie
-Succ: hy kon die man nêrens 'n kans gegee het nie
+Gold: hy kon nêrens die man 'n kans gegee het nie
+Succ: hy kon nêrens die man 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon die man nêrens 'n kans gegee het nie
-Succ: hy kon die man nêrens 'n kans gegee het nie
+Gold: hy kon nêrens die man 'n kans gegee het nie
+Succ: hy kon nêrens die man 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie die man nêrens 'n kans gegee het nie
-Fail: hy kon nie die man nêrens 'n kans gegee het nie
+Gold: hy kan nie nêrens die man 'n kans gegee het nie
+Fail: hy kon nie nêrens die man 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie die man nêrens 'n kans gegee het nie
-Fail: hy kon nie die man nêrens 'n kans gegee het nie
+Gold: hy kan nie nêrens die man 'n kans gegee het nie
+Fail: hy kon nie nêrens die man 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die man nêrens 'n kans gegee het nie
-Succ: hy kon nie die man nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens die man 'n kans gegee het nie
+Succ: hy kon nie nêrens die man 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie die man nêrens 'n kans gegee het nie
-Succ: hy kon nie die man nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens die man 'n kans gegee het nie
+Succ: hy kon nie nêrens die man 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans kan gee nie
-Succ: hy sal die man nêrens 'n kans kan gee nie
+Gold: hy sal nêrens die man 'n kans kan gee nie
+Succ: hy sal nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans kan gee nie
-Succ: hy sal die man nêrens 'n kans kan gee nie
+Gold: hy sal nêrens die man 'n kans kan gee nie
+Succ: hy sal nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans kan gee nie
-Succ: hy sal die man nêrens 'n kans kan gee nie
+Gold: hy sal nêrens die man 'n kans kan gee nie
+Succ: hy sal nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal die man nêrens 'n kans kan gee nie
-Succ: hy sal die man nêrens 'n kans kan gee nie
+Gold: hy sal nêrens die man 'n kans kan gee nie
+Succ: hy sal nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal die man nêrens 'n kans kan gee nie
-Succ: hy sal die man nêrens 'n kans kan gee nie
+Gold: hy sal nêrens die man 'n kans kan gee nie
+Succ: hy sal nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans kan gee nie
-Succ: hy sal die man nêrens 'n kans kan gee nie
+Gold: hy sal nêrens die man 'n kans kan gee nie
+Succ: hy sal nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans kan gee nie
-Succ: hy sal die man nêrens 'n kans kan gee nie
+Gold: hy sal nêrens die man 'n kans kan gee nie
+Succ: hy sal nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans kan gee nie
-Succ: hy sal die man nêrens 'n kans kan gee nie
+Gold: hy sal nêrens die man 'n kans kan gee nie
+Succ: hy sal nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans kan gee nie
-Succ: hy sal die man nêrens 'n kans kan gee nie
+Gold: hy sal nêrens die man 'n kans kan gee nie
+Succ: hy sal nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans kan gee nie
-Succ: hy sal die man nêrens 'n kans kan gee nie
+Gold: hy sal nêrens die man 'n kans kan gee nie
+Succ: hy sal nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal die man nêrens 'n kans kan gee nie
-Succ: hy sal die man nêrens 'n kans kan gee nie
+Gold: hy sal nêrens die man 'n kans kan gee nie
+Succ: hy sal nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans kan gee nie
-Succ: hy sal nie die man nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens die man 'n kans kan gee nie
+Succ: hy sal nie nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans kan gee nie
-Succ: hy sal nie die man nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens die man 'n kans kan gee nie
+Succ: hy sal nie nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans kan gee nie
-Succ: hy sal nie die man nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens die man 'n kans kan gee nie
+Succ: hy sal nie nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans kan gee nie
-Succ: hy sal nie die man nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens die man 'n kans kan gee nie
+Succ: hy sal nie nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans kan gee nie
-Succ: hy sal nie die man nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens die man 'n kans kan gee nie
+Succ: hy sal nie nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans kan gee nie
-Succ: hy sal nie die man nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens die man 'n kans kan gee nie
+Succ: hy sal nie nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans kan gee nie
-Succ: hy sal nie die man nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens die man 'n kans kan gee nie
+Succ: hy sal nie nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans kan gee nie
-Succ: hy sal nie die man nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens die man 'n kans kan gee nie
+Succ: hy sal nie nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) (DetCN (DetQuant DefArt NumSg) (UseN man_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans kan gee nie
-Succ: hy sal nie die man nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens die man 'n kans kan gee nie
+Succ: hy sal nie nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 (DetCN (DetQuant DefArt NumSg) (UseN man_N))) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie die man nêrens 'n kans kan gee nie
-Succ: hy sal nie die man nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens die man 'n kans kan gee nie
+Succ: hy sal nie nêrens die man 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy gee niemand nêrens 'n kans nie
-Succ: hy gee niemand nêrens 'n kans nie
+Gold: hy gee nêrens niemand 'n kans nie
+Succ: hy gee nêrens niemand 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy gee niemand nêrens 'n kans nie
-Succ: hy gee niemand nêrens 'n kans nie
+Gold: hy gee nêrens niemand 'n kans nie
+Succ: hy gee nêrens niemand 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy gee niemand nêrens 'n kans nie
-Succ: hy gee niemand nêrens 'n kans nie
+Gold: hy gee nêrens niemand 'n kans nie
+Succ: hy gee nêrens niemand 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy gee niemand nêrens 'n kans nie
-Succ: hy gee niemand nêrens 'n kans nie
+Gold: hy gee nêrens niemand 'n kans nie
+Succ: hy gee nêrens niemand 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy gee nie niemand nêrens 'n kans nie
-Succ: hy gee nie niemand nêrens 'n kans nie
+Gold: hy gee nie nêrens niemand 'n kans nie
+Succ: hy gee nie nêrens niemand 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy gee nie niemand nêrens 'n kans nie
-Succ: hy gee nie niemand nêrens 'n kans nie
+Gold: hy gee nie nêrens niemand 'n kans nie
+Succ: hy gee nie nêrens niemand 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy gee nie niemand nêrens 'n kans nie
-Succ: hy gee nie niemand nêrens 'n kans nie
+Gold: hy gee nie nêrens niemand 'n kans nie
+Succ: hy gee nie nêrens niemand 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy gee nie niemand nêrens 'n kans nie
-Succ: hy gee nie niemand nêrens 'n kans nie
+Gold: hy gee nie nêrens niemand 'n kans nie
+Succ: hy gee nie nêrens niemand 'n kans nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy het niemand nêrens 'n kans gegee nie
-Succ: hy het niemand nêrens 'n kans gegee nie
+Gold: hy het nêrens niemand 'n kans gegee nie
+Succ: hy het nêrens niemand 'n kans gegee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy het niemand nêrens 'n kans gegee nie
-Succ: hy het niemand nêrens 'n kans gegee nie
+Gold: hy het nêrens niemand 'n kans gegee nie
+Succ: hy het nêrens niemand 'n kans gegee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy het niemand nêrens 'n kans gegee nie
-Succ: hy het niemand nêrens 'n kans gegee nie
+Gold: hy het nêrens niemand 'n kans gegee nie
+Succ: hy het nêrens niemand 'n kans gegee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy het niemand nêrens 'n kans gegee nie
-Succ: hy het niemand nêrens 'n kans gegee nie
+Gold: hy het nêrens niemand 'n kans gegee nie
+Succ: hy het nêrens niemand 'n kans gegee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy het nie niemand nêrens 'n kans gegee nie
-Succ: hy het nie niemand nêrens 'n kans gegee nie
+Gold: hy het nie nêrens niemand 'n kans gegee nie
+Succ: hy het nie nêrens niemand 'n kans gegee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy het nie niemand nêrens 'n kans gegee nie
-Succ: hy het nie niemand nêrens 'n kans gegee nie
+Gold: hy het nie nêrens niemand 'n kans gegee nie
+Succ: hy het nie nêrens niemand 'n kans gegee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy het nie niemand nêrens 'n kans gegee nie
-Succ: hy het nie niemand nêrens 'n kans gegee nie
+Gold: hy het nie nêrens niemand 'n kans gegee nie
+Succ: hy het nie nêrens niemand 'n kans gegee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy het nie niemand nêrens 'n kans gegee nie
-Succ: hy het nie niemand nêrens 'n kans gegee nie
+Gold: hy het nie nêrens niemand 'n kans gegee nie
+Succ: hy het nie nêrens niemand 'n kans gegee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens 'n kans gee nie
-Succ: hy sal niemand nêrens 'n kans gee nie
+Gold: hy sal nêrens niemand 'n kans gee nie
+Succ: hy sal nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens 'n kans gee nie
-Succ: hy sal niemand nêrens 'n kans gee nie
+Gold: hy sal nêrens niemand 'n kans gee nie
+Succ: hy sal nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens 'n kans gee nie
-Succ: hy sal niemand nêrens 'n kans gee nie
+Gold: hy sal nêrens niemand 'n kans gee nie
+Succ: hy sal nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens 'n kans gee nie
-Succ: hy sal niemand nêrens 'n kans gee nie
+Gold: hy sal nêrens niemand 'n kans gee nie
+Succ: hy sal nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans gee nie
-Succ: hy sal nie niemand nêrens 'n kans gee nie
+Gold: hy sal nie nêrens niemand 'n kans gee nie
+Succ: hy sal nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans gee nie
-Succ: hy sal nie niemand nêrens 'n kans gee nie
+Gold: hy sal nie nêrens niemand 'n kans gee nie
+Succ: hy sal nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans gee nie
-Succ: hy sal nie niemand nêrens 'n kans gee nie
+Gold: hy sal nie nêrens niemand 'n kans gee nie
+Succ: hy sal nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans gee nie
-Succ: hy sal nie niemand nêrens 'n kans gee nie
+Gold: hy sal nie nêrens niemand 'n kans gee nie
+Succ: hy sal nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan niemand nêrens 'n kans gee nie
-Succ: hy kan niemand nêrens 'n kans gee nie
+Gold: hy kan nêrens niemand 'n kans gee nie
+Succ: hy kan nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kan niemand nêrens 'n kans gee nie
-Succ: hy kan niemand nêrens 'n kans gee nie
+Gold: hy kan nêrens niemand 'n kans gee nie
+Succ: hy kan nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kan niemand nêrens 'n kans gee nie
-Succ: hy kan niemand nêrens 'n kans gee nie
+Gold: hy kan nêrens niemand 'n kans gee nie
+Succ: hy kan nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan niemand nêrens 'n kans gee nie
-Succ: hy kan niemand nêrens 'n kans gee nie
+Gold: hy kan nêrens niemand 'n kans gee nie
+Succ: hy kan nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kan niemand nêrens 'n kans gee nie
-Succ: hy kan niemand nêrens 'n kans gee nie
+Gold: hy kan nêrens niemand 'n kans gee nie
+Succ: hy kan nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy kan niemand nêrens 'n kans gee nie
-Succ: hy kan niemand nêrens 'n kans gee nie
+Gold: hy kan nêrens niemand 'n kans gee nie
+Succ: hy kan nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie niemand nêrens 'n kans gee nie
-Succ: hy kan nie niemand nêrens 'n kans gee nie
+Gold: hy kan nie nêrens niemand 'n kans gee nie
+Succ: hy kan nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kan nie niemand nêrens 'n kans gee nie
-Succ: hy kan nie niemand nêrens 'n kans gee nie
+Gold: hy kan nie nêrens niemand 'n kans gee nie
+Succ: hy kan nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kan nie niemand nêrens 'n kans gee nie
-Succ: hy kan nie niemand nêrens 'n kans gee nie
+Gold: hy kan nie nêrens niemand 'n kans gee nie
+Succ: hy kan nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kan nie niemand nêrens 'n kans gee nie
-Succ: hy kan nie niemand nêrens 'n kans gee nie
+Gold: hy kan nie nêrens niemand 'n kans gee nie
+Succ: hy kan nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kan nie niemand nêrens 'n kans gee nie
-Succ: hy kan nie niemand nêrens 'n kans gee nie
+Gold: hy kan nie nêrens niemand 'n kans gee nie
+Succ: hy kan nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy kan nie niemand nêrens 'n kans gee nie
-Succ: hy kan nie niemand nêrens 'n kans gee nie
+Gold: hy kan nie nêrens niemand 'n kans gee nie
+Succ: hy kan nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gee nie
-Succ: hy kon niemand nêrens 'n kans gee nie
+Gold: hy kon nêrens niemand 'n kans gee nie
+Succ: hy kon nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gee nie
-Succ: hy kon niemand nêrens 'n kans gee nie
+Gold: hy kon nêrens niemand 'n kans gee nie
+Succ: hy kon nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gee nie
-Succ: hy kon niemand nêrens 'n kans gee nie
+Gold: hy kon nêrens niemand 'n kans gee nie
+Succ: hy kon nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gee nie
-Succ: hy kon niemand nêrens 'n kans gee nie
+Gold: hy kon nêrens niemand 'n kans gee nie
+Succ: hy kon nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gee nie
-Succ: hy kon niemand nêrens 'n kans gee nie
+Gold: hy kon nêrens niemand 'n kans gee nie
+Succ: hy kon nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gee nie
-Succ: hy kon niemand nêrens 'n kans gee nie
+Gold: hy kon nêrens niemand 'n kans gee nie
+Succ: hy kon nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gee nie
-Succ: hy kon nie niemand nêrens 'n kans gee nie
+Gold: hy kon nie nêrens niemand 'n kans gee nie
+Succ: hy kon nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gee nie
-Succ: hy kon nie niemand nêrens 'n kans gee nie
+Gold: hy kon nie nêrens niemand 'n kans gee nie
+Succ: hy kon nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gee nie
-Succ: hy kon nie niemand nêrens 'n kans gee nie
+Gold: hy kon nie nêrens niemand 'n kans gee nie
+Succ: hy kon nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gee nie
-Succ: hy kon nie niemand nêrens 'n kans gee nie
+Gold: hy kon nie nêrens niemand 'n kans gee nie
+Succ: hy kon nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gee nie
-Succ: hy kon nie niemand nêrens 'n kans gee nie
+Gold: hy kon nie nêrens niemand 'n kans gee nie
+Succ: hy kon nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gee nie
-Succ: hy kon nie niemand nêrens 'n kans gee nie
+Gold: hy kon nie nêrens niemand 'n kans gee nie
+Succ: hy kon nie nêrens niemand 'n kans gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gegee het nie
-Succ: hy kon niemand nêrens 'n kans gegee het nie
+Gold: hy kon nêrens niemand 'n kans gegee het nie
+Succ: hy kon nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gegee het nie
-Succ: hy kon niemand nêrens 'n kans gegee het nie
+Gold: hy kon nêrens niemand 'n kans gegee het nie
+Succ: hy kon nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gegee het nie
-Succ: hy kon niemand nêrens 'n kans gegee het nie
+Gold: hy kon nêrens niemand 'n kans gegee het nie
+Succ: hy kon nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gegee het nie
-Succ: hy kon niemand nêrens 'n kans gegee het nie
+Gold: hy kon nêrens niemand 'n kans gegee het nie
+Succ: hy kon nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gegee het nie
-Succ: hy kon niemand nêrens 'n kans gegee het nie
+Gold: hy kon nêrens niemand 'n kans gegee het nie
+Succ: hy kon nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gegee het nie
-Succ: hy kon niemand nêrens 'n kans gegee het nie
+Gold: hy kon nêrens niemand 'n kans gegee het nie
+Succ: hy kon nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gegee het nie
-Succ: hy kon niemand nêrens 'n kans gegee het nie
+Gold: hy kon nêrens niemand 'n kans gegee het nie
+Succ: hy kon nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gegee het nie
-Succ: hy kon niemand nêrens 'n kans gegee het nie
+Gold: hy kon nêrens niemand 'n kans gegee het nie
+Succ: hy kon nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gegee het nie
-Succ: hy kon niemand nêrens 'n kans gegee het nie
+Gold: hy kon nêrens niemand 'n kans gegee het nie
+Succ: hy kon nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gegee het nie
-Succ: hy kon niemand nêrens 'n kans gegee het nie
+Gold: hy kon nêrens niemand 'n kans gegee het nie
+Succ: hy kon nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gegee het nie
-Succ: hy kon niemand nêrens 'n kans gegee het nie
+Gold: hy kon nêrens niemand 'n kans gegee het nie
+Succ: hy kon nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon niemand nêrens 'n kans gegee het nie
-Succ: hy kon niemand nêrens 'n kans gegee het nie
+Gold: hy kon nêrens niemand 'n kans gegee het nie
+Succ: hy kon nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gegee het nie
-Succ: hy kon nie niemand nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens niemand 'n kans gegee het nie
+Succ: hy kon nie nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gegee het nie
-Succ: hy kon nie niemand nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens niemand 'n kans gegee het nie
+Succ: hy kon nie nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gegee het nie
-Succ: hy kon nie niemand nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens niemand 'n kans gegee het nie
+Succ: hy kon nie nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gegee het nie
-Succ: hy kon nie niemand nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens niemand 'n kans gegee het nie
+Succ: hy kon nie nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gegee het nie
-Succ: hy kon nie niemand nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens niemand 'n kans gegee het nie
+Succ: hy kon nie nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gegee het nie
-Succ: hy kon nie niemand nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens niemand 'n kans gegee het nie
+Succ: hy kon nie nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gegee het nie
-Succ: hy kon nie niemand nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens niemand 'n kans gegee het nie
+Succ: hy kon nie nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gegee het nie
-Succ: hy kon nie niemand nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens niemand 'n kans gegee het nie
+Succ: hy kon nie nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gegee het nie
-Succ: hy kon nie niemand nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens niemand 'n kans gegee het nie
+Succ: hy kon nie nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gegee het nie
-Succ: hy kon nie niemand nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens niemand 'n kans gegee het nie
+Succ: hy kon nie nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gegee het nie
-Succ: hy kon nie niemand nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens niemand 'n kans gegee het nie
+Succ: hy kon nie nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPast AAnter) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy kon nie niemand nêrens 'n kans gegee het nie
-Succ: hy kon nie niemand nêrens 'n kans gegee het nie
+Gold: hy kon nie nêrens niemand 'n kans gegee het nie
+Succ: hy kon nie nêrens niemand 'n kans gegee het nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens 'n kans kan gee nie
-Succ: hy sal niemand nêrens 'n kans kan gee nie
+Gold: hy sal nêrens niemand 'n kans kan gee nie
+Succ: hy sal nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens 'n kans kan gee nie
-Succ: hy sal niemand nêrens 'n kans kan gee nie
+Gold: hy sal nêrens niemand 'n kans kan gee nie
+Succ: hy sal nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens 'n kans kan gee nie
-Succ: hy sal niemand nêrens 'n kans kan gee nie
+Gold: hy sal nêrens niemand 'n kans kan gee nie
+Succ: hy sal nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens 'n kans kan gee nie
-Succ: hy sal niemand nêrens 'n kans kan gee nie
+Gold: hy sal nêrens niemand 'n kans kan gee nie
+Succ: hy sal nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy sal niemand nêrens 'n kans kan gee nie
-Succ: hy sal niemand nêrens 'n kans kan gee nie
+Gold: hy sal nêrens niemand 'n kans kan gee nie
+Succ: hy sal nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal niemand nêrens 'n kans kan gee nie
-Succ: hy sal niemand nêrens 'n kans kan gee nie
+Gold: hy sal nêrens niemand 'n kans kan gee nie
+Succ: hy sal nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens 'n kans kan gee nie
-Succ: hy sal niemand nêrens 'n kans kan gee nie
+Gold: hy sal nêrens niemand 'n kans kan gee nie
+Succ: hy sal nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens 'n kans kan gee nie
-Succ: hy sal niemand nêrens 'n kans kan gee nie
+Gold: hy sal nêrens niemand 'n kans kan gee nie
+Succ: hy sal nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens 'n kans kan gee nie
-Succ: hy sal niemand nêrens 'n kans kan gee nie
+Gold: hy sal nêrens niemand 'n kans kan gee nie
+Succ: hy sal nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal niemand nêrens 'n kans kan gee nie
-Succ: hy sal niemand nêrens 'n kans kan gee nie
+Gold: hy sal nêrens niemand 'n kans kan gee nie
+Succ: hy sal nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy sal niemand nêrens 'n kans kan gee nie
-Succ: hy sal niemand nêrens 'n kans kan gee nie
+Gold: hy sal nêrens niemand 'n kans kan gee nie
+Succ: hy sal nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PPos (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal niemand nêrens 'n kans kan gee nie
-Succ: hy sal niemand nêrens 'n kans kan gee nie
+Gold: hy sal nêrens niemand 'n kans kan gee nie
+Succ: hy sal nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans kan gee nie
-Succ: hy sal nie niemand nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens niemand 'n kans kan gee nie
+Succ: hy sal nie nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans kan gee nie
-Succ: hy sal nie niemand nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens niemand 'n kans kan gee nie
+Succ: hy sal nie nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans kan gee nie
-Succ: hy sal nie niemand nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens niemand 'n kans kan gee nie
+Succ: hy sal nie nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans kan gee nie
-Succ: hy sal nie niemand nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens niemand 'n kans kan gee nie
+Succ: hy sal nie nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans kan gee nie
-Succ: hy sal nie niemand nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens niemand 'n kans kan gee nie
+Succ: hy sal nie nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TFut ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans kan gee nie
-Succ: hy sal nie niemand nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens niemand 'n kans kan gee nie
+Succ: hy sal nie nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans kan gee nie
-Succ: hy sal nie niemand nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens niemand 'n kans kan gee nie
+Succ: hy sal nie nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplSlash (SlashVV can_VV (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nobody_NP) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans kan gee nie
-Succ: hy sal nie niemand nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens niemand 'n kans kan gee nie
+Succ: hy sal nie nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP)) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans kan gee nie
-Succ: hy sal nie niemand nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens niemand 'n kans kan gee nie
+Succ: hy sal nie nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (AdvVP (ComplVV can_VV (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N)))) nowhere_Adv)))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans kan gee nie
-Succ: hy sal nie niemand nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens niemand 'n kans kan gee nie
+Succ: hy sal nie nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nobody_NP) nowhere_Adv))))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans kan gee nie
-Succ: hy sal nie niemand nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens niemand 'n kans kan gee nie
+Succ: hy sal nie nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TCond ASimul) PNeg (PredVP (UsePron he_Pron) (ComplVV can_VV (AdvVP (ComplSlash (Slash2V3 give_V3 nobody_NP) (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) nowhere_Adv))))) NoVoc
-Gold: hy sal nie niemand nêrens 'n kans kan gee nie
-Succ: hy sal nie niemand nêrens 'n kans kan gee nie
+Gold: hy sal nie nêrens niemand 'n kans kan gee nie
+Succ: hy sal nie nêrens niemand 'n kans kan gee nie
 
 Tree: PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (AdVVP always_AdV (ComplSlash (Slash3V3 give_V3 (DetCN (DetQuant IndefArt NumSg) (UseN chance_N))) somebody_NP))))) NoVoc
 Gold: hy gee altyd iemand 'n kans
