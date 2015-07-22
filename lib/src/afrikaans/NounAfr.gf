@@ -8,7 +8,7 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
       a = agrP3 det.n ;
       isPerson = False ;
       hasNwd = det.isNeg ;
-      finNie = False
+      finNie = cn.finNie
       } ;
 
     DetNP det = {
@@ -98,7 +98,8 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
     UseN = \n -> {
       s = \\f => n.s!f ;
       g = n.g ;
-      isNeg = False 
+      hasNwd = False ;
+      finNie = False
       } ;
       
 --    UseN2 = \n -> {
@@ -132,13 +133,15 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
     AdjCN ap cn = {
         s = \\n => ap.s!AAttr ++ cn.s!n ;
         g = cn.g ;
-        isNeg = cn.hasNeg
+        hasNwd = cn.hasNwd ;
+        finNie = cn.finNie
         } ;
 
     RelCN cn rs = {
-      s = \\nc => cn.s ! nc ++ rs.s ! cn.g ! (case nc of {NF n c => n})  ;
+      s = \\nc => cn.s ! nc ++ rs.s ! cn.g ! (case nc of {NF n c => n}) ;
       g = cn.g ;
-      isNeg = orB cn.isNeg rs.hasNeg
+      hasNwd = cn.hasNwd ;
+      finNie = rs.hasNeg
       } ;
 
     RelNP np rs = {

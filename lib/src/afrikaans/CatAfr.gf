@@ -41,7 +41,7 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 
 -- Noun
 
-    CN = {s : NForm => Str ; g : Gender } ;
+    CN = {s : NForm => Str ; g : Gender ; hasNwd : Bool ; finNie : Bool } ;
     NP = { s : NPCase => Str ;
            a : Agr ;
            finNie : Bool ;
