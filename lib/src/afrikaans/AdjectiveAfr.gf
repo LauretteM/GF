@@ -6,12 +6,14 @@ concrete AdjectiveAfr of Adjective = CatAfr ** open ResAfr, Prelude in
   lin
 
     PositA  a = {
-      s = a.s ! Posit ;
---      isPre = True
+        s = a.s ! Posit ;
+        finNie = False ;
+        s2 = [] 
       } ;
     ComparA a np = {
-      s = \\af => a.s ! Compar ! af ++ "as" ++ np.s ! NPNom ;	--afr
---      isPre = True
+      s = \\af => a.s ! Compar ! af ;	--afr
+      finNie = np.finNie ;
+      s2 = "as" ++ np.s ! NPNom
       } ;
 --    CAdvAP ad ap np = {
 --      s = \\af => ad.s ++ ap.s ! af ++ ad.p ++ np.s ! NPNom ;
@@ -19,7 +21,8 @@ concrete AdjectiveAfr of Adjective = CatAfr ** open ResAfr, Prelude in
 --      } ;
     UseComparA a = {
       s = \\af => a.s ! Compar ! af ;
---      isPre = True
+      finNie = False ;
+      s2 = []
       } ;
 --    AdjOrd a = {
 --      s = a.s ;

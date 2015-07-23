@@ -81,7 +81,7 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
 --            insertObj (\\_ => appPrep v.c2 np.s) (
 --              predVv v)))) ** {c2 = v.c2} ;
 
-    UseComp comp = insertObjAP (comp.s!(agrP3 Sg)) (predV is_V) ;
+    UseComp comp = insertSubCl False (comp.s2) (insertObjAP (comp.s!(agrP3 Sg)) (predV is_V)) ;
    
 ----edited
 --    CompCN cn = {s = \\a => case a.n of {
@@ -91,7 +91,7 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
 --      } ;
 --
 --
-    CompAP ap = {s = \\_ => ap.s ! APred} ;
+    CompAP ap = {s = \\_ => ap.s ! APred ; s2 = ap.s2} ;
 --    CompNP np = {s = \\_ => np.s ! NPNom} ;
 --    CompAdv a = {s = \\_ => a.s} ;
 --
@@ -100,6 +100,9 @@ concrete VerbAfr of Verb = CatAfr ** open Prelude, ResAfr in {
     AdvVP vp adv = case adv.isClause of { True => insertSubCl adv.isNwd adv.s vp ;
                                           False => insertAdv adv.s adv.isNwd vp } ;
     AdVVP adv vp = insertAdV adv.s adv.isNwd vp ;
+    
+    UseCopula = predV is_V ;
+    
 --
 --    ReflVP vp = insertObj (\\a => appPrep vp.c2 (\\_ => reflPron ! a )) vp ;
 --
