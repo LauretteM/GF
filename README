@@ -19,6 +19,11 @@ NOTE ON NEW AFRIKAANS
    > i TestAfr.gf
    TestAfrAbs> gr -cat=S -number=20 | l
 
+TODO (not ordered):
+- Implement a new CAdv lincat to do "vinniger" and "meer vermetel"
+  as well as a smart paradigm to know when to use which form.
+
+
 DESCRIPTION
 
 The Grammatical Framework (=GF) is a grammar formalism based on type theory. 
