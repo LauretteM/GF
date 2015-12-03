@@ -37,6 +37,8 @@ public class Expr implements Serializable {
 
 		public static native Expr readExpr(String s) throws PGFError;
 
+		public native boolean equals(Expr e);
+
 		private static native String showExpr(long ref);
 
 		private static native long initStringLit(String s, long pool);
@@ -51,5 +53,9 @@ public class Expr implements Serializable {
 			pool   = e.pool;
 			master = e.master;
 			ref    = e.ref;
+		}
+		
+		static { 
+			System.loadLibrary("jpgf");
 		}
 }

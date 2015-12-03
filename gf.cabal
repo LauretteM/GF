@@ -1,5 +1,5 @@
 name: gf
-version: 3.7-darcs
+version: 3.7.1-darcs
 
 cabal-version: >= 1.10
 build-type: Custom
@@ -71,7 +71,7 @@ flag c-runtime
 
 Library
   default-language:    Haskell2010
-  build-depends: base >= 4.3 && <5,
+  build-depends: base >= 4.5 && <5,
                  array,
                  containers,
                  bytestring,
@@ -132,13 +132,14 @@ Library
     PGF.OldBinary
 
   if flag(c-runtime)
-    exposed-modules:     PGF2
-    other-modules:       PGF2.FFI
-    hs-source-dirs:      src/runtime/haskell-bind
-    build-tools:         hsc2hs
-    extra-libraries:     gu pgf
-    c-sources:           src/runtime/haskell-bind/utils.c
-    cc-options:          -std=c99
+    exposed-modules: PGF2
+    other-modules:   PGF2.FFI PGF2.Expr
+                     GF.Interactive2 GF.Command.Commands2
+    hs-source-dirs:  src/runtime/haskell-bind
+    build-tools:     hsc2hs
+    extra-libraries: gu pgf
+    c-sources:       src/runtime/haskell-bind/utils.c
+    cc-options:      -std=c99
 
 ---- GF compiler as a library:
 
@@ -161,7 +162,11 @@ Library
 
     DarcsVersion_gf
     GF.Command.Abstract
+    GF.Command.CommandInfo
     GF.Command.Commands
+    GF.Command.CommonCommands
+    GF.Command.SourceCommands
+    GF.Command.Help
     GF.Command.Importing
     GF.Command.Interpreter
     GF.Command.Messages
@@ -249,11 +254,11 @@ Library
     GF.Speech.SRGS_XML
     GF.Speech.VoiceXML
     GF.System.Catch
+    GF.System.Concurrency
     GF.System.Console
     GF.System.Directory
     GF.System.Process
     GF.System.Signal
---  GF.System.UseSignal
     GF.Text.Clitics
     GF.Text.Coding
     GF.Text.Lexing

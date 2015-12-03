@@ -97,7 +97,6 @@ lin ablation_N = mkN "ablación" feminine ; -- status=guess
 lin ablative_A = mkA "ablativo" ; --UWN
 lin ablative_N = mkN "ablativo" ; -- status=guess
 lin ablaze_A = mkA "radiante" | mkA "ardiente" | mkA "resplandeciente" ; -- status=guess status=guess status=guess
-lin ablaze_Adv = mkAdv "en llamas" ; -- status=guess
 lin able_A = mkA "competente" ;
 lin ablepharia_N = mkN "ablefaria" ; --UWN
 lin ablution_N = mkN "ablución" feminine ; -- status=guess
@@ -206,7 +205,6 @@ lin abyssal_A = mkA "abisal" ; -- status=guess
 lin acacia_N = mkN "acacia" ; -- status=guess
 lin academic_A = mkA "académico" ; -- status=guess
 lin academic_N = mkN "académico" | mkN "escolar" masculine ; -- status=guess
-lin academically_Adv = mkAdv "académicamente" ; -- status=guess
 lin academicianFem_N = mkN "lector" | mkN "profesor" ; --UWN
 lin academicianMasc_N = mkN "lector" | mkN "profesor" ; --UWN
 lin academy_N = mkN "academia" ; -- status=guess
@@ -368,7 +366,6 @@ lin aconite_N = mkN "acónito" ; -- status=guess
 lin acorn_N = mkN "bellota" ; -- status=guess
 lin acoustic_A = mkA "acústico" ; -- status=guess
 lin acoustic_N = mkN "guitarra acústica" ; -- status=guess
-lin acoustically_Adv = mkAdv "acústicamente" ; -- status=guess
 lin acoustics_N = mkN "acústica" ; -- status=guess
 lin acquaint_V2 = mkV2 (mkV "familiarizar") ; -- status=guess, src=wikt
 lin acquaintance_N = mkN "conocido" | mkN "conocida" ; -- status=guess
@@ -774,7 +771,7 @@ lin age_V = mkV "envejecerse" ; -- status=guess
 lin aged_Prep = variants {} ; --
 lin ageless_A = mkA "eterno" ; -- status=guess
 lin agelessness_N = mkN "eternidad" ; --UWN
-lin agelong_A = mkA "interminable" ; --UWN
+lin age_long_A = mkA "interminable" ; --UWN
 lin agency_N = mkN "agencia" ;
 lin agenda_N = mkN "agenda" | mkN "orden del dia" ; -- status=guess
 lin agentFem_N = variants {} ; ---- sense to be split
@@ -1109,7 +1106,7 @@ lin alsatianMasc_N = variants {} ; ---- sense to be split
 lin also_AdV = mkAdV "además" | mkAdV "también" ; --UWN
 lin also_Adv = mkAdv "también" | mkAdv "además" ;
 lin altar_N = mkN "altar" masculine ; -- status=guess
-lin altarpiece_N = mkN "retablo" ; --UWN
+lin altar_piece_N = mkN "retablo" ; --UWN
 lin alter_V = mkV "alterar" | mkV "cambiar" | mkV "modificar" ; -- status=guess
 lin alter_V2 = mkV2 (mkV "alterar") | mkV2 (mkV "cambiar") | mkV2 (mkV "modificar") ; -- status=guess
 lin alterability_N = mkN "alterabilidad" feminine ; -- status=guess
@@ -1518,6 +1515,8 @@ lin answer_back_V2 = mkV2 (advV OP_answer_V OP_back_Adv ) ; -- guess-p-verb
 lin answer_for_V2 = prepV2 OP_answer_V OP_for_Prep ; -- guess-p-verb
 lin answerable_A = mkA "responsable" ; -- status=guess
 lin ant_N = mkN "hormiga" ; -- status=guess
+lin ant_eater_N = mkN "oso hormiguero" ; -- status=guess
+lin ant_hill_N = mkN "hormiguero" ; -- status=guess
 lin antacid_N = mkN "antiácido" ; -- status=guess
 lin antagonism_N = mkN "antagonismo" | mkN "hostilidad" feminine ; -- status=guess status=guess
 lin antagonist_N = mkN "antagonista" masculine ; -- status=guess
@@ -1525,7 +1524,6 @@ lin antagonistic_A = mkA "antagonista" | mkA "hostil" | mkA "antagónico" ; -- s
 lin antagonize_V2 = mkV2 (mkV "antagonizar") ; -- status=guess, src=wikt
 lin antbird_N = mkN "hormiguero" | mkN "hormiguerito" ; -- status=guess status=guess
 lin ante_N = mkN "luz" feminine ; -- status=guess
-lin anteater_N = mkN "oso hormiguero" ; -- status=guess
 lin antebellum_A = mkA "prebélico" ; -- status=guess
 lin antecedent_A = mkA "antecedente" ; -- status=guess
 lin antecedent_N = mkN "antecedente" masculine ; -- status=guess
@@ -1541,7 +1539,6 @@ lin anteroom_N = mkN "entrada" | mkN "recibidor" | mkN "vestíbulo" ; --UWN
 lin anthem_N = mkN "himno" ; -- status=guess
 lin anther_N = mkN "antera" ; -- status=guess
 lin antherozoid_N = mkN "anterozoide" | mkN "espermatozoide" ; --UWN
-lin anthill_N = mkN "hormiguero" ; -- status=guess
 lin anthologist_N = mkN "antologista" ; --UWN
 lin anthology_N = mkN "antología" ; -- status=guess
 lin anthony_PN = mkPN "Anthony" ; -- status=guess src=geonames
@@ -1566,8 +1563,8 @@ lin anthroposophy_N = mkN "antroposofía" ; --UWN
 lin anthurium_N = mkN "anthurium" ; --UWN
 lin anti_A = mkA "antisemita" ; -- status=guess
 lin anti_N = mkN "antiamericanismo" ; -- status=guess
-lin antiaircraft_A = mkA "antiaéreo" ; -- status=guess
-lin antiaircraft_N = mkN "antiaéreo" ; -- status=guess
+lin anti_aircraft_A = mkA "antiaéreo" ; -- status=guess
+lin anti_aircraft_N = mkN "antiaéreo" ; -- status=guess
 lin antialiasing_N = mkN "antialiasing" ; --UWN
 lin antibacterial_A = mkA "antibacteriano" | mkA "antibacterial" ; -- status=guess status=guess
 lin antibaryon_N = mkN "antibarión" ; --UWN
@@ -1599,7 +1596,7 @@ lin antifungal_N = mkN "fungicida" ; --UWN
 lin antigen_N = mkN "antígeno" ; -- status=guess
 lin antigenic_A = mkA "antigénico" ; --UWN
 lin antigua_PN = mkPN "Antigua" ; -- status=guess src=geonames
-lin antihero_N = mkN "antihéroe" masculine ; -- status=guess
+lin anti_hero_N = mkN "antihéroe" masculine ; -- status=guess
 lin antihypertensive_N = mkN "antihipertensivo" | mkN "droga_antihipertensiva" | mkN "medicamento_antihipertensivo" ; --UWN
 lin antilepton_N = mkN "antileptón" ; --UWN
 lin antimacassar_N = mkN "antimacasar" ; --UWN
@@ -1672,7 +1669,6 @@ lin apart_Adv = mkAdv "aparte" ;
 lin apartheid_N = mkN "apartheid" masculine ; -- status=guess
 lin apartment_N = L.apartment_N ;
 lin apathetic_A = mkA "apático" | mkA "indiferente" ; -- status=guess status=guess
-lin apathetically_Adv = mkAdv "apáticamente" ; -- status=guess
 lin apathy_N = mkN "apatía" ; -- status=guess
 lin apatite_N = mkN "apatita" ; -- status=guess
 lin ape_N = mkN "mono" ; -- status=guess
@@ -1715,7 +1711,6 @@ lin apocrypha_N = mkN "apócrifo" ; -- status=guess
 lin apocryphal_A = mkA "apócrifo" ; -- status=guess
 lin apogee_N = mkN "apogeo" ; -- status=guess
 lin apologetic_A = mkA "lleno de disculpas" ; -- status=guess
-lin apologetically_Adv = mkAdv "disculpándose" ; -- status=guess
 lin apologetics_N = mkN "apologética" ; -- status=guess
 lin apologize_V = mkV "disculparse" ; -- status=guess
 lin apology_N = mkN "disculpa" ; -- status=guess
@@ -1975,7 +1970,6 @@ lin arise_V = surgir_V ;
 lin aristocracy_N = mkN "aristocracia" ; -- status=guess
 lin aristocrat_N = mkN "aristócrata" masculine ; -- status=guess
 lin aristocratic_A = mkA "aristocrático" ; -- status=guess
-lin aristocratically_Adv = mkAdv "aristocráticamente" ; -- status=guess
 lin arithmetic_N = mkN "aritmética" ; -- status=guess
 lin arithmetical_A = mkA "aritmético" ; -- status=guess
 lin arity_N = mkN "aridad" ; --UWN
@@ -1993,7 +1987,7 @@ lin armagh_PN = mkPN "Armagh" ; -- status=guess src=geonames
 lin armament_N = mkN "armamento" ; -- status=guess
 lin armchair_N = mkN "sillón" masculine ; -- status=guess
 lin armed_A = variants {} ; --
-lin armhole_N = mkN "sisa" ; -- status=guess
+lin arm_hole_N = mkN "sisa" ; -- status=guess
 lin armiger_N = mkN "armígero" ; -- status=guess
 lin armillary_A = mkA "armilar" ; --UWN
 lin armistice_N = mkN "armisticio" ; -- status=guess
@@ -2084,7 +2078,6 @@ lin artisan_N = mkN "artesano" feminine ; -- status=guess
 lin artist_N = mkN "artista" masculine ; ---split: masc fem
 lin artiste_N = mkN "artista" ; --UWN
 lin artistic_A = mkA "artístico" ; -- status=guess
-lin artistically_Adv = mkAdv "artísticamente" ; -- status=guess
 lin artistry_N = mkN "arte" ; --UWN
 lin artless_A = mkA "natural" ; -- status=guess
 lin artlessness_N = mkN "inocencia" ; -- status=guess
@@ -2299,7 +2292,6 @@ lin asymmetry_N = mkN "asimetría" ; -- status=guess
 lin asymptomatic_A = mkA "asintomático" ; -- status=guess
 lin asymptote_N = mkN "asíntota" ; --UWN
 lin asymptotic_A = mkA "asintótico" ; -- status=guess
-lin asymptotically_Adv = mkAdv "asintóticamente" ; --UWN
 lin asynchronism_N = mkN "asincronía" ; --UWN
 lin asyndeton_N = mkN "asíndeton" ; --UWN
 lin asystole_N = mkN "asistolia" ; --UWN
@@ -2469,7 +2461,6 @@ lin autacoidal_A = mkA "autacoide" ; --UWN
 lin autarchy_N = mkN "autarquía" | mkN "autarcía" ; -- status=guess status=guess
 lin auteur_N = mkN "autor" masculine ; -- status=guess
 lin authentic_A = mkA "auténtico" ; -- status=guess
-lin authentically_Adv = mkAdv "auténticamente" | mkAdv "genuinamente" ; --UWN
 lin authenticate_V2 = mkV2 (mkV "autentificar") | mkV2 (mkV "autenticar") ; -- status=guess, src=wikt status=guess, src=wikt
 lin authenticity_N = mkN "autenticidad" feminine ; -- status=guess
 lin author_N = mkN "autor" masculine | mkN "autora" | mkN "escritor" | mkN "escritora" ; --- split: masc, fem
@@ -2509,7 +2500,6 @@ lin autolytic_A = mkA "autolítico" ; --UWN
 lin automate_V2 = mkV2 (mkV "automatizar") ; -- status=guess, src=wikt
 lin automatic_A = mkA "automático" ; -- status=guess
 lin automatic_N = mkN "automático" ; -- status=guess
-lin automatically_Adv = mkAdv "automáticamente" ; -- status=guess
 lin automation_N = mkN "automatización" ; -- status=guess
 lin automaton_N = mkN "autómata" masculine ; -- status=guess
 lin automobile_N = mkN "automóvil" masculine | mkN "carro" feminine | mkN "coche" masculine | mkN "auto" ; -- status=guess status=guess status=guess status=guess
@@ -2602,7 +2592,6 @@ lin axil_N = mkN "axilar" feminine ; -- status=guess
 lin axillary_A = mkA "axilar" ; -- status=guess
 lin axiom_N = mkN "axioma" masculine ; -- status=guess
 lin axiomatic_A = mkA "axiomático" ; -- status=guess
-lin axiomatically_Adv = mkAdv "axiomáticamente" ; -- status=guess
 lin axis_N = mkN "eje" masculine ; -- status=guess
 lin axle_N = mkN "eje" masculine ; -- status=guess
 lin axolotl_N = mkN "ajolote" | mkN "ajolota" ; -- status=guess status=guess
@@ -2686,7 +2675,7 @@ lin backstitch_N = mkN "pespunte" ; --UWN
 lin backstroke_N = mkN "dorso" | mkN "estilo espalda" ; -- status=guess status=guess
 lin backsword_N = mkN "montante" | mkN "sable" ; --UWN
 lin backtalk_N = mkN "boca" | mkN "descoco" | mkN "impertinencia" | mkN "insolencia" | mkN "réplica" ; --UWN
-lin backup_N = mkN "respaldo" | mkN "copia de seguridad" ; -- status=guess status=guess
+lin back_up_N = mkN "respaldo" | mkN "copia de seguridad" ; -- status=guess status=guess
 lin backward_A = mkA "retrocompatible" ; -- status=guess
 lin backwards_A = mkA "a contrapelo" | mkA "hacia atrás" ; -- status=guess status=guess
 lin backwards_Adv = mkAdv "hacia atrás" ; -- status=guess
@@ -2812,7 +2801,7 @@ lin bandmaster_N = mkN "director_de_banda" | mkN "director_de_orquesta" | mkN "m
 lin bandoleer_N = mkN "bandolera" | mkN "canana" ; -- status=guess status=guess
 lin bandolier_N = mkN "bandolera" ; -- status=guess
 lin bandoneon_N = mkN "bandoneón" masculine ; -- status=guess
-lin bandsaw_N = mkN "sierra_de_cinta" ; --UWN
+lin band_saw_N = mkN "sierra de cinta" ; --UWN
 lin bandstand_N = mkN "escenario" | mkN "tarima" | mkN "templete" ; --UWN
 lin bandung_PN = mkPN "Bandung" ; -- status=guess src=geonames
 lin bandwidth_N = mkN "ancho de banda" ; -- status=guess
@@ -3265,7 +3254,7 @@ lin beret_N = mkN "boina" ; -- status=guess
 lin bergamo_PN = mkPN "Bérgamo" ; -- status=guess src=geonames
 lin bergen_PN = mkPN "Bergen" ; -- status=guess src=geonames
 lin bergenia_N = mkN "bergenia" ; --UWN
-lin beriberi_N = mkN "beriberi" masculine ; -- status=guess
+lin beri_beri_N = mkN "beriberi" masculine ; -- status=guess
 lin berkelium_N = mkN "berkelio" ; -- status=guess
 lin berkhamsted_PN = mkPN "Berkhamsted" ; -- status=guess src=geonames
 lin berlin_PN = mkPN "Berlín" ; -- status=guess src=geonames
@@ -3505,7 +3494,7 @@ lin bitter_A = mkA "amargado" ; -- status=guess
 lin bitter_N = mkN "bíter" masculine ; -- status=guess
 lin bittern_N = mkN "avetoro" ; -- status=guess
 lin bitterness_N = mkN "amargo" ; -- status=guess
-lin bittersweet_A = mkA "agridulce" ; -- status=guess
+lin bitter_sweet_A = mkA "agridulce" ; -- status=guess
 lin bitumen_N = mkN "betún" ; --UWN
 lin bivalve_N = mkN "bivalvo" ; -- status=guess
 lin bivouac_N = mkN "vivaque" masculine ; -- status=guess
@@ -3646,10 +3635,10 @@ lin blonde_A = mkA "rubio" ; --UWN
 lin blonde_N = mkN "rubio" ; --UWN
 lin blood_N = L.blood_N ;
 lin blood_V2 = mkV2 (ensangrentar_V) ; -- status=guess, src=wikt
-lin bloodbath_N = mkN "baño de sangre" ; -- status=guess
+lin blood_bath_N = mkN "baño de sangre" ; -- status=guess
 lin bloodhound_N = mkN "sabueso" ; -- status=guess
 lin bloodiness_N = mkN "sanguinario" ; --UWN
-lin bloodletting_N = mkN "baño_de_sangre" | mkN "carnicería" | mkN "derramamiento_de_sangre" | mkN "matanza" ; --UWN
+lin blood_letting_N = mkN "baño de sangre" | mkN "carnicería" | mkN "derramamiento de sangre" | mkN "matanza" ; --UWN
 lin bloodlust_N = mkN "sed de sangre" ; -- status=guess
 lin bloodroot_N = mkN "sanguinaria" ; -- status=guess
 lin bloodshed_N = mkN "derramamiento de sangre" ; -- status=guess
@@ -3694,7 +3683,7 @@ lin blue_V2 = mkV2 (mkV "azular") ; -- status=guess, src=wikt
 lin blueberry_N = mkN "arándano" | mkN "mora azul" | mkN "arándano azul" ; -- status=guess status=guess status=guess
 lin bluebird_N = mkN "azulejo" ; -- status=guess
 lin bluefish_N = mkN "pescado_azul" ; --UWN
-lin bluejacket_N = mkN "guardia_marina" | mkN "marinero" | mkN "navegante" ; --UWN
+lin blue_jacket_N = mkN "guardia_marina" | mkN "marinero" | mkN "navegante" ; --UWN
 lin blueprint_N = mkN "hoja de ruta" ; -- status=guess
 lin bluethroat_N = mkN "pechiazul" masculine ; -- status=guess
 lin bluetongue_N = mkN "lengua azul" ; -- status=guess
@@ -3795,9 +3784,9 @@ lin bombardment_N = mkN "bombardeo" ; -- status=guess
 lin bombastic_A = mkA "bombástico" ; -- status=guess
 lin bomber_N = mkN "bombardero" ; -- status=guess
 lin bombie_N = mkN "bombie" ; --UWN
-lin bombproof_A = mkA "a prueba de bombas" ; -- status=guess
+lin bomb_proof_A = mkA "a prueba de bombas" ; -- status=guess
 lin bombshell_N = mkN "pibón" ; -- status=guess
-lin bombsight_N = mkN "mira_de_bombardeo" | mkN "visor_de_bombardeo" ; --UWN
+lin bomb_sight_N = mkN "mira_de_bombardeo" | mkN "visor_de_bombardeo" ; --UWN
 lin bon_mot_N = mkN "agudeza" | mkN "comentario_ingenioso" | mkN "dicho" | mkN "proverbio" ; --UWN
 lin bona_fide_A = mkA "auténtico" | mkA "original" ; --UWN
 lin bonbon_N = mkN "bombón" | mkN "caramelo" ; --UWN
@@ -3890,7 +3879,6 @@ lin borrow_V2 = mkV2 (mkV (mkV "tomar") "prestado") ; -- status=guess
 lin borrow_VV = mkVV (mkV (mkV "tomar") "prestado") ; -- status=guess
 lin borrowing_N = mkN "adopción" ; --UWN
 lin borsch_N = mkN "borscht" ; --UWN
-lin bortsch_N = mkN "borscht" ; --UWN
 lin borzoi_N = mkN "borzoi" masculine ; -- status=guess
 lin bosc_N = mkN "Bosc" ; --UWN
 lin boskopoid_A = mkA "boskopoide" ; --UWN
@@ -3961,7 +3949,6 @@ lin bow_N = mkN "proa" masculine ; -- status=guess
 lin bow_V = mkV "arquearse" ; -- status=guess
 lin bow_V2 = mkV2 (mkV "arquearse") ; -- status=guess
 lin bowel_N = mkN "entrañas" feminine ; -- status=guess
-lin bowels_N = mkN "profundidades" feminine | mkN "entrañas" feminine ; -- status=guess status=guess
 lin bower_N = mkN "tocador" masculine ; -- status=guess
 lin bowl_N = mkN "tazón" | mkN "cuenco" ; -- status=guess
 lin bowl_V = variants {} ; --
@@ -4096,7 +4083,7 @@ lin bream_N = mkN "brema" | mkN "platica" ; -- status=guess status=guess
 lin breast_N = L.breast_N ;
 lin breastfeed_V = mkV (mkV "dar") "teta" | mkV (mkV "dar") "de mamar" | mkV "lactar" | mkV (mkV "dar") "el pecho" ; -- status=guess, src=wikt status=guess, src=wikt status=guess, src=wikt status=guess, src=wikt
 lin breastfeed_V2 = mkV2 (mkV (mkV "dar") "teta") | mkV2 (mkV (mkV "dar") "de mamar") | mkV2 (mkV "lactar") | mkV2 (mkV (mkV "dar") "el pecho") ; -- status=guess, src=wikt status=guess, src=wikt status=guess, src=wikt status=guess, src=wikt
-lin breastplate_N = mkN "patrocinio" | mkN "pechera" | mkN "peto" | mkN "plastrón" | mkN "égida" ; --UWN
+lin breast_plate_N = mkN "patrocinio" | mkN "pechera" | mkN "peto" | mkN "plastrón" | mkN "égida" ; --UWN
 lin breaststroke_N = mkN "braza" masculine | mkN "estilo braza" ; -- status=guess status=guess
 lin breaststroker_N = mkN "nadador_de_pecho" ; --UWN
 lin breastwork_N = mkN "parapeto" ; -- status=guess
@@ -4341,7 +4328,7 @@ lin build_V2 = mkV2 (construir_V) | mkV2 (mkV "edificar") ;
 lin build_up_V2 = prepV2 OP_build_V OP_up_Prep ; -- guess-p-verb
 lin builder_N = mkN "constructor" ; -- status=guess
 lin building_N = mkN "edificio" | mkN "construcción" feminine ;
-lin buildup_N = mkN "concentración" ; --UWN
+lin build_up_N = mkN "concentración" ; --UWN
 lin built_in_A = mkA "inherente" | mkA "intrínseco" ; --UWN
 lin bulb_N = mkN "bulbo" ; -- status=guess
 lin bulgaria_PN = mkPN "Bulgaria" ; -- status=guess src=geonames
@@ -4456,7 +4443,7 @@ lin burnous_N = mkN "albornoz" ; --UWN
 lin burnouse_N = mkN "albornoz" ; --UWN
 lin burntisland_PN = mkPN "Burntisland" ; -- status=guess src=geonames
 lin burntwood_PN = mkPN "Burntwood" ; -- status=guess src=geonames
-lin burnup_N = mkN "consumo" ; --UWN
+lin burn_up_N = mkN "consumo" ; --UWN
 lin burp_N = mkN "eructo" ; -- status=guess
 lin burp_V = mkV "eructar" ; -- status=guess, src=wikt
 lin burp_V2 = mkV2 (mkV "eructar") ; -- status=guess, src=wikt
@@ -4566,7 +4553,7 @@ lin cabbage_N = mkN "col" feminine ; -- status=guess
 lin caber_N = mkN "tronco" ; --UWN
 lin cabin_N = mkN "cabaña" ; -- status=guess
 lin cabinet_N = mkN "armario" ;
-lin cabinetmaker_N = mkN "ebanista" masculine ; -- status=guess
+lin cabinet_maker_N = mkN "ebanista" masculine ; -- status=guess
 lin cabinetmaking_N = mkN "carpintería" | mkN "carpintería_de_obra" ; --UWN
 lin cabinetwork_N = mkN "ebanistería" ; --UWN
 lin cable_N = mkN "teleférico" ; -- status=guess
@@ -4729,7 +4716,7 @@ lin campaign_V = variants {} ; --
 lin campaigner_N = mkN "candidato" ; --UWN
 lin campanula_N = mkN "campánula" ; --UWN
 lin campbeltown_PN = mkPN "Campbeltown" ; -- status=guess src=geonames
-lin campfire_N = mkN "fogata" | mkN "hoguera" ; -- status=guess status=guess
+lin camp_fire_N = mkN "fogata" | mkN "hoguera" ; -- status=guess status=guess
 lin camphor_N = mkN "alcanfor" masculine ; -- status=guess
 lin camphorated_A = mkA "alcanforado" ; --UWN
 lin camping_N = mkN "camping" masculine ; -- status=guess
@@ -4759,7 +4746,7 @@ lin candidacy_N = mkN "candidatura" ; -- status=guess
 lin candidateFem_N = mkN "candidato" ; --UWN
 lin candidateMasc_N = mkN "candidato" ;
 lin candle_N = mkN "vela" | mkN "candela" | mkN "cirio" ; -- status=guess
-lin candlepower_N = mkN "candela" ; -- status=guess
+lin candle_power_N = mkN "candela" ; -- status=guess
 lin candlestick_N = mkN "candelero" | mkN "candelabro" ; -- status=guess status=guess
 lin candlewick_N = mkN "pabilo" ; -- status=guess
 lin candor_N = mkN "candor" ; -- status=guess
@@ -5087,7 +5074,6 @@ lin catarrh_N = mkN "catarro" ; -- status=guess
 lin catarrhal_A = mkA "catarral" ; --UWN
 lin catastrophe_N = mkN "catástrofe" feminine ; -- status=guess
 lin catastrophic_A = mkA "catastrófico" ; -- status=guess
-lin catastrophically_Adv = mkAdv "catastróficamente" ; --UWN
 lin catatonia_N = mkN "catatonia" ; -- status=guess
 lin catatonic_A = mkA "catatónico" ; -- status=guess
 lin catcall_N = mkN "rechifla" | mkN "abucheo" ; -- status=guess status=guess
@@ -5384,7 +5370,6 @@ lin character_1_N = mkN "carácter" ;
 lin character_2_N = mkN "personaje" ;
 lin characteristic_A = mkA "característico" ; -- status=guess
 lin characteristic_N = mkN "característica" ; -- status=guess
-lin characteristically_Adv = mkAdv "característicamente" ; -- status=guess
 lin characterization_N = mkN "actuación" | mkN "interpretación" | mkN "representación" ; --UWN
 lin characterize_V2 = mkV2 (mkV "caracterizar") ; -- status=guess
 lin charade_N = mkN "charada" ; -- status=guess
@@ -5574,7 +5559,7 @@ lin chilly_A = mkA "frío" ; -- status=guess
 lin chime_N = mkN "campanas_tubulares" | mkN "gong" ; --UWN
 lin chimera_N = mkN "quimera" ; -- status=guess
 lin chimney_N = mkN "tubo" ; -- status=guess
-lin chimneysweep_N = mkN "deshollinador" | mkN "limipa_chimeneas" ; --UWN
+lin chimney_sweep_N = mkN "deshollinador" | mkN "limipa_chimeneas" ; --UWN
 lin chimneysweeper_N = mkN "deshollinador" | mkN "limipa_chimeneas" ; --UWN
 lin chimpanzee_N = mkN "chimpancé" ; -- status=guess
 lin chin_N = mkN "barbilla" | mkN "mentón" masculine | mkN "pera" ; -- status=guess
@@ -5694,7 +5679,6 @@ lin chromosomal_A = mkA "cromosómico" ; -- status=guess
 lin chromosome_N = mkN "cromosoma" masculine ; -- status=guess
 lin chromosphere_N = mkN "cromosfera" ; -- status=guess
 lin chronic_A = mkA "crónico" ; -- status=guess
-lin chronically_Adv = mkAdv "crónicamente" ; -- status=guess
 lin chronicle_N = mkN "crónica" ; -- status=guess
 lin chronicler_N = mkN "cronista" ; --UWN
 lin chronological_A = mkA "cronológico" ; -- status=guess
@@ -5870,7 +5854,7 @@ lin cleaning_N = mkN "limpieza" ; --UWN
 lin cleanliness_N = mkN "limpieza" ; -- status=guess
 lin cleanly_A = mkA "limpio" ; --UWN
 lin cleanse_V2 = mkV2 (mkV "limpiar") | mkV2 (mkV "lavar") | mkV2 (mkV "purificar") ; -- status=guess, src=wikt status=guess, src=wikt status=guess, src=wikt
-lin cleanup_N = mkN "limpieza" ; -- status=guess
+lin clean_up_N = mkN "limpieza" ; -- status=guess
 lin clear_A = mkA "claro" ;
 lin clear_V = mkV "aclararse" | mkV "despejarse" ;
 lin clear_V2 = mkV2 (mkV "clarificar") | mkV2 (mkV "aclarar") | mkV2 (mkV "despejar") | mkV2 (mkV "desobstruir") ; --- split
@@ -5911,11 +5895,10 @@ lin client_N = mkN "cliente" masculine ;
 lin clientage_N = mkN "clientelismo" ; --UWN
 lin clientele_N = mkN "clientela" | mkN "distinguida clientela" ; -- status=guess status=guess
 lin cliff_N = mkN "acantilado" | mkN "precipicio" | mkN "risco" ; -- status=guess
-lin cliffhanger_N = mkN "al borde del precipio" | mkN "al borde del abismo" | mkN "pendiendo sobre el abismo" ; -- status=guess status=guess status=guess
+lin cliff_hanger_N = mkN "al borde del precipio" | mkN "al borde del abismo" | mkN "pendiendo sobre el abismo" ; -- status=guess status=guess status=guess
 lin clifford_PN = mkPN "Clifford" ; -- status=guess src=geonames
 lin climate_N = mkN "clima" masculine ; -- status=guess
 lin climatic_A = mkA "climático" ; -- status=guess
-lin climatically_Adv = mkAdv "climáticamente" ; --UWN
 lin climatologist_N = mkN "climatólogo" ; -- status=guess
 lin climatology_N = mkN "climatología" ; -- status=guess
 lin climax_N = mkN "clímax" masculine ; -- status=guess
@@ -5974,10 +5957,10 @@ lin close_out_V2 = prepV2 OP_close_V OP_out_Prep ; -- guess-p-verb
 lin close_up_V = advV OP_close_V OP_up_Adv ; -- guess-p-verb
 lin close_up_V2 = prepV2 OP_close_V OP_up_Prep ; -- guess-p-verb
 lin closed_A = variants {} ; --
-lin closefisted_A = mkA "rancio" ; --UWN
+lin close_fisted_A = mkA "rancio" ; --UWN
 lin closeness_N = mkN "cercanía" ; -- status=guess
 lin closet_N = mkN "ropero" | mkN "armario" | mkN "clóset" masculine ; -- status=guess status=guess status=guess
-lin closeup_N = mkN "acercamiento" | mkN "closeup" ; --UWN
+lin close_up_N = mkN "acercamiento" | mkN "closeup" ; --UWN
 lin closing_N = mkN "clausura" ; -- status=guess
 lin clostridium_N = mkN "clostridia" | mkN "clostridium" ; --UWN
 lin closure_N = mkN "cierre" feminine ; -- status=guess
@@ -6124,7 +6107,7 @@ lin coerce_V2 = mkV2 (coercer_V) ; -- status=guess, src=wikt
 lin coercion_N = mkN "coerción" feminine ; -- status=guess
 lin coetaneous_A = mkA "contemporáneo" ; --UWN
 lin coeval_A = mkA "coetáneo" | mkA "contemporáneo" ; -- status=guess status=guess
-lin coexist_V = mkV "coexistir" ; -- status=guess, src=wikt
+lin co_exist_V = mkV "coexistir" ; -- status=guess, src=wikt
 lin coexistence_N = mkN "coexistencia" ; -- status=guess
 lin coexistent_A = mkA "coexistente" ; -- status=guess
 lin cofactor_N = mkN "cofactor" masculine ; -- status=guess
@@ -6232,19 +6215,18 @@ lin colonizer_N = mkN "colonizador" ; --UWN
 lin colonnade_N = mkN "columnata" ; -- status=guess
 lin colonoscopy_N = mkN "colonoscopia" ; --UWN
 lin colony_N = mkN "colonia" ; -- status=guess
-lin color_A = mkA "en color" ; -- status=guess
 lin colorado_PN = mkPN "Colorado" ; -- status=guess src=geonames
 lin coloratura_N = mkN "coloratura" ; --UWN
-lin colored_A = mkA "coloreado" ; -- status=guess
 lin colorimetric_A = mkA "colorimétrico" ; --UWN
 lin colorimetry_N = mkN "colorimetría" ; -- status=guess
 lin colossus_N = mkN "coloso" ; -- status=guess
 lin colostrum_N = mkN "calostro" ; -- status=guess
+lin colour_A = mkA "en color" ; -- status=guess
 lin colour_N = mkN "color" ;
 lin colour_V = variants {} ; --
 lin colour_V2 = variants {} ; --
 lin colour_V2A = variants {} ; --
-lin coloured_A = variants {} ; --
+lin coloured_A = mkA "coloreado" ; -- status=guess
 lin colourful_A = variants {} ; --
 lin colourless_A = mkA "incoloro" ; -- status=guess
 lin colpitis_N = mkN "colpitis" | mkN "vaginitis" ; --UWN
@@ -7223,7 +7205,7 @@ lin countercurrent_N = mkN "contracorriente" feminine ; -- status=guess
 lin counterdemonstration_N = mkN "contramanifestación" ; --UWN
 lin counterdemonstrator_N = mkN "contramanifestante" ; --UWN
 lin counterespionage_N = mkN "contraespionaje" masculine ; -- status=guess
-lin counterexample_N = mkN "contraejemplo" ; --UWN
+lin counter_example_N = mkN "contraejemplo" ; --UWN
 lin counterfeit_A = mkA "contrahecho falsificado" ; -- status=guess
 lin counterfeit_N = mkN "contrahechura" ; -- status=guess
 lin counterfeit_V2 = mkV2 (mkV "falsificar") | mkV2 (contrahacer_V) ; -- status=guess, src=wikt status=guess, src=wikt
@@ -7239,7 +7221,7 @@ lin counterplot_V = mkV "contramaniobrar" ; --UWN
 lin counterpoise_N = mkN "balance" | mkN "contrapeso" | mkN "ecualizador" ; --UWN
 lin counterproductive_A = mkA "contraproducente" ; -- status=guess
 lin counterpunch_N = mkN "contraataque" | mkN "contragolpe" | mkN "quite" ; --UWN
-lin counterrevolutionary_A = mkA "antirrevolucionario" ; -- status=guess
+lin counter_revolutionary_A = mkA "antirrevolucionario" ; -- status=guess
 lin counterrevolutionist_N = mkN "contrarrevolucionario" ; --UWN
 lin countershot_N = mkN "contratiro" ; --UWN
 lin countersink_N = mkN "avellanado" ; -- status=guess
@@ -7252,7 +7234,7 @@ lin counterweight_N = mkN "contrapeso" ; -- status=guess
 lin countess_N = mkN "condesa" ; -- status=guess
 lin country_N = L.country_N ;
 lin countryman_N = mkN "paisano" | mkN "paisana" | mkN "paisanos" masculine | mkN "paisanas" feminine ; -- status=guess status=guess status=guess status=guess
-lin countryseat_N = mkN "finca" ; --UWN
+lin country_seat_N = mkN "finca" ; --UWN
 lin countryside_N = mkN "campo" ; -- status=guess
 lin county_N = mkN "condado" ;
 lin coup_N = mkN "golpe de estado" ; -- status=guess
@@ -7334,7 +7316,7 @@ lin crab_V = mkV "chillar" | mkV "disputar" | mkV "graznar" | mkV "gritar" | mkV
 lin crack_N = mkN "rendija" ; -- status=guess
 lin crack_V2 = mkV2 (mkV "agrietarse") ; -- status=guess
 lin crackbrained_A = mkA "estúpido" ; --UWN
-lin crackdown_N = mkN "represión" ; -- status=guess
+lin crack_down_N = mkN "represión" ; -- status=guess
 lin crackle_N = mkN "crujido" | mkN "chisporroteo" ; -- status=guess status=guess
 lin crackle_V = mkV "crepitar" ; -- status=guess, src=wikt
 lin crackleware_N = mkN "crackle" ; --UWN
@@ -7671,7 +7653,7 @@ lin cupidity_N = mkN "codicia" ; -- status=guess
 lin cupola_N = mkN "cúpula" ; -- status=guess
 lin cuppa_N = mkN "té" ; --UWN
 lin cuprite_N = mkN "cuprita" ; -- status=guess
-lin cupronickel_N = mkN "cuproníquel" ; --UWN
+lin cupro_nickel_N = mkN "cuproníquel" ; --UWN
 lin cur_N = mkN "chucho" | mkN "gozque" | mkN "mestizo" ; --UWN
 lin curandero_N = mkN "curandero" ; --UWN
 lin curassow_N = mkN "hoco" | mkN "mamaco" | mkN "muitú" | mkN "pajuí" | mkN "paujil" | mkN "pavón" masculine ; -- status=guess status=guess status=guess status=guess status=guess status=guess
@@ -7770,8 +7752,8 @@ lin cutlery_N = mkN "cubertería" ; -- status=guess
 lin cutlet_N = mkN "chuleta" ; -- status=guess
 lin cutoff_N = mkN "corte" masculine ; -- status=guess
 lin cutter_N = mkN "trineo" ; -- status=guess
-lin cutthroat_A = mkA "intenso" ; --UWN
-lin cutthroat_N = mkN "degollador" masculine ; -- status=guess
+lin cut_throat_A = mkA "intenso" ; --UWN
+lin cut_throat_N = mkN "degollador" masculine ; -- status=guess
 lin cutting_N = mkN "esqueje" ; -- status=guess
 lin cuttingly_Adv = mkAdv "de_forma_cortante" | mkAdv "sarcásticamente" ; --UWN
 lin cuttlefish_N = mkN "jibia" | mkN "sepia" | mkN "choco" ; -- status=guess status=guess status=guess
@@ -8019,7 +8001,7 @@ lin deathbed_N = mkN "lecho de muerte" ; -- status=guess
 lin deathblow_N = mkN "golpe_de_gracia" | mkN "golpe_mortal" ; --UWN
 lin deathly_A = variants {} ;
 lin deathly_Adv = adjAdv deathly_A ; -- derived
-lin deathrate_N = mkN "mortalidad" ; --UWN
+lin death_rate_N = mkN "mortalidad" ; --UWN
 lin deb_N = mkN "debutante" ; --UWN
 lin debacle_N = mkN "debacle" | mkN "desastre" masculine ; -- status=guess status=guess
 lin debase_V2 = mkV2 (mkV "envilecer") | mkV2 (mkV "degradar") ; -- status=guess, src=wikt status=guess, src=wikt
@@ -8312,7 +8294,6 @@ lin demobilization_N = mkN "desmovilización" feminine ; -- status=guess
 lin democracy_N = mkN "democracia" ; -- status=guess
 lin democrat_N = mkN "demócrata" masculine ; -- status=guess
 lin democratic_A = mkA "democrático" ; -- status=guess
-lin democratically_Adv = mkAdv "democráticamente" ; -- status=guess
 lin democratization_N = mkN "democratización" feminine ; -- status=guess
 lin demodulation_N = mkN "demodulación" | mkN "desmodulación" ; --UWN
 lin demographer_N = mkN "demógrafo" ; -- status=guess
@@ -8636,7 +8617,6 @@ lin diamagnetic_A = mkA "diamagnético" ; -- status=guess
 lin diamagnetism_N = mkN "diamagnetismo" ; -- status=guess
 lin diameter_N = mkN "diámetro" ; -- status=guess
 lin diametral_A = mkA "diametral" ; -- status=guess
-lin diametrically_Adv = mkAdv "diametralmente" ; -- status=guess
 lin diamond_N = mkN "diamante" masculine | mkN "gema" ; -- status=guess
 lin diamondback_N = mkN "crótalo adamantino" | mkN "cascabel diamantino del este" | mkN "crótalo diamante occidental" ; -- status=guess status=guess status=guess
 lin diapason_N = mkN "diapasón" ; --UWN
@@ -8680,7 +8660,6 @@ lin dictum_N = mkN "autorización" | mkN "declaración" | mkN "dictamen" | mkN "
 lin dicumarol_N = mkN "dicumarol" ; --UWN
 lin dicynodont_N = mkN "dicinodonto" ; -- status=guess
 lin didactic_A = mkA "didáctico" ; -- status=guess
-lin didactically_Adv = mkAdv "didácticamente" ; -- status=guess
 lin didcot_PN = mkPN "Didcot" ; -- status=guess src=geonames
 lin die_N = mkN "cuña" ; -- status=guess
 lin die_V = L.die_V ;
@@ -9287,7 +9266,7 @@ lin double_up_V = advV OP_double_V OP_up_Adv ; -- guess-p-verb
 lin double_up_as_V2 = prepV2 (advV OP_double_V OP_up_Adv ) OP_as_Prep ; -- guess-p-verb
 lin doubler_N = mkN "duplicador" ; --UWN
 lin doublet_N = mkN "jubón" masculine ; -- status=guess
-lin doublethink_N = mkN "contradicción" | mkN "doblepensar" ; --UWN
+lin double_think_N = mkN "contradicción" | mkN "doblepensar" ; --UWN
 lin doubt_N = mkN "duda" | mkN "incertidumbre" feminine ;
 lin doubt_V2 = mkV2 (mkV "dudar") ; -- status=guess
 lin doubt_VS = mkVS (mkV "dudar") ; -- status=guess
@@ -9355,12 +9334,10 @@ lin drainage_N = variants {} ; --
 lin drake_N = mkN "pato" feminine ; -- status=guess
 lin drama_N = mkN "drama" masculine ; -- status=guess
 lin dramatic_A = mkA "dramático" ; -- status=guess
-lin dramatically_Adv = mkAdv "dramáticamente" ; -- status=guess
 lin dramatics_N = mkN "teatro" ; --UWN
 lin dramatization_N = mkN "dramatización" feminine ; -- status=guess
 lin dramaturgy_N = mkN "teatro" ; --UWN
 lin drastic_A = mkA "drástico" ; -- status=guess
-lin drastically_Adv = mkAdv "drásticamente" ; -- status=guess
 lin draught_N = mkN "trago" ; -- status=guess
 lin draughts_N = mkN "damas" feminine ; -- status=guess
 lin draw_1_V2 = mkV2 (mkV "sacar") | mkV2 atraer_V ;
@@ -9650,7 +9627,6 @@ lin dyestuff_N = mkN "tinte" ; --UWN
 lin dyke_N = mkN "tortillera" | mkN "bollo" feminine ; -- status=guess status=guess
 lin dynamic_A = mkA "dinámico" ; -- status=guess
 lin dynamic_N = mkN "memoria dinámica" ; -- status=guess
-lin dynamically_Adv = mkAdv "dinámicamente" ; -- status=guess
 lin dynamics_N = mkN "dinámica" ; -- status=guess
 lin dynamism_N = mkN "dinamismo" ; -- status=guess
 lin dynamite_N = mkN "dinamita" ; -- status=guess
@@ -9956,7 +9932,6 @@ lin electromagnetism_N = mkN "electromagnetismo" ; -- status=guess
 lin electron_N = mkN "electrón" masculine ; -- status=guess
 lin electronegativity_N = mkN "electronegatividad" feminine ; -- status=guess
 lin electronic_A = mkA "electrónico" ; -- status=guess
-lin electronically_Adv = mkAdv "electrónicamente" ; -- status=guess
 lin electronics_N = mkN "electrónica" ; -- status=guess
 lin electrophoresis_N = mkN "electroforesis" feminine ; -- status=guess
 lin electrophoretic_A = mkA "cataforético" | mkA "electroforético" ; --UWN
@@ -10078,7 +10053,6 @@ lin emphasis_N = mkN "énfasis" masculine ; -- status=guess
 lin emphasize_V2 = mkV2 (mkV "subrayar") | mkV2 (mkV "enfatizar") ; -- status=guess
 lin emphasize_VS = mkVS (mkV "subrayar") | mkVS (mkV "enfatizar") ; -- status=guess
 lin emphatic_A = mkA "enfático" ; -- status=guess
-lin emphatically_Adv = mkAdv "tajantamente" | mkAdv "rotundamente" ; -- status=guess status=guess
 lin emphysema_N = mkN "enfisema" masculine ; -- status=guess
 lin empire_N = mkN "imperio" ; -- status=guess
 lin empirical_A = mkA "empírico" ; -- status=guess
@@ -10213,7 +10187,6 @@ lin enduring_A = variants {} ;
 lin enema_N = mkN "enema" masculine ; -- status=guess
 lin enemy_N = L.enemy_N ;
 lin energetic_A = mkA "enérgico" ; -- status=guess
-lin energetically_Adv = mkAdv "enérgicamente" ; -- status=guess
 lin energid_N = mkN "protoplasto" ; --UWN
 lin energy_N = mkN "energía" ;
 lin enervate_V2 = mkV2 (mkV "debilitar") | mkV2 (mkV "enervar") ; -- status=guess, src=wikt status=guess, src=wikt
@@ -10493,7 +10466,6 @@ lin ermine_N = mkN "armiño" ; -- status=guess
 lin erogenous_A = mkA "erógeno" ; -- status=guess
 lin erosion_N = mkN "erosión" feminine ; -- status=guess
 lin erotic_A = mkA "erótico" ; -- status=guess
-lin erotically_Adv = mkAdv "de manera erótica" ; -- status=guess
 lin eroticism_N = mkN "erótica" ; -- status=guess
 lin err_V = errar_V | mkV "equivocar" ; -- status=guess, src=wikt status=guess, src=wikt
 lin errand_N = mkN "recado" ; -- status=guess
@@ -10585,7 +10557,6 @@ lin ethiopia_PN = mkPN "Etiopía" ; -- status=guess src=geonames
 lin ethnarch_N = mkN "etnarca" ; --UWN
 lin ethnic_A = mkA "étnico" ; -- status=guess
 lin ethnic_N = mkN "limpieza étnica" ; -- status=guess
-lin ethnically_Adv = mkAdv "étnicamente" ; --UWN
 lin ethnicity_N = mkN "etnicidad" feminine ; -- status=guess
 lin ethnocentrism_N = mkN "etnocentrismo" ; -- status=guess
 lin ethnographic_A = mkA "etnográfico" ; -- status=guess
@@ -11202,7 +11173,7 @@ lin fatwa_N = mkN "fetua" | mkN "fatua" ; -- status=guess status=guess
 lin faucal_A = mkA "gutural" ; --UWN
 lin fauldhouse_PN = mkPN "Fauldhouse" ; -- status=guess src=geonames
 lin fault_N = mkN "defecto" | mkN "falla" ; -- status=guess
-lin faultfinding_N = mkN "criticón" | mkN "crítica_constante" | mkN "crítica_maliciosa" ; --UWN
+lin fault_finding_N = mkN "criticón" | mkN "crítica_constante" | mkN "crítica_maliciosa" ; --UWN
 lin faultless_A = mkA "impecable" | mkA "perfecto" ; -- status=guess status=guess
 lin faulty_A = mkA "defectuoso" | mkA "imperfecto" ; -- status=guess status=guess
 lin fauna_N = mkN "fauna" ; -- status=guess
@@ -11501,7 +11472,7 @@ lin fingerboard_N = mkN "traste" masculine ; -- status=guess
 lin fingering_N = mkN "insertar" | mkN "insertar" ; -- status=guess status=guess
 lin fingermark_N = mkN "huella" | mkN "huella_dactilar" | mkN "huella_digital" | mkN "imprenta" | mkN "señal" ; --UWN
 lin fingernail_N = L.fingernail_N ;
-lin fingerpost_N = mkN "poste_indicador" ; --UWN
+lin finger_post_N = mkN "poste indicador" ; --UWN
 lin fingerprint_N = mkN "huella digital" ; -- status=guess
 lin fingertip_N = mkN "yema del dedo" ; -- status=guess
 lin finish_N = mkN "meta" | mkN "fin" masculine ; -- status=guess
@@ -11565,7 +11536,7 @@ lin fish_V2 = mkV2 (mkV "pescar") ; -- status=guess
 lin fishbone_N = mkN "espina" ; -- status=guess
 lin fisher_N = mkN "pescador" masculine ; -- status=guess
 lin fisherman_N = mkN "pescador" masculine ; -- status=guess
-lin fishhook_N = mkN "hamo" | mkN "anzuelo" ; -- status=guess status=guess
+lin fish_hook_N = mkN "hamo" | mkN "anzuelo" ; -- status=guess status=guess
 lin fishing_N = mkN "barco pesquero" ; -- status=guess
 lin fishmonger_N = mkN "pescadero" | mkN "pescadera" ; -- status=guess status=guess
 lin fission_N = mkN "fisión" feminine ; -- status=guess
@@ -11669,8 +11640,8 @@ lin flaunt_V2 = mkV2 (lucir_V) | mkV2 (mkV "presumir") | mkV2 (mkV "ostentar") ;
 lin flautist_N = mkN "flautista" ; --UWN
 lin flavivirus_N = mkN "flavivirus" ; --UWN
 lin flavonoid_N = mkN "flavonoide" ; --UWN
-lin flavorer_N = mkN "condimento" ; --UWN
 lin flavour_N = mkN "sabor" masculine ; -- status=guess
+lin flavourer_N = mkN "condimento" ; --UWN
 lin flavouring_N = mkN "condimento" ; --UWN
 lin flaw_N = mkN "falla" ; -- status=guess
 lin flawless_A = mkA "impecable" | mkA "perfecto" ; -- status=guess status=guess
@@ -11737,7 +11708,7 @@ lin floodplain_N = mkN "terreno inundable" | mkN "llanura aluvial inundable" | m
 lin floor_N = L.floor_N ;
 lin floorboard_N = mkN "tabla_de_entarimado" ; --UWN
 lin flooring_N = mkN "piso" | mkN "suelo" ; --UWN
-lin floorwalker_N = mkN "jefe_de_sección" | mkN "jefe_de_ventas" ; --UWN
+lin floor_walker_N = mkN "jefe de sección" | mkN "jefe de ventas" ; --UWN
 lin flop_Adv = mkAdv "correcto" | mkAdv "de_lleno" | mkAdv "exactamente" ; --UWN
 lin flop_N = mkN "fracaso" ; -- status=guess
 lin flop_V = mkV "fracasar" ; -- status=guess, src=wikt
@@ -11891,7 +11862,7 @@ lin footmark_N = mkN "huella" | mkN "pisada" ; --UWN
 lin footnote_N = mkN "nota" | mkN "nota a pie de página" ; -- status=guess status=guess
 lin footpath_N = mkN "acera" ; -- status=guess
 lin footprint_N = mkN "pisada" | mkN "huella" ; -- status=guess status=guess
-lin footrace_N = mkN "carrera" ; --UWN
+lin foot_race_N = mkN "carrera" ; --UWN
 lin footslogger_N = mkN "infante" | mkN "peón" ; --UWN
 lin footstep_N = mkN "paso" ; -- status=guess
 lin footstool_N = mkN "reposapiés" | mkN "escabel" masculine ; -- status=guess status=guess
@@ -12127,7 +12098,7 @@ lin freelance_N = mkN "trabajador autónomo" | mkN "freelance" ; -- status=guess
 lin freelancer_N = mkN "trabajador independiente" | mkN "trabajadora independiente" ; -- status=guess status=guess
 lin freeloader_N = mkN "gorrón" masculine ; -- status=guess
 lin freesia_N = mkN "freesia" ; --UWN
-lin freestanding_A = mkA "independiente" | mkA "separado" | mkA "suelto" ; --UWN
+lin free_standing_A = mkA "independiente" | mkA "separado" | mkA "suelto" ; --UWN
 lin freeware_N = mkN "freeware" | mkN "software_gratuito" ; --UWN
 lin freeway_N = mkN "autopista" ; -- status=guess
 lin freewheel_N = mkN "piñon_libre" ; --UWN
@@ -12568,7 +12539,6 @@ lin generous_A = mkA "generoso" ; -- status=guess
 lin genesis_N = mkN "génesis" feminine ; -- status=guess
 lin genet_N = mkN "jineta" ; -- status=guess
 lin genetic_A = mkA "genético" ; -- status=guess
-lin genetically_Adv = mkAdv "genéticamente" ; -- status=guess
 lin geneticist_N = mkN "genetista" masculine ; -- status=guess
 lin genetics_N = mkN "genética" ; -- status=guess
 lin geneva_PN = mkPN "Geneva" ; -- status=guess src=geonames
@@ -12592,7 +12562,6 @@ lin gentility_N = mkN "educación" | mkN "elegancia" ; --UWN
 lin gentle_A = mkA "tranquilo" ; -- status=guess
 lin gentleman_N = mkN "caballero" ;
 lin gentleness_N = mkN "amabilidad" ; --UWN
-lin gently_Adv = mkAdv "mansamente" | mkAdv "suave" ; -- status=guess
 lin gentrification_N = mkN "aburguesamiento" ; -- status=guess
 lin genuflect_V = mkV (mkV "doblar") "la rodilla" ; -- status=guess, src=wikt
 lin genuflection_N = mkN "genuflexión" feminine ; -- status=guess
@@ -12742,7 +12711,7 @@ lin gherkin_N = mkN "pepinillo" ; -- status=guess
 lin ghetto_N = mkN "gueto" ; -- status=guess
 lin ghost_N = mkN "fantasma" masculine | mkN "espectro" | mkN "espíritu" masculine | mkN "aparecido" | mkN "aparición" feminine | mkN "sombra" | mkN "alma" masculine ; -- status=guess
 lin ghostly_A = mkA "fantasmal" ; -- status=guess
-lin ghostwriter_N = mkN "negro" ; -- status=guess
+lin ghost_writer_N = mkN "negro" ; -- status=guess
 lin ghoul_N = mkN "gul" | mkN "gol" masculine ; -- status=guess status=guess
 lin ghrelin_N = mkN "ghrelina" ; --UWN
 lin giant_A = variants {} ; --
@@ -12848,7 +12817,7 @@ lin glare_V2 = variants {} ; --
 lin glasgow_PN = mkPN "Glasgow" ; -- status=guess src=geonames
 lin glasnost_N = mkN "glásnost" masculine ; -- status=guess
 lin glass_N = mkN "vidrio" ;
-lin glassblower_N = mkN "soplador_de_vidrio" ; --UWN
+lin glass_blower_N = mkN "soplador de vidrio" ; --UWN
 lin glassful_N = mkN "vaso" ; --UWN
 lin glassmaker_N = mkN "fabricante_de_vidrio" ; --UWN
 lin glassware_N = mkN "vajilla_de_cristal" ; --UWN
@@ -12907,7 +12876,7 @@ lin glove_N = L.glove_N ;
 lin glow_N = mkN "bujía" ; -- status=guess
 lin glow_V = fulgir_V | mkV "fulgurar" | mkV "iluminar" | mkV "brillar" | mkV "arder" | resplandecer_V | mkV (mkV "estar") "al rojo vivo" ; -- status=guess
 lin glower_V = mkV "fruncir" ; --UWN
-lin glowworm_N = mkN "luciérnaga" ; -- status=guess
+lin glow_worm_N = mkN "luciérnaga" ; -- status=guess
 lin glucagon_N = mkN "glucagón" ; --UWN
 lin glucosamine_N = mkN "glucosamina" ; --UWN
 lin glucose_N = mkN "glucosa" ; -- status=guess
@@ -13457,7 +13426,7 @@ lin guideline_N = mkN "directriz" | mkN "pauta" ; -- status=guess
 lin guidepost_N = mkN "pauta" ; --UWN
 lin guild_N = mkN "asociación" | mkN "club" | mkN "clube" | mkN "fraternidad" | mkN "gremio" | mkN "sociedad" ; --UWN
 lin guildford_PN = mkPN "Guildford" ; -- status=guess src=geonames
-lin guildhall_N = mkN "oficina_gremial" ; --UWN
+lin guild_hall_N = mkN "oficina gremial" ; --UWN
 lin guile_N = mkN "astucia" ; -- status=guess
 lin guillemot_N = mkN "arao" ; -- status=guess
 lin guillotine_N = mkN "guillotina" ; -- status=guess
@@ -13767,7 +13736,7 @@ lin hardcover_N = mkN "tapa dura" ; -- status=guess
 lin harden_V = endurecer_V ; -- status=guess, src=wikt
 lin harden_V2 = mkV2 (endurecer_V) ; -- status=guess, src=wikt
 lin hardening_N = mkN "endurecimiento" ; -- status=guess
-lin hardheaded_A = mkA "pragmático" ; -- status=guess
+lin hard_headed_A = mkA "pragmático" ; -- status=guess
 lin hardly_AdV = mkAdV "apenas" | adjAdv hard_2_A ; -- derived
 lin hardness_N = mkN "dureza" ; -- status=guess
 lin hardscrabble_A = mkA "insignificante" | mkA "marginal" ; --UWN
@@ -13793,7 +13762,6 @@ lin harmless_A = mkA "inocuo" | mkA "inofensivo" ; -- status=guess status=guess
 lin harmonic_A = mkA "armónico" ; -- status=guess
 lin harmonic_N = mkN "función armónica" ; -- status=guess
 lin harmonica_N = mkN "armónica" | mkN "harmónica" ; -- status=guess status=guess
-lin harmonically_Adv = mkAdv "armónicamente" | mkAdv "en_términos_armónicos" ; --UWN
 lin harmonium_N = mkN "órgano" ; --UWN
 lin harmony_N = mkN "armonía" ; -- status=guess
 lin harness_N = mkN "arnés" masculine ; -- status=guess
@@ -13996,7 +13964,7 @@ lin heavily_Adv = adjAdv heavy_A ; -- -- derived
 lin heaviness_N = mkN "agobio" | mkN "molestia" | mkN "opresión" | mkN "pesadez" ; --UWN
 lin heavy_A = L.heavy_A ;
 lin heavy_N = mkN "metal pesado" ; -- status=guess
-lin heavyhearted_A = mkA "triste" ; --UWN
+lin heavy_hearted_A = mkA "triste" ; --UWN
 lin heavyweight_N = mkN "figura" | mkN "monstruo" ; --UWN
 lin hebdomadal_A = mkA "semanal" ; --UWN
 lin hebetude_N = mkN "embotamiento" | mkN "entorpecimiento" | mkN "embrutecimento" | mkN "alelamiento" ; -- status=guess status=guess status=guess status=guess
@@ -14162,7 +14130,6 @@ lin herne_PN = mkPN "Herne" ; -- status=guess src=geonames
 lin hernia_N = mkN "hernia" ; -- status=guess
 lin hero_N = mkN "héroe" masculine ; -- status=guess
 lin heroic_A = mkA "heroico" ; -- status=guess
-lin heroically_Adv = mkAdv "heroicamente" ; -- status=guess
 lin heroin_N = mkN "heroína" ; -- status=guess
 lin heroine_N = mkN "heroína" ; -- status=guess
 lin heroism_N = mkN "heroísmo" ; -- status=guess
@@ -14222,7 +14189,7 @@ lin hide_away_V2 = mkV2 (advV OP_hide_V OP_away_Adv ) ; -- guess-p-verb
 lin hide_out_V = advV OP_hide_V OP_out_Adv ; -- guess-p-verb
 lin hideous_A = mkA "discordante" | mkA "ruidoso" | mkA "estridente" ; -- status=guess status=guess status=guess
 lin hideousness_N = mkN "horridez" ; --UWN
-lin hideout_N = mkN "guarida" | mkN "escondrijo" | mkN "escondite" masculine ; -- status=guess status=guess status=guess
+lin hide_out_N = mkN "guarida" | mkN "escondrijo" | mkN "escondite" masculine ; -- status=guess status=guess status=guess
 lin hidrotic_A = mkA "hidrótico" ; --UWN
 lin hie_V = mkV "apresurarse" | mkV (mkV "darse") "prisa" ; -- status=guess, src=wikt status=guess, src=wikt
 lin hierarch_N = mkN "arcipreste" | mkN "cardenal" | mkN "jerarca" | mkN "prelado" | mkN "prelatura" | mkN "primado" | mkN "sumo_sacerdote" ; --UWN
@@ -14231,7 +14198,6 @@ lin hierarchy_N = mkN "jerarquía" ; -- status=guess
 lin hieratic_A = mkA "hierático" ; -- status=guess
 lin hierocracy_N = mkN "hierocracia" ; --UWN
 lin hieroglyph_N = mkN "jeroglífico" ; -- status=guess
-lin hieroglyphically_Adv = mkAdv "jeroglíficamente" ; --UWN
 lin high_A = mkA "alto" ;
 lin high_Adv = mkAdv "alto" ;
 lin high_N = mkN "luz larga" | mkN "luz de carretera" ; -- status=guess status=guess
@@ -14258,7 +14224,7 @@ lin hiker_N = mkN "caminante" masculine ; -- status=guess
 lin hilarious_A = mkA "hilarante" ; -- status=guess
 lin hilarity_N = mkN "júbilo" ; --UWN
 lin hill_N = L.hill_N ;
-lin hillbilly_N = mkN "hillbilly" ; --UWN
+lin hill_billy_N = mkN "hillbilly" ; --UWN
 lin hillock_N = mkN "cerrito" | mkN "collado" | mkN "colina" ; -- status=guess status=guess status=guess
 lin hilltop_N = mkN "cima" | mkN "cumbre" ; --UWN
 lin hilly_A = mkA "montuoso" ; -- status=guess
@@ -14278,7 +14244,7 @@ lin hint_V2 = mkV2 (mkV (mkV "dar") "un indicio") ; -- status=guess
 lin hint_VS = mkVS (mkV (mkV "dar") "un indicio") ; -- status=guess
 lin hinterland_N = mkN "interior" ; --UWN
 lin hip_N = mkN "cadera" ; -- status=guess
-lin hipflask_N = mkN "petaca" | mkN "petaca_de_bolsillo" ; --UWN
+lin hip_flask_N = mkN "petaca" | mkN "petaca de bolsillo" ; --UWN
 lin hippie_N = mkN "hippie" | mkN "hippy" masculine ; -- status=guess status=guess
 lin hippocampus_N = mkN "hipocampo" ; -- status=guess
 lin hippodrome_N = mkN "hipódromo" ; -- status=guess
@@ -14414,11 +14380,11 @@ lin homage_N = mkN "homenaje" masculine ; -- status=guess
 lin home_Adv = mkAdv "a casa" ;
 lin home_N = mkN "hogar" ;
 lin homecoming_N = mkN "regreso" | mkN "vuelta" ; --UWN
-lin homegrown_A = mkA "de cosecha propia" | mkA "casero" ; -- status=guess status=guess
+lin home_grown_A = mkA "de cosecha propia" | mkA "casero" ; -- status=guess status=guess
 lin homeland_N = mkN "patria" | mkN "tierra natal" ; -- status=guess status=guess
 lin homeless_A = mkA "sin hogar" | mkA "desamparado" ; -- status=guess
 lin homeliness_N = mkN "vulgaridad" ; --UWN
-lin homemade_A = mkA "hecho en casa" ; -- status=guess
+lin home_made_A = mkA "hecho en casa" ; -- status=guess
 lin homemaking_N = mkN "economía_doméstica" ; --UWN
 lin homeobox_N = mkN "homeobox" ; --UWN
 lin homeopath_N = mkN "homeópata" ; --UWN
@@ -14478,7 +14444,7 @@ lin hook_V = mkV "enganchar" ; -- status=guess
 lin hook_V2 = mkV2 (mkV "enganchar") ; -- status=guess
 lin hookah_N = mkN "narguile" masculine ; -- status=guess
 lin hooker_N = mkN "puta" masculine ; -- status=guess
-lin hookup_N = mkN "montaje" ; --UWN
+lin hook_up_N = mkN "montaje" ; --UWN
 lin hooky_N = mkN "absentismo" | mkN "ausentismo" | mkN "ausentismo_escolar" | mkN "cimarra" | mkN "inasistencia_escolar" | mkN "rabona" ; --UWN
 lin hooligan_N = mkN "gamberro" | mkN "gamberra" | mkN "vándalo" | mkN "vándala" | mkN "hooligan" masculine ; -- status=guess status=guess status=guess status=guess status=guess
 lin hooliganism_N = mkN "vandalismo" ; --UWN
@@ -14567,7 +14533,7 @@ lin hotchpotch_N = mkN "hotchpotch" ; --UWN
 lin hotdog_N = mkN "frankfurt" ; --UWN
 lin hotel_N = mkN "hotel" ; -- hostel: mkN "albergue" masculine ;
 lin hotelier_N = mkN "administrador_de_hotel" | mkN "hostelero" | mkN "hotelero" ; --UWN
-lin hotheaded_A = mkA "fogoso" | mkA "impetuoso" | mkA "exaltado" ; -- status=guess status=guess status=guess
+lin hot_headed_A = mkA "fogoso" | mkA "impetuoso" | mkA "exaltado" ; -- status=guess status=guess status=guess
 lin hotplate_N = mkN "hornillo" | mkN "placa eléctrica" ; -- status=guess status=guess
 lin houghton_PN = mkPN "Houghton" ; -- status=guess src=geonames
 lin hound_N = mkN "perro de caza" | mkN "sabueso" ; -- status=guess status=guess
@@ -14805,7 +14771,6 @@ lin hypnophobia_N = mkN "somnifobia" ; --UWN
 lin hypnosis_N = mkN "hipnosis" masculine ; -- status=guess
 lin hypnotherapy_N = mkN "hipnoterapia" ; -- status=guess
 lin hypnotic_A = mkA "hipnótico" ; -- status=guess
-lin hypnotically_Adv = mkAdv "hipnóticamente" ; --UWN
 lin hypnotism_N = mkN "hipnotismo" ; -- status=guess
 lin hypnotist_N = mkN "hipnotizador" masculine ; -- status=guess
 lin hypnotize_V2 = mkV2 (mkV "hipnotizar") ; -- status=guess, src=wikt
@@ -14835,7 +14800,6 @@ lin hypospadias_N = mkN "hipospadias" ; --UWN
 lin hypotension_N = mkN "hipotensión" feminine ; -- status=guess
 lin hypotenuse_N = mkN "hipotenusa" ; -- status=guess
 lin hypothalamic_A = mkA "hipotalámico" ; --UWN
-lin hypothalamically_Adv = mkAdv "del_hipotálamo" ; --UWN
 lin hypothalamus_N = mkN "hipotálamo" ; -- status=guess
 lin hypothermia_N = mkN "hipotermia" ; -- status=guess
 lin hypothesis_N = mkN "hipótesis" feminine ; -- status=guess
@@ -14875,7 +14839,7 @@ lin icehouse_N = mkN "heladera" ; --UWN
 lin iceland_PN = mkPN "Islandia" ; -- status=guess src=geonames
 lin iceman_N = mkN "sicario" ; --UWN
 lin icepick_N = mkN "punzón de hielo" ; -- status=guess
-lin icetray_N = mkN "cubeta_para_hielo" ; --UWN
+lin ice_tray_N = mkN "cubeta_para_hielo" ; --UWN
 lin ichthyologist_N = mkN "ictiólogo" ; -- status=guess
 lin ichthyology_N = mkN "ictiología" ; -- status=guess
 lin ichthyosaur_N = mkN "ichthyosauria" ; --UWN
@@ -15474,7 +15438,7 @@ lin informality_N = mkN "informalidad" feminine ; -- status=guess
 lin informant_N = mkN "fuente" ; --UWN
 lin information_N = mkN "información" feminine ;
 lin informative_A = mkA "informativo" ; -- status=guess
-lin infrared_A = mkA "infrarrojo" ; -- status=guess
+lin infra_red_A = mkA "infrarrojo" ; -- status=guess
 lin infrared_N = mkN "infrarrojo" ; -- status=guess
 lin infrastructure_N = mkN "infraestructura" ; -- status=guess
 lin infrequency_N = mkN "infrecuencia" | mkN "rareza" | mkN "singularidad" ; --UWN
@@ -15562,7 +15526,7 @@ lin inopportune_A = mkA "inoportuno" ; --UWN
 lin inordinate_A = mkA "excesivo" ; --UWN
 lin inorganic_A = mkA "inorgánico" ; -- status=guess
 lin inosine_N = mkN "inosina" ; --UWN
-lin inpatient_N = mkN "paciente" masculine ; -- status=guess
+lin in_patient_N = mkN "paciente" masculine ; -- status=guess
 lin inpouring_N = mkN "afluir" | mkN "avalancha" | mkN "corriente_interna" ; --UWN
 lin input_N = mkN "insumo" ; -- status=guess
 lin inquest_N = variants {} ; --
@@ -15849,7 +15813,6 @@ lin intrepidity_N = mkN "intrepidez" | mkN "valentía" ; --UWN
 lin intricacy_N = mkN "complejidad" | mkN "detalle" | mkN "elaboración" ; --UWN
 lin intricate_A = mkA "intrincado" ; -- status=guess
 lin intrinsic_A = mkA "intrínseco" ; -- status=guess
-lin intrinsically_Adv = mkAdv "intrínsecamente" ; -- status=guess
 lin intro_N = mkN "intro" ; -- status=guess
 lin introduce_V2 = mkV2 introducir_V | mkV2 (mkV "presentar") ;
 lin introduction_N = mkN "introducción" feminine ;
@@ -16237,7 +16200,6 @@ lin journal_N = mkN "bitácora" ; -- status=guess
 lin journalism_N = mkN "periodismo" ; -- status=guess
 lin journalist_N = mkN "periodista" masculine ; -- status=guess
 lin journalistic_A = mkA "periodístico" ; -- status=guess
-lin journalistically_Adv = mkAdv "periodísticamente" ; --UWN
 lin journey_N = mkN "viaje" masculine | mkN "jornada" ; -- status=guess
 lin journey_V = mkV "viajar" ; -- status=guess, src=wikt
 lin joust_N = mkN "justa" ; -- status=guess
@@ -16250,7 +16212,7 @@ lin joyful_A = mkA "alegre" | mkA "gozoso" ; -- status=guess status=guess
 lin joyless_A = mkA "triste" | mkA "amargado" ; -- status=guess status=guess
 lin joylessness_N = mkN "tristeza" ; --UWN
 lin joyous_A = mkA "alegre" ; --UWN
-lin joystick_N = mkN "palanca de mando" ; -- status=guess
+lin joy_stick_N = mkN "palanca de mando" ; -- status=guess
 lin jubilation_N = mkN "regocijo" | mkN "júbilo" ; -- status=guess status=guess
 lin jubilee_N = mkN "jubileo" ; -- status=guess
 lin judas_N = mkN "mirilla" | mkN "ojo_mágico" ; --UWN
@@ -16944,8 +16906,8 @@ lin lay_out_V2 = prepV2 OP_lay_V OP_out_Prep ; -- guess-p-verb
 lin layabout_N = mkN "holgazán" masculine ; -- status=guess
 lin layer_N = mkN "gallina ponedora" | mkN "onedora" ; -- status=guess
 lin layman_N = mkN "laico" | mkN "lego" ; -- status=guess status=guess
-lin layoff_N = mkN "despido" ; -- status=guess
-lin layout_N = mkN "replanteo" | mkN "plano de replanteo" ; -- status=guess
+lin lay_off_N = mkN "despido" ; -- status=guess
+lin lay_out_N = mkN "replanteo" | mkN "plano de replanteo" ; -- status=guess
 lin layover_N = mkN "escala" | mkN "parada en el camino" ; -- status=guess status=guess
 lin laze_V = mkV "holgazanear" ; -- status=guess, src=wikt
 lin laze_V2 = mkV2 (mkV "holgazanear") ; -- status=guess, src=wikt
@@ -17151,7 +17113,6 @@ lin letters_N = mkN "cédula de privilegio" | mkN "patente de privilegio" ; -- s
 lin lettuce_N = mkN "lechuga" ; -- status=guess
 lin leucine_N = mkN "leucina" ; -- status=guess
 lin leukaemia_N = mkN "leucemia" ; --UWN
-lin leukemia_N = mkN "leucemia" ; --UWN
 lin leukocyte_N = mkN "leucocito" ; -- status=guess
 lin leukocytosis_N = mkN "leucocitosis" ; --UWN
 lin leukoencephalitis_N = mkN "leucoencefalitis" ; --UWN
@@ -17251,10 +17212,10 @@ lin life_N = mkN "vida" feminine ;
 lin lifeboat_N = mkN "bote salvavidas" ; -- status=guess
 lin lifeguard_N = mkN "socorrista" | mkN "guardavidas" | mkN "bañero" | mkN "salvavidas" masculine ; -- status=guess status=guess status=guess status=guess
 lin lifelike_A = mkA "natural" | mkA "verosímil" ; -- status=guess status=guess
-lin lifespan_N = variants {} ; --
+lin life_span_N = variants {} ; --
 lin lifestyle_N = variants {} ; --
 lin lifetime_N = mkN "vida" masculine | mkN "toda la vida" ; -- status=guess
-lin lifework_N = mkN "actividad_principal" ; --UWN
+lin life_work_N = mkN "actividad principal" ; --UWN
 lin lift_N = mkN "ascensor" ; -- status=guess
 lin lift_V = mkV "levantar" | mkV "subir" ;
 lin lift_V2 = mkV2 (mkV "levantar") | mkV2 (mkV "subir") ;
@@ -17337,10 +17298,10 @@ lin lineage_N = mkN "linaje" | mkN "estirpe" feminine ; -- status=guess status=g
 lin lineament_N = mkN "facción" | mkN "rasgo" ; --UWN
 lin linear_A = mkA "lineal" ; -- status=guess
 lin linen_N = mkN "ropa blanca" ; -- status=guess
-lin linendraper_N = mkN "chatarrero" ; --UWN
+lin linen_draper_N = mkN "chatarrero" ; --UWN
 lin liner_N = mkN "transatlántico" ; -- status=guess
 lin linesman_N = mkN "chispa" ; --UWN
-lin lineup_N = mkN "formación" ; --UWN
+lin line_up_N = mkN "formación" ; --UWN
 lin linger_V = mkV "pervivir" ; -- status=guess
 lin lingerie_N = mkN "ropa blanca" | mkN "ropa interior" | mkN "ropa íntima" | mkN "lencería" ; -- status=guess status=guess status=guess status=guess
 lin lingo_N = mkN "patois" ; --UWN
@@ -17589,10 +17550,9 @@ lin logician_N = mkN "lógico" | mkN "lógica" ; -- status=guess status=guess
 lin logicism_N = mkN "logicismo" ; --UWN
 lin logistic_A = mkA "logístico" ; --UWN
 lin logistics_N = mkN "logística" ; -- status=guess
-lin logjam_N = mkN "atascamiento" | mkN "bloqueo" | mkN "obstrucción" feminine | mkN "callejón sin salida" | mkN "círculo vicioso" | mkN "pescadilla que se muerde la cola" ; -- status=guess status=guess status=guess status=guess status=guess status=guess
+lin log_jam_N = mkN "atascamiento" | mkN "bloqueo" | mkN "obstrucción" feminine | mkN "callejón sin salida" | mkN "círculo vicioso" | mkN "pescadilla que se muerde la cola" ; -- status=guess status=guess status=guess status=guess status=guess status=guess
 lin logo_N = mkN "logotipo" ; -- status=guess
 lin logogrammatic_A = mkA "logografico" | mkA "logogramatico" ; --UWN
-lin logogrammatically_Adv = mkAdv "logogramaticalmente" ; --UWN
 lin logwood_N = mkN "palo campeche" | mkN "campeche" | mkN "palo tinta" ; -- status=guess status=guess status=guess
 lin loin_N = mkN "lomos" masculine ; -- status=guess
 lin loincloth_N = mkN "taparrabos" masculine ; -- status=guess
@@ -17845,7 +17805,7 @@ lin lynn_PN = mkPN "Lynn" ; -- status=guess src=geonames
 lin lynx_N = mkN "lince" masculine ; -- status=guess
 lin lyons_PN = mkPN "Lyons" ; -- status=guess src=geonames
 lin lyre_N = mkN "lira" ; -- status=guess
-lin lyrebird_N = mkN "ave lira" ; -- status=guess
+lin lyre_bird_N = mkN "ave lira" ; -- status=guess
 lin lysine_N = mkN "lisina" ; -- status=guess
 lin lysis_N = mkN "lisis" ; --UWN
 lin lysosome_N = mkN "lisosoma" ; -- status=guess
@@ -17875,7 +17835,6 @@ lin machinist_N = mkN "maquinista" masculine | mkN "mecánico" ; -- status=guess
 lin machismo_N = mkN "machismo" ; -- status=guess
 lin machmeter_N = mkN "máchmetro" ; --UWN
 lin macho_N = mkN "macho" ; -- status=guess
-lin macintosh_N = mkN "macintosh" ; --UWN
 lin mackerel_N = mkN "caballa" ; -- status=guess
 lin mackintosh_N = mkN "macintosh" ; --UWN
 lin macrocephalic_A = mkA "macrocéfalo" ; -- status=guess
@@ -17977,7 +17936,6 @@ lin maintenance_N = mkN "mantenimiento" ; -- status=guess
 lin mainz_PN = mkPN "Maguncia" ; -- status=guess src=geonames
 lin maize_N = mkN "maíz" feminine ; -- status=guess
 lin majestic_A = mkA "majestuoso" ; -- status=guess
-lin majestically_Adv = mkAdv "majestuosamente" ; -- status=guess
 lin majesty_N = mkN "majestad" ; -- status=guess
 lin major_A = mkA "mayor" ;
 lin major_N = mkN "arcanos mayores" | mkN "triunfos mayores" ; -- status=guess status=guess
@@ -18108,8 +18066,6 @@ lin mandrake_N = mkN "mandragora" ; -- status=guess
 lin mandrill_N = mkN "mandril" masculine ; -- status=guess
 lin mane_N = mkN "melena" ; -- status=guess
 lin maneuver_N = mkN "maniobra" ; -- status=guess
-lin maneuver_V = mkV "maniobrar" ; -- status=guess, src=wikt
-lin maneuver_V2 = mkV2 (mkV "maniobrar") ; -- status=guess, src=wikt
 lin manganese_N = mkN "manganeso" ; -- status=guess
 lin manganite_N = mkN "manganita" ; --UWN
 lin mange_N = mkN "sarna" ; -- status=guess
@@ -18147,6 +18103,8 @@ lin mannheim_PN = mkPN "Mannheim" ; -- status=guess src=geonames
 lin mannish_A = mkA "masculino" ; --UWN
 lin mannitol_N = mkN "manitol" masculine ; -- status=guess
 lin manometer_N = mkN "manómetro" ; -- status=guess
+lin manoeuvre_V = mkV "maniobrar" ; -- status=guess, src=wikt
+lin manoeuvre_V2 = mkV2 (mkV "maniobrar") ; -- status=guess, src=wikt
 lin manor_N = variants {} ; --
 lin manpower_N = variants {} ; --
 lin mansard_N = mkN "mansarda" ; --UWN
@@ -18245,7 +18203,7 @@ lin marketing_N = mkN "mercadotecnia" ; -- status=guess
 lin marketplace_N = mkN "mercado" ; -- status=guess
 lin marksman_N = mkN "tirador" masculine ; -- status=guess
 lin marksmanship_N = mkN "puntería" ; -- status=guess
-lin markup_N = mkN "margen" masculine ; -- status=guess
+lin mark_up_N = mkN "margen" masculine ; -- status=guess
 lin marlborough_PN = mkPN "Marlborough" ; -- status=guess src=geonames
 lin marlow_PN = mkPN "Marlow" ; -- status=guess src=geonames
 lin marly_A = mkA "margoso" ; --UWN
@@ -18570,7 +18528,6 @@ lin mellifluous_A = mkA "melifluo" ; -- status=guess
 lin mellow_A = mkA "mantecoso" | mkA "relajado" ; -- status=guess status=guess
 lin mellowingly_Adv = mkAdv "que_suaviza" ; --UWN
 lin melodic_A = mkA "melódico" ; -- status=guess
-lin melodically_Adv = mkAdv "en_términos_melódicos" | mkAdv "melódicamente" ; --UWN
 lin melodious_A = mkA "melodioso" ; -- status=guess
 lin melodrama_N = mkN "melodrama" ; -- status=guess
 lin melodramatic_A = mkA "melodramático" ; -- status=guess
@@ -18877,7 +18834,7 @@ lin milk_V = mkV "ordeñar" ; -- status=guess, src=wikt
 lin milk_V2 = mkV2 (mkV "ordeñar") ; -- status=guess, src=wikt
 lin milkmaid_N = mkN "lechera" | mkN "ordeñadora" ; -- status=guess status=guess
 lin milkman_N = mkN "lechero" ; -- status=guess
-lin milkshake_N = mkN "batido" | mkN "licuado" ; -- status=guess status=guess
+lin milk_shake_N = mkN "batido" | mkN "licuado" ; -- status=guess status=guess
 lin milksop_N = mkN "mariquita" masculine ; -- status=guess
 lin milky_A = mkA "lechoso" ; -- status=guess
 lin mill_N = mkN "fábrica" ; -- status=guess
@@ -18885,7 +18842,6 @@ lin mill_V = moler_V ; -- status=guess, src=wikt
 lin mill_V2 = mkV2 (moler_V) ; -- status=guess, src=wikt
 lin millenarianism_N = mkN "milenarismo" ; --UWN
 lin millennium_N = mkN "milenio" ; -- status=guess
-lin millepede_N = mkN "diplopoda" ; --UWN
 lin miller_N = mkN "molinero" ; -- status=guess
 lin millet_N = mkN "mijo" ; -- status=guess
 lin millettia_N = mkN "millettia" ; --UWN
@@ -18899,7 +18855,7 @@ lin millimetre_N = mkN "milímetro" ; -- status=guess
 lin milling_N = mkN "fresadora" ; -- status=guess
 lin millionaire_N = mkN "millonario" ; -- status=guess
 lin millionth_N = mkN "millonésimo" ; -- status=guess
-lin millipede_N = mkN "milpiés" | mkN "congorocho" ; -- status=guess status=guess
+lin millipede_N = mkN "milpiés" | mkN "congorocho" | mkN "diplopoda" ; --UWN
 lin millisecond_N = mkN "milisegundo" ; -- status=guess
 lin millom_PN = mkPN "Millom" ; -- status=guess src=geonames
 lin millstone_N = mkN "muela" ; -- status=guess
@@ -19081,7 +19037,7 @@ lin mixer_N = mkN "batidora" ; -- status=guess
 lin mixture_N = mkN "mezcla" ; -- status=guess
 lin mizen_N = mkN "mesana" ; --UWN
 lin mizzen_N = mkN "mesana" ; --UWN
-lin mizzenmast_N = mkN "palo de mesana" ; -- status=guess
+lin mizzen_mast_N = mkN "palo de mesana" ; -- status=guess
 lin ml_N = mkN "mililitro" ; --UWN
 lin mnemonic_A = mkA "mnemotécnico" ; -- status=guess
 lin mnemonics_N = mkN "mnemotécnica" ; -- status=guess
@@ -19470,7 +19426,7 @@ lin multicellular_A = mkA "multicelular" | mkA "pluricelular" ; -- status=guess 
 lin multicultural_A = mkA "multicultural" ; -- status=guess
 lin multiculturalism_N = mkN "multiculturalismo" ; -- status=guess
 lin multifarious_A = mkA "múltiple" | mkA "diverso" | mkA "variado" ; -- status=guess status=guess status=guess
-lin multilingual_A = mkA "multilingüe" | mkA "plurilingüe" ; -- status=guess status=guess
+lin multi_lingual_A = mkA "multilingüe" | mkA "plurilingüe" ; -- status=guess status=guess
 lin multimedia_N = mkN "multimedia" masculine ; -- status=guess
 lin multiple_A = mkA "multiple" ; -- status=guess
 lin multiple_N = mkN "múltiplo" ; -- status=guess
@@ -20074,7 +20030,6 @@ lin nonpublic_A = mkA "privado" ; --UWN
 lin nonreader_N = mkN "analfabeto" ; --UWN
 lin nonrecreational_A = mkA "pagado" ; --UWN
 lin nonsense_N = mkN "tonterías" feminine | mkN "disparate" masculine ; -- status=guess
-lin nonspecifically_Adv = mkAdv "en_general" ; --UWN
 lin nonviolence_N = mkN "abstención de la violencia" ; -- status=guess
 lin noodle_N = mkN "tallarín" | mkN "fideo" ; -- status=guess status=guess
 lin nook_N = mkN "rincón" masculine ; -- status=guess
@@ -20440,7 +20395,7 @@ lin offerer_N = mkN "oferente" | mkN "ofertante" ; --UWN
 lin offering_N = mkN "ofrecimiento" ; -- status=guess
 lin offhand_A = mkA "descuidado" ; -- status=guess
 lin office_N = mkN "oficina" ;
-lin officeholder_N = mkN "funcionario" ; -- status=guess
+lin office_holder_N = mkN "funcionario" ; -- status=guess
 lin officer_1_N = mkN "oficial" ;
 lin officer_2_N = mkN "oficial" ;
 lin officer_3_N = mkN "oficial" | mkN "agente" ;
@@ -20775,7 +20730,6 @@ lin oslo_PN = mkPN "Oslo" ; -- status=guess src=geonames
 lin osmium_N = mkN "osmio" ; -- status=guess
 lin osmosis_N = mkN "ósmosis" feminine ; -- status=guess
 lin osmotic_A = mkA "osmótico" ; -- status=guess
-lin osmotically_Adv = mkAdv "osmóticamente" ; --UWN
 lin osprey_N = mkN "águila pescadora" | mkN "gavilán pescador" | mkN "guincho" ; -- status=guess status=guess status=guess
 lin osseous_A = mkA "óseo" ; -- status=guess
 lin ossett_PN = mkPN "Ossett" ; -- status=guess src=geonames
@@ -21007,7 +20961,7 @@ lin oxymoron_N = mkN "oxímoron" masculine ; -- status=guess
 lin oxytone_N = mkN "palabra aguda" ; -- status=guess
 lin oyabun_N = mkN "oyabun" ; --UWN
 lin oyster_N = mkN "ostra" ; -- status=guess
-lin oystercatcher_N = mkN "ostrero" ; -- status=guess
+lin oyster_catcher_N = mkN "ostrero" ; -- status=guess
 lin ozone_N = mkN "ozono" ; -- status=guess
 lin pa_N = mkN "papá" masculine ; -- status=guess
 lin paca_N = mkN "boruga" | mkN "conejo pintado" | mkN "guagua" | mkN "guanta" | mkN "guartinaja" | mkN "jochi pintado" | mkN "lapa" | mkN "majaz" | mkN "paca" | mkN "tepezcuinte" | mkN "tepezcuintle" | mkN "tinajo" ; -- status=guess status=guess status=guess status=guess status=guess status=guess status=guess status=guess status=guess status=guess status=guess status=guess status=guess status=guess status=guess status=guess
@@ -21390,7 +21344,7 @@ lin passer_N = mkN "transeúnte" masculine | mkN "viandante" masculine ; -- stat
 lin passing_N = mkN "muerte" feminine ; -- status=guess
 lin passion_N = mkN "pasión" feminine ; -- status=guess
 lin passionate_A = mkA "apasionado" ; -- status=guess
-lin passionflower_N = mkN "pasionaria" ; -- status=guess
+lin passion_flower_N = mkN "pasionaria" ; -- status=guess
 lin passionless_A = mkA "desapasionado" ; --UWN
 lin passive_A = mkA "pasivo" ; -- status=guess
 lin passive_N = mkN "voz pasiva" ; -- status=guess
@@ -21437,7 +21391,6 @@ lin paternal_A = mkA "paternal" ; -- status=guess
 lin paternoster_N = mkN "paternóster" masculine ; -- status=guess
 lin path_N = mkN "camino" | mkN "senda" | mkN "sendero" ;
 lin pathetic_A = mkA "patético" ; -- status=guess
-lin pathetically_Adv = mkAdv "patéticamente" ; --UWN
 lin pathogen_N = mkN "patógeno" ; -- status=guess
 lin pathogenesis_N = mkN "patogénesis" feminine ; -- status=guess
 lin pathological_A = mkA "patológico" ; -- status=guess
@@ -21980,7 +21933,6 @@ lin phone_V2 = mkV2 (mkV "telefonear") | mkV2 (mkV (mkV "llamar") "por teléfono
 lin phoneme_N = mkN "fonema" masculine ; -- status=guess
 lin phonemic_Adv = mkAdv "en_términos_fonémicos" | mkAdv "fonémico" ; --UWN
 lin phonetic_A = mkA "fonético" ; -- status=guess
-lin phonetically_Adv = mkAdv "en_términos_fonéticos" | mkAdv "fonéticamente" ; --UWN
 lin phonetician_N = mkN "fonetista" ; --UWN
 lin phonetics_N = mkN "fonética" ; -- status=guess
 lin phoney_A = mkA "falso" ; --UWN
@@ -22015,7 +21967,6 @@ lin photograph_N = mkN "fotografía" | mkN "foto" feminine ; -- status=guess
 lin photograph_V2 = mkV2 (mkV "fotografiar") | mkV2 (mkV (mkV "tomar") "una foto") ; -- status=guess
 lin photographer_N = mkN "fotógrafo" ; -- status=guess
 lin photographic_A = mkA "fotográfico" ; -- status=guess
-lin photographically_Adv = mkAdv "fotográficamente" ; -- status=guess
 lin photography_N = mkN "fotografía" ; -- status=guess
 lin photometer_N = mkN "fotómetro" ; -- status=guess
 lin photometric_A = mkA "fotométrico" ; --UWN
@@ -22037,7 +21988,6 @@ lin phycobilin_N = mkN "ficobilina" ; --UWN
 lin phycology_N = mkN "ficología" ; -- status=guess
 lin phylactery_N = mkN "filacteria" ; -- status=guess
 lin phyle_N = mkN "tribu" ; --UWN
-lin phylogenetically_Adv = mkAdv "filogenéticamente" ; --UWN
 lin phylum_N = mkN "filo" ; -- status=guess
 lin physical_A = mkA "físico" ;
 lin physician_N = mkN "médico" ; -- status=guess
@@ -22087,7 +22037,7 @@ lin picket_N = mkN "piquete" masculine ; -- status=guess
 lin pickle_N = mkN "escabeche" | mkN "picles" masculine ; -- status=guess status=guess
 lin pickle_V2 = mkV2 (mkV "encurtir") | mkV2 (mkV "escabechar") ; -- status=guess, src=wikt status=guess, src=wikt
 lin pickpocket_N = mkN "carterista" ; -- status=guess
-lin pickup_N = mkN "camioneta" | mkN "pickup" | mkN "picop" | mkN "troca" | mkN "troque" ; -- status=guess status=guess status=guess status=guess status=guess
+lin pick_up_N = mkN "camioneta" | mkN "pickup" | mkN "picop" | mkN "troca" | mkN "troque" ; -- status=guess status=guess status=guess status=guess status=guess
 lin picnic_N = mkN "jira" ; -- status=guess
 lin picometer_N = mkN "picómetro" ; --UWN
 lin picornavirus_N = mkN "picornaviridae" ; --UWN
@@ -22126,11 +22076,10 @@ lin pike_N = mkN "lucio" ; -- status=guess
 lin pikestaff_N = mkN "asta_de_lanza" ; --UWN
 lin pilaff_N = mkN "pilaf" ; --UWN
 lin pilaster_N = mkN "pilastra" ; -- status=guess
-lin pilau_N = mkN "pilaf" ; --UWN
 lin pile_N = mkN "montón" masculine ; -- status=guess
 lin pile_V = mkV "amontonarse" ; -- status=guess
 lin pile_V2 = mkV2 (mkV "amontonarse") ; -- status=guess
-lin pileup_N = mkN "accidente_múltiple" | mkN "colisión_múltiple" ; --UWN
+lin pile_up_N = mkN "accidente múltiple" | mkN "colisión múltiple" ; --UWN
 lin pilfer_V = mkV "sisar" | mkV "ratear" ; -- status=guess, src=wikt status=guess, src=wikt
 lin pilfer_V2 = mkV2 (mkV "sisar") | mkV2 (mkV "ratear") ; -- status=guess, src=wikt status=guess, src=wikt
 lin pilgrim_N = mkN "peregrino" feminine | mkN "colonista" masculine ; -- status=guess status=guess
@@ -22254,7 +22203,7 @@ lin plain_A = mkA "con caracteres normales" | mkA "libre de caracteres especiale
 lin plain_Adv = mkAdv "aparentemente" | mkAdv "claramente" | mkAdv "claro" | mkAdv "evidentemente" | mkAdv "manifiestamente" | mkAdv "obviamente" | mkAdv "patentemente" ; --UWN
 lin plain_N = mkN "llanura" | mkN "planicie" feminine ; -- status=guess
 lin plainness_N = mkN "vulgaridad" ; --UWN
-lin plainspoken_A = mkA "directo" | mkA "firme" | mkA "franco" | mkA "sincero" ; --UWN
+lin plain_spoken_A = mkA "directo" | mkA "firme" | mkA "franco" | mkA "sincero" ; --UWN
 lin plaintiff_N = mkN "demandante" | mkN "querellante." ; -- status=guess
 lin plaintive_A = mkA "doloroso" ; --UWN
 lin plait_V2 = mkV2 (mkV "trenzar") ; -- status=guess, src=wikt
@@ -22469,8 +22418,8 @@ lin pochard_N = mkN "porrón" masculine ; -- status=guess
 lin pock_N = mkN "grano" ; --UWN
 lin pocket_N = mkN "bolsillo" | mkN "bolsa" ; -- status=guess
 lin pocket_V2 = mkV2 (mkV "embolsar") ; -- status=guess, src=wikt
-lin pocketbook_N = mkN "bolso" ; --UWN
-lin pocketknife_N = mkN "navaja" ; -- status=guess
+lin pocket_book_N = mkN "bolso" ; --UWN
+lin pocket_knife_N = mkN "navaja" ; -- status=guess
 lin pod_N = mkN "vaina" ; -- status=guess
 lin podium_N = mkN "podio" ; -- status=guess
 lin podzol_N = mkN "podzol" ; --UWN
@@ -24389,8 +24338,8 @@ lin reflexive_A = mkA "reflexivo" ; -- status=guess
 lin reflexive_N = mkN "pronombre reflexivo" ; -- status=guess
 lin reflexology_N = mkN "reflexología" ; --UWN
 lin reform_N = mkN "reforma" ;
-lin reform_V = mkV "reformar" ; -- status=guess
-lin reform_V2 = mkV2 (mkV "reformar") ; -- status=guess
+lin re_form_V = mkV "reformar" ; -- status=guess
+lin re_form_V2 = mkV2 (mkV "reformar") ; -- status=guess
 lin reformation_N = mkN "enmienda" | mkN "recuperación" | mkN "reforma" | mkN "reformación" ; --UWN
 lin reformer_N = variants {} ; --
 lin reformism_N = mkN "reformismo" ; --UWN
@@ -24510,7 +24459,6 @@ lin relative_A = mkA "relativo" ; -- status=guess
 lin relative_N = mkN "pariente" masculine ; -- status=guess
 lin relativism_N = mkN "relativismo" ; -- status=guess
 lin relativistic_A = mkA "relativista" ; -- status=guess
-lin relativistically_Adv = mkAdv "relativísticamente" ; --UWN
 lin relativity_N = mkN "relatividad" feminine ; -- status=guess
 lin relax_V = mkV "relajar" ; -- status=guess
 lin relax_V2 = mkV2 (mkV "relajar") ; -- status=guess
@@ -25100,7 +25048,7 @@ lin rival_N = mkN "adversario" | mkN "competición" | mkN "competidor" | mkN "co
 lin rivalry_N = mkN "rivalidad" feminine ; -- status=guess
 lin river_N = L.river_N ;
 lin riverbank_N = mkN "orilla_del_río" | mkN "ribera" ; --UWN
-lin riverbed_N = mkN "cauce" ; -- status=guess
+lin river_bed_N = mkN "cauce" ; -- status=guess
 lin rivet_N = mkN "remache" masculine ; -- status=guess
 lin rivet_V = mkV "remachar" ; -- status=guess, src=wikt
 lin rivet_V2 = mkV2 (mkV "remachar") ; -- status=guess, src=wikt
@@ -25175,7 +25123,6 @@ lin romanianFem_N = variants {} ; ---- sense to be split
 lin romanianMasc_N = variants {} ; ---- sense to be split
 lin romantic_A = mkA "romántico" ; -- status=guess
 lin romantic_N = mkN "romántico" | mkN "romántica" ; -- status=guess status=guess
-lin romantically_Adv = mkAdv "románticamente" ; -- status=guess
 lin romanticism_N = mkN "romanticismo" ; -- status=guess
 lin romanticize_V = mkV "romantizar" ; -- status=guess, src=wikt
 lin romanticize_V2 = mkV2 (mkV "romantizar") ; -- status=guess, src=wikt
@@ -25194,7 +25141,7 @@ lin room_1_N = mkN "cuarto" | mkN "habitación" ;
 lin room_2_N = mkN "sitio" ;
 lin room_N = mkN "cuarto" | mkN "habitación" | mkN "pieza" | mkN "sala" | mkN "recámara" ;
 lin roomer_N = mkN "huésped" ; --UWN
-lin roommate_N = mkN "compañero de cuarto" ; -- status=guess
+lin room_mate_N = mkN "compañero de cuarto" ; -- status=guess
 lin roomy_A = mkA "amplio" | mkA "grande" ; --UWN
 lin roost_N = mkN "gallinero" | mkN "pajarera" ; -- status=guess status=guess
 lin roost_V = mkV "posarse" ; --UWN
@@ -25387,7 +25334,7 @@ lin runic_A = mkA "rúnico" ; -- status=guess
 lin runner_N = mkN "corredor" masculine ; -- status=guess
 lin running_A = variants {} ; --
 lin running_N = mkN "estribo" ; -- status=guess
-lin runoff_N = mkN "escorrentía" ; -- status=guess
+lin run_off_N = mkN "escorrentía" ; -- status=guess
 lin runway_N = mkN "pista" | mkN "pista de aterrizaje" | mkN "pista de despegue" ; -- status=guess status=guess status=guess
 lin rupee_N = mkN "rupia" ; -- status=guess
 lin rupert_PN = mkPN "Rupert" ; -- status=guess src=geonames
@@ -25619,7 +25566,7 @@ lin sandal_N = mkN "sandalia" | mkN "chala" | mkN "chinela" | mkN "chancleta" | 
 lin sandalwood_N = mkN "sándalo" ; -- status=guess
 lin sandbach_PN = mkPN "Sandbach" ; -- status=guess src=geonames
 lin sandbag_N = mkN "saco de arena" ; -- status=guess
-lin sandbar_N = mkN "banco_de_arena" ; --UWN
+lin sand_bar_N = mkN "banco de arena" ; --UWN
 lin sandbox_N = mkN "arenero" ; -- status=guess
 lin sanderling_N = mkN "playero" | mkN "correlimos" masculine ; -- status=guess status=guess
 lin sandfly_N = mkN "mosquito simúlido" | mkN "jején" masculine ; -- status=guess status=guess
@@ -25668,7 +25615,6 @@ lin sarajevo_PN = mkPN "Sarajevo" ; -- status=guess src=geonames
 lin saratov_PN = mkPN "Sarátov" ; -- status=guess src=geonames
 lin sarcasm_N = mkN "sarcasmo" ; -- status=guess
 lin sarcastic_A = mkA "sarcástico" ; -- status=guess
-lin sarcastically_Adv = mkAdv "sarcásticamente" ; -- status=guess
 lin sarcoidosis_N = mkN "sarcoidosis" ; --UWN
 lin sarcolemmic_A = mkA "sarcolémico" ; --UWN
 lin sarcoma_N = mkN "sarcoma" masculine ; -- status=guess
@@ -25678,7 +25624,6 @@ lin sarcoplasm_N = mkN "sarcoplasma" ; --UWN
 lin sarcosine_N = mkN "sarcosina" ; --UWN
 lin sardine_N = mkN "sardina" ; -- status=guess
 lin sardonic_A = mkA "sardónico" ; -- status=guess
-lin sardonically_Adv = mkAdv "sardónicamente" ; -- status=guess
 lin sari_N = mkN "sari" masculine ; -- status=guess
 lin sarin_N = mkN "sarín" masculine ; -- status=guess
 lin sarong_N = mkN "sarong" | mkN "pareo" ; -- status=guess status=guess
@@ -25827,7 +25772,6 @@ lin scenarist_N = mkN "escenarista" | mkN "guionista" ; --UWN
 lin scene_N = mkN "escena" ;
 lin scenery_N = mkN "decorado" ; -- status=guess
 lin scenic_A = mkA "escénico" ; -- status=guess
-lin scenically_Adv = mkAdv "escénicamente" ; --UWN
 lin scent_N = mkN "olor" masculine ; -- status=guess
 lin scepter_N = mkN "cetro" | mkN "vara" | mkN "verga" ; --UWN
 lin sceptical_A = mkA "escéptico" ; -- status=guess
@@ -25842,7 +25786,6 @@ lin scheelite_N = mkN "scheelita" ; --UWN
 lin schema_N = mkN "esquema" ; --UWN
 lin schematic_A = mkA "esquemático" ; -- status=guess
 lin schematic_N = mkN "dibujo_esquemático" | mkN "esquema" | mkN "esquematismo" ; --UWN
-lin schematically_Adv = mkAdv "esquemáticamente" ; -- status=guess
 lin scheme_N = mkN "esquema" masculine ;
 lin schemozzle_N = mkN "confusión" ; --UWN
 lin scherzo_N = mkN "scherzo" ; --UWN
@@ -25857,7 +25800,6 @@ lin schizophrenic_A = mkA "esquizofrénico" ; -- status=guess
 lin schizophrenic_N = mkN "esquizofrénico" ; -- status=guess
 lin schlep_N = mkN "viaje_pesado" ; --UWN
 lin schmaltz_N = mkN "schmaltz" ; --UWN
-lin schmalz_N = mkN "schmaltz" ; --UWN
 lin schmuck_N = mkN "prepucio" ; -- status=guess
 lin schnitzel_N = mkN "schnitzel" masculine ; -- status=guess
 lin schnorrer_N = mkN "aprovechado" | mkN "gorrón" | mkN "sacadineros" ; --UWN
@@ -25884,7 +25826,6 @@ lin sciatica_N = mkN "ciatica" ; --UWN
 lin science_N = L.science_N ;
 lin scienter_Adv = mkAdv "con_intencionalidad" ; --UWN
 lin scientific_A = mkA "científico" ; -- status=guess
-lin scientifically_Adv = mkAdv "científicamente" ; -- status=guess
 lin scientist_N = mkN "científico" ; -- status=guess
 lin scilla_N = mkN "scilla" ; --UWN
 lin scimitar_N = mkN "cimitarra" ; -- status=guess
@@ -26060,7 +26001,7 @@ lin seasonal_A = mkA "estacional" ; -- status=guess
 lin seasoner_N = mkN "condimento" ; --UWN
 lin seat_N = mkN "asiento" ;
 lin seattle_PN = mkPN "Seattle" ; -- status=guess src=geonames
-lin seawater_N = mkN "agua salada" ; -- status=guess
+lin sea_water_N = mkN "agua salada" ; -- status=guess
 lin seaweed_N = mkN "algas" feminine ; -- status=guess
 lin seborrhea_N = mkN "seborrea" ; -- status=guess
 lin sebum_N = mkN "sebo" ; -- status=guess
@@ -26072,7 +26013,7 @@ lin second_N = mkN "segundo" ;
 lin second_V2 = mkV2 (mkV "secundar") ; -- status=guess, src=wikt
 lin secondary_A = variants {} ; --
 lin secondary_N = mkN "secundaria" | mkN "escuela secundaria" ; -- status=guess status=guess
-lin secondhand_A = mkA "de segunda mano" ; -- status=guess
+lin second_hand_A = mkA "de segunda mano" ; -- status=guess
 lin secondly_Adv = variants {} ; --
 lin secondment_N = mkN "comisión de servicio" ; -- status=guess
 lin secrecy_N = mkN "secreto" ; -- status=guess
@@ -26197,7 +26138,6 @@ lin semaphore_V2 = mkV2 (mkV "semaforar") ; -- status=guess
 lin semarang_PN = mkPN "Semarang" ; -- status=guess src=geonames
 lin semen_N = mkN "semen" masculine ; -- status=guess
 lin semester_N = mkN "semestre" masculine ; -- status=guess
-lin semi_final_N = variants {} ; --
 lin semiautobiographical_A = mkA "semiautobiográfica" | mkA "semiautobiográfico" ; --UWN
 lin semibreve_N = mkN "semibreve" | mkN "redonda" ; -- status=guess status=guess
 lin semicircle_N = mkN "semicírculo" ; -- status=guess
@@ -26205,7 +26145,7 @@ lin semicircular_A = mkA "semicircular" ; -- status=guess
 lin semicolon_N = mkN "punto y coma" ; -- status=guess
 lin semiconductor_N = mkN "semiconductor" masculine ; -- status=guess
 lin semidarkness_N = mkN "semioscuridad" ; --UWN
-lin semifinal_N = mkN "semifinal" ; -- status=guess
+lin semi_final_N = mkN "semifinal" ; -- status=guess
 lin seminal_A = mkA "germinal" ; -- status=guess
 lin seminar_N = mkN "seminario" ; -- status=guess
 lin seminarist_N = mkN "seminarista" masculine ; -- status=guess
@@ -26751,7 +26691,7 @@ lin sideboard_N = mkN "aparador" ; -- status=guess
 lin sideburn_N = mkN "patilla" ; --UWN
 lin sideline_N = mkN "negocio_adicional" ; --UWN
 lin sidereal_A = mkA "sidéreo" ; -- status=guess
-lin sidesaddle_Adv = mkAdv "a_la_inglesa" | mkAdv "a_mujeriegas" | mkAdv "de_mujeriegas" ; --UWN
+lin side_saddle_Adv = mkAdv "a la inglesa" | mkAdv "a mujeriegas" | mkAdv "de mujeriegas" ; --UWN
 lin sideswipe_N = mkN "golpe_de_refilón" ; --UWN
 lin sidewalk_N = mkN "acera" | mkN "andén" | mkN "banqueta" | mkN "escarpa" | mkN "vereda" ; -- status=guess status=guess status=guess status=guess status=guess status=guess status=guess status=guess status=guess
 lin sideways_Adv = variants {} ; --
@@ -26835,7 +26775,7 @@ lin silver_N = L.silver_N ;
 lin silver_V = mkV "platear" | mkV "argentar" ; -- status=guess, src=wikt status=guess, src=wikt
 lin silver_V2 = mkV2 (mkV "platear") | mkV2 (mkV "argentar") ; -- status=guess, src=wikt status=guess, src=wikt
 lin silverback_N = mkN "espalda plateada" ; -- status=guess
-lin silverfish_N = mkN "lepisma" | mkN "pececillo de plata" ; -- status=guess status=guess
+lin silver_fish_N = mkN "lepisma" | mkN "pececillo de plata" ; -- status=guess status=guess
 lin silverside_N = mkN "pejerrey" | mkN "tinícalo" ; -- status=guess status=guess
 lin silversmith_N = mkN "platero" | mkN "platera" ; -- status=guess status=guess
 lin silverware_N = mkN "cubiertos" masculine ; -- status=guess
@@ -27042,7 +26982,7 @@ lin slacken_V = mkV "aflojar" ; -- status=guess, src=wikt
 lin slacken_V2 = mkV2 (mkV "aflojar") ; -- status=guess, src=wikt
 lin slackness_N = mkN "descuido" ; --UWN
 lin slag_N = mkN "escoria" ; -- status=guess
-lin slagheap_N = mkN "escorial" ; --UWN
+lin slag_heap_N = mkN "escorial" ; --UWN
 lin slake_V2 = mkV2 (mkV "apagar") ; -- status=guess, src=wikt
 lin slalom_N = mkN "eslalon" masculine ; -- status=guess
 lin slam_V = variants {} ; --
@@ -27094,7 +27034,7 @@ lin sleeplessness_N = mkN "vela" ; --UWN
 lin sleepwalker_N = mkN "noctámbulo" | mkN "sonámbulo" ; --UWN
 lin sleepwalking_N = mkN "sonambulismo" ; -- status=guess
 lin sleepy_A = mkA "cansado" | mkA "adormecido" | mkA "sueño" | mkA "soñoliento" ; -- status=guess status=guess status=guess status=guess
-lin sleepyhead_N = mkN "dormilón" masculine | mkN "dormilona" ; -- status=guess status=guess
+lin sleepy_head_N = mkN "dormilón" masculine | mkN "dormilona" ; -- status=guess status=guess
 lin sleet_N = mkN "aguanieve" feminine ; -- status=guess
 lin sleeve_N = mkN "funda" ; -- status=guess
 lin sleigh_N = mkN "trineo" ; -- status=guess
@@ -27214,8 +27154,10 @@ lin smirch_V2 = mkV2 (mkV "ensuciar") ; -- status=guess, src=wikt
 lin smock_N = mkN "bata" | mkN "gabardina" ; --UWN
 lin smog_N = mkN "esmog" ; -- status=guess
 lin smoke_N = L.smoke_N ;
-lin smoke_V = mkV (mkV "fumar") "como un carretero" ; -- status=guess
-lin smoke_V2 = mkV2 (mkV (mkV "fumar") "como un carretero") ; -- status=guess
+lin smoke_V = mkV "fumar" ; 
+lin smoke_V2 = mkV2 (mkV "fumar") ; 
+--lin smoke_V = mkV (mkV "fumar") "como un carretero" ; -- status=guess
+--lin smoke_V2 = mkV2 (mkV (mkV "fumar") "como un carretero") ; -- status=guess
 lin smoke_out_V2 = prepV2 OP_smoke_V OP_out_Prep ; -- guess-p-verb
 lin smoker_N = mkN "fumador" | mkN "fumadora" ; -- status=guess status=guess
 lin smokestack_N = mkN "chimenea" ; -- status=guess
@@ -27340,7 +27282,7 @@ lin sobbingly_Adv = mkAdv "con_voz_sollozante" ; --UWN
 lin sober_A = mkA "sobrio" | mkA "sereno" ; -- status=guess status=guess
 lin sober_V = mkV "desemborrachar" ; -- status=guess, src=wikt
 lin sober_V2 = mkV2 (mkV "desemborrachar") ; -- status=guess, src=wikt
-lin sobersides_N = mkN "persona_muy_reservada" ; --UWN
+lin sober_sides_N = mkN "persona muy reservada" ; --UWN
 lin sobralia_N = mkN "sobralia" ; --UWN
 lin sobriety_N = mkN "austeridad" feminine ; -- status=guess
 lin sobriquet_N = mkN "sobrenombre" masculine ; -- status=guess
@@ -27360,9 +27302,7 @@ lin society_N = mkN "sociedad" feminine ;
 lin sociobiologic_A = mkA "sociobiológico" ; --UWN
 lin sociobiologically_Adv = mkAdv "en_términos_sociobiológicos" | mkAdv "sociobiológicamente" ; --UWN
 lin sociobiology_N = mkN "sociobiología" ; --UWN
-lin socioeconomically_Adv = mkAdv "socioeconómicamente" ; --UWN
 lin sociolinguistic_A = mkA "sociolingüística" | mkA "sociolingüístico" ; --UWN
-lin sociolinguistically_Adv = mkAdv "en_términos_sociolingüísticos" | mkAdv "sociolingüísticamente" ; --UWN
 lin sociological_A = mkA "sociológico" ; -- status=guess
 lin sociologist_N = mkN "sociólogo" | mkN "socióloga" ; -- status=guess status=guess
 lin sociology_N = mkN "sociología" ; -- status=guess
@@ -27995,7 +27935,7 @@ lin staircase_N = mkN "escalera" ; -- status=guess
 lin stairway_N = mkN "escalera" ; -- status=guess
 lin stake_N = mkN "estaca" ; -- status=guess
 lin stake_V2 = mkV2 (mkV "estacar") ; -- status=guess
-lin stakeholder_N = mkN "apostador" ; -- status=guess
+lin stake_holder_N = mkN "apostador" ; -- status=guess
 lin stalactite_N = mkN "estalactita" ; -- status=guess
 lin stalagmite_N = mkN "estalagmita" ; -- status=guess
 lin stale_A = mkA "duro" | mkA "revenido" | mkA "pasado" | mkA "viciado" ; -- status=guess status=guess status=guess status=guess
@@ -28352,7 +28292,7 @@ lin stolidness_N = mkN "asceticismo" | mkN "ascetismo" | mkN "estoicismo" ; --UW
 lin stolon_N = mkN "estolón" ; --UWN
 lin stoma_N = mkN "estoma" masculine ; -- status=guess
 lin stomach_N = mkN "barriga" masculine | mkN "vientre" masculine ; -- status=guess
-lin stomachache_N = mkN "dolor de estómago" ; -- status=guess
+lin stomach_ache_N = mkN "dolor de estómago" ; -- status=guess
 lin stomatitis_N = mkN "estomatitis" ; --UWN
 lin stone_A = mkA "de piedra" | mkA "pétreo" ; -- status=guess status=guess
 lin stone_N = L.stone_N ;
@@ -29111,7 +29051,6 @@ lin sycophant_N = mkN "adulador" masculine ; -- status=guess
 lin sydney_PN = mkPN "Sídney" ; -- status=guess src=geonames
 lin syllabary_N = mkN "silabario" ; --UWN
 lin syllabic_A = mkA "silábico" ; -- status=guess
-lin syllabically_Adv = mkAdv "silábicamente" ; --UWN
 lin syllable_N = mkN "sílaba" ; -- status=guess
 lin syllabus_N = mkN "temario" ; -- status=guess
 lin syllogism_N = mkN "silogismo" ; -- status=guess
@@ -29139,7 +29078,6 @@ lin symphony_N = mkN "sinfonía" ; -- status=guess
 lin symposium_N = mkN "simposio" ; -- status=guess
 lin symptom_N = mkN "síntoma" masculine ; -- status=guess
 lin symptomatic_A = mkA "sintomático" ; -- status=guess
-lin symptomatically_Adv = mkAdv "sintomáticamente" ; --UWN
 lin synagogue_N = mkN "sinagoga" ; -- status=guess
 lin synapse_N = mkN "sinapsis" feminine ; -- status=guess
 lin synapsis_N = mkN "sinapsis" ; --UWN
@@ -29252,7 +29190,7 @@ lin tagliatelle_N = mkN "tallarines" ; --UWN
 lin tahini_N = mkN "tahina" ; -- status=guess
 lin tail_N = L.tail_N ;
 lin tailgate_N = mkN "puerta trasera" ; -- status=guess
-lin taillight_N = mkN "luz trasera" | mkN "calavera " ; -- status=guess status=guess
+lin tail_light_N = mkN "luz trasera" | mkN "calavera " ; -- status=guess status=guess
 lin tailor_N = mkN "anjora" | mkN "sastre" masculine ; -- status=guess status=guess
 lin tailor_V2 = mkV2 (mkV "confeccionar") ; -- status=guess, src=wikt
 lin tailoring_N = mkN "confección" ; -- status=guess
@@ -29282,6 +29220,7 @@ lin take_in_V2 = prepV2 (lin V OP_take_V2) OP_in_Prep ; -- guess-p-verb
 lin take_it_V2 = variants {} ; -- guess-p-verb
 lin take_it_out_on_V2 = variants {} ; -- guess-p-verb
 lin take_it_upon_yourself_V = variants {} ; -- guess-p-verb
+lin take_off_N = mkN "parodia" ; -- status=guess
 lin take_off_V = advV (lin V OP_take_V2) OP_off_Adv ; -- guess-p-verb
 lin take_off_V2 = prepV2 (lin V OP_take_V2) OP_off_Prep ; -- guess-p-verb
 lin take_on_V = advV (lin V OP_take_V2) OP_on_Adv ; -- guess-p-verb
@@ -29295,7 +29234,6 @@ lin take_to_V2 = prepV2 (lin V OP_take_V2) OP_to_Prep ; -- guess-p-verb
 lin take_up_V = mkV "retomar" ; --UWN
 lin take_up_V2 = prepV2 (lin V OP_take_V2) OP_up_Prep ; -- guess-p-verb
 lin takedown_N = mkN "aplastar" | mkN "derrota" | mkN "golpe_bajo" | mkN "golpe_decisivo" ; --UWN
-lin takeoff_N = mkN "parodia" ; -- status=guess
 lin takeout_N = mkN "comida para llevar" ; -- status=guess
 lin takeover_N = mkN "toma_de_control" ; --UWN
 lin takin_N = mkN "takín" masculine ; -- status=guess
@@ -29478,7 +29416,6 @@ lin taxicab_N = mkN "taxi" ; --UWN
 lin taxidermy_N = mkN "taxidermia" ; -- status=guess
 lin taximeter_N = mkN "taxímetro" ; -- status=guess
 lin taxonomic_A = mkA "sistemático" | mkA "taxonómico" ; --UWN
-lin taxonomically_Adv = mkAdv "taxonómicamente" ; --UWN
 lin taxonomy_N = mkN "taxonomía" ; -- status=guess
 lin taxpayer_N = mkN "contribuyente de impuestos" ; -- status=guess
 lin tbilisi_PN = mkPN "Tiflis" ; -- status=guess src=geonames
@@ -29493,7 +29430,7 @@ lin teacherMasc_N = L.teacher_N ;
 lin teaching_N = mkN "enseñanza" ; -- status=guess
 lin teahouse_N = mkN "casa de té" ; -- status=guess
 lin teak_N = mkN "teca" ; -- status=guess
-lin teakettle_N = mkN "tetera" ; -- status=guess
+lin tea_kettle_N = mkN "tetera" ; -- status=guess
 lin teal_N = mkN "azul petróleo" ; -- status=guess
 lin team_N = mkN "equipo" ;
 lin teamwork_N = mkN "trabajo en equipo" ; -- status=guess
@@ -29512,7 +29449,7 @@ lin tear_out_V = advV OP_tear_V OP_out_Adv ; -- guess-p-verb
 lin tear_up_V = advV OP_tear_V OP_up_Adv ; -- guess-p-verb
 lin tear_up_V2 = prepV2 OP_tear_V OP_up_Prep ; -- guess-p-verb
 lin tearaway_N = mkN "alborotador" | mkN "elemento" ; -- status=guess status=guess
-lin teardrop_N = mkN "lagrima" ; -- status=guess
+lin tear_drop_N = mkN "lagrima" ; -- status=guess
 lin tearing_N = mkN "lacrimación" | mkN "lagrimeo" | mkN "llanto" ; --UWN
 lin tease_V2 = mkV2 (mkV "peinar") ; -- status=guess
 lin teaser_N = mkN "avance" masculine ; -- status=guess
@@ -29827,7 +29764,6 @@ lin thermal_A = mkA "termal" ; -- status=guess
 lin thermionic_A = mkA "termoiónico" ; -- status=guess
 lin thermistor_N = mkN "termistor" masculine ; -- status=guess
 lin thermochemistry_N = mkN "termoquímica" ; --UWN
-lin thermodynamically_Adv = mkAdv "termodinámicamente" ; --UWN
 lin thermodynamics_N = mkN "termodinámica" ; -- status=guess
 lin thermoelectric_A = mkA "termoeléctrico" ; -- status=guess
 lin thermoelectricity_N = mkN "termoelectricidad" feminine ; -- status=guess
@@ -30870,7 +30806,6 @@ lin typical_3_A = variants {} ; --
 lin typical_A = variants {} ; --
 lin typing_N = mkN "escritura_a_máquina" ; --UWN
 lin typist_N = mkN "mecanógrafo" | mkN "mecanógrafa" | mkN "dactilógrafo" | mkN "dactilógrafa" ; -- status=guess status=guess status=guess status=guess
-lin typographically_Adv = mkAdv "tipográficamente" ; --UWN
 lin typography_N = mkN "tipografía" ; -- status=guess
 lin tyramine_N = mkN "tiramina" ; --UWN
 lin tyrannical_A = mkA "tiránico" ; -- status=guess
@@ -31073,7 +31008,6 @@ lin undress_V2 = mkV2 (mkV "desvestirse") | mkV2 (mkV "desnudarse") ; -- status=
 lin undue_A = mkA "desproporcionado" ; -- status=guess
 lin undulate_A = mkA "ondulado" ; -- status=guess
 lin undulate_V = mkV "ondear" | mkV "ondular" ; -- status=guess, src=wikt status=guess, src=wikt
-lin unduly_Adv = mkAdv "indebidamente" ; -- status=guess
 lin unearned_A = mkA "inmerecido" ; --UWN
 lin unearthly_A = mkA "fantástico" | mkA "misterioso" | mkA "sobrenatural" ; --UWN
 lin unease_N = mkN "inquietud" feminine | mkN "desasosiego" | mkN "malestar" masculine ; -- status=guess status=guess status=guess
@@ -31919,7 +31853,6 @@ lin void_N = mkN "vacío" ; -- status=guess
 lin void_V2 = mkV2 (mkV "anular") | mkV2 (mkV "invalidar") ; -- status=guess, src=wikt status=guess, src=wikt
 lin volatile_A = mkA "volátil" ; -- status=guess
 lin volcanic_A = mkA "volcánico" ; -- status=guess
-lin volcanically_Adv = mkAdv "volcánicamente" ; --UWN
 lin volcanism_N = mkN "vulcanismo" ; -- status=guess
 lin volcano_N = mkN "volcán" masculine ; -- status=guess
 lin volcanology_N = mkN "vulcanología" ; -- status=guess
@@ -31932,7 +31865,6 @@ lin voltage_N = mkN "voltaje" masculine ; -- status=guess
 lin voluble_A = mkA "voluble" ; -- status=guess
 lin volume_N = mkN "volumen" "volúmenes" masculine ;
 lin volumetric_A = mkA "volumétrico" ; --UWN
-lin volumetrically_Adv = mkAdv "volumétricamente" ; --UWN
 lin voluminous_A = mkA "extenso" ; --UWN
 lin voluntary_A = mkA "voluntario" ; -- status=guess
 lin volunteerFem_N = variants {} ; ---- sense to be split
@@ -31964,7 +31896,6 @@ lin voyage_N = mkN "viaje" masculine ; -- status=guess
 lin voyeur_N = mkN "voyer" masculine | mkN "mirón" masculine ; -- status=guess status=guess
 lin voyeurism_N = mkN "voyerismo" ; -- status=guess
 lin voyeuristic_A = mkA "voyerístico" ; --UWN
-lin voyeuristically_Adv = mkAdv "como_un_mirón" | mkAdv "voyeurísticamente" ; --UWN
 lin vulcanization_N = mkN "vulcanización" feminine ; -- status=guess
 lin vulcanize_V2 = mkV2 (mkV "vulcanizar") ; -- status=guess, src=wikt
 lin vulcanizer_N = mkN "vulcanizador" ; --UWN
@@ -32209,7 +32140,7 @@ lin waterfowl_N = mkN "aves acuáticas" ; -- status=guess
 lin waterfront_N = mkN "línea de costa" | mkN "vezparte" ; -- status=guess status=guess
 lin watering_N = mkN "regadera" ; -- status=guess
 lin waterless_A = mkA "sin agua" ; -- status=guess
-lin waterline_N = mkN "linea_de_flotacion" ; --UWN
+lin water_line_N = mkN "linea de flotacion" ; --UWN
 lin waterloo_PN = mkPN "Waterloo" ; -- status=guess src=geonames
 lin waterman_N = mkN "balsero" | mkN "barquero" ; --UWN
 lin watermark_N = mkN "filigrana" ; --UWN
@@ -32501,7 +32432,6 @@ lin wholeness_N = mkN "entereza" | mkN "integridad" feminine ; -- status=guess s
 lin wholesale_A = mkA "masivo" ; --UWN
 lin wholesale_N = mkN "venta al por mayor" ; -- status=guess
 lin wholesaler_N = mkN "mayorista" masculine ; -- status=guess
-lin wholly_Adv = variants {} ; --
 lin whooper_N = mkN "cisne cantor" ; -- status=guess
 lin whopper_N = mkN "mentira cruel" | mkN "ponzoña" ; -- status=guess status=guess
 lin whopping_A = mkA "enorme" | mkA "gigante" | mkA "descomunal" ; -- status=guess status=guess status=guess
