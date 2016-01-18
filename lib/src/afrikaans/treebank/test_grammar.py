@@ -2,8 +2,8 @@
 
 def print_summary(grammar, concrete, results):
 
-    successes = [(o,l,r) for (o,l,r) in results if r == "s"]
-    failures = [(o,l,r) for (o,l,r) in results if r == "f"]
+    successes = [(o,l,r,t) for (o,l,r,t) in results if r == "s"]
+    failures = [(o,l,r,t) for (o,l,r,t) in results if r == "f"]
 
     summary =  "\n"
     summary += "\n"
@@ -17,13 +17,14 @@ def print_summary(grammar, concrete, results):
         
     return summary
 
-def print_result(obj,lin,res):
+def print_result(obj,lin,res,time):
     result  = u"Tree: "+ obj["Abs"]+'\n'
     result += u"Gold: " + obj["Afr"]+'\n'
     if res == "s":
-        result += u"Succ: " + unicode(lin,'utf8')+'\n\n'
+        result += u"Succ: " + unicode(lin,'utf8')+'\n'
     else:
-        result += u"Fail: " + unicode(lin,'utf8')+'\n\n'
+        result += u"Fail: " + unicode(lin,'utf8')+'\n'
+    result += "Time: " + str(time)+'\n\n'
     return result
     
 
@@ -47,18 +48,22 @@ if __name__ == "__main__":
     conc = gr.languages[args.concrete]
     
     results = []
+    times = []
     
+    import time
     for o in treebank:
         tree = o["Abs"]
         gold = o["Afr"]
         
         try:
             e = pgf.readExpr(tree)
+            start = time.clock()
             l = conc.linearize(e)
+            end = time.clock()
             if unicode(l,'utf8') == gold:
-                results.append((o,l,"s"))
+                results.append((o,l,"s",end - start))
             else:
-                results.append((o,l,"f"))
+                results.append((o,l,"f",end - start))
         except pgf.PGFError:
             pass
     
@@ -66,8 +71,8 @@ if __name__ == "__main__":
     result_file = codecs.open(args.result, 'w', 'utf8')
     result_file.write(summary_str)
     
-    for (o,l,r) in results:
-        result_file.write(print_result(o,l,r))
+    for (o,l,r,t) in results:
+        result_file.write(print_result(o,l,r,t))
     result_file.close()
     
     
