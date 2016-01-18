@@ -353,12 +353,12 @@ param
       adv : Str ; -- vinnig
       adV : Str ; -- altyd/nooit
       double1 : Bool ; -- insert first "nie" if sentence polarity is negative, because certain slots are filled (hy loop nie/hy loop *nie* goed nie)
-      double2 : Bool ;  -- always insert second "nie", because of n-word (niemand *nie*), unless...
-      subNeg : Bool ;   -- a final "nie" is present in a sub phrase
+      double2 : Bool ;  -- always insert second "nie", because of n-word (niemand *nie*), unless a final "nie" is already present...
+      objNeg : Bool ;   -- a final "nie" is present in an object NP
       inf : Str * Bool ;
       ppart : Str * Bool ;
       --ext : Str ;
-      subcl : Str * Bool
+      subcl : Str * Bool * Bool -- <str, isPresent, finNie>
   } ;
   
     predV : VVerb -> VP = \vverb -> {
@@ -372,11 +372,11 @@ param
        adV = [] ;
        double1 = vverb.isPref ;
        double2 = False ;
-       subNeg = False ;
+       objNeg = False ;
        inf = <[],False> ;
        ppart = <[],False> ;
        --ext = [] ;
-       subcl = <[],False>
+       subcl = <[],False,False>
     } ;
     
   vvPred : VVerb -> VP -> VP = \vv,vp ->  {
@@ -390,7 +390,7 @@ param
        adV = vp.adV ;
        double1 = True ;
        double2 = vp.double2 ;
-       subNeg = vp.subNeg ;
+       objNeg = vp.objNeg ;
        inf = <(vp.s.s!VInfb) ++ vp.inf.p1,True> ;
        ppart = <(vp.s.s!VPerf) ++ vp.ppart.p1,True> ;
        --ext = vp.ext ;
@@ -408,7 +408,7 @@ param
        adV = vp.adV ;
        double1 = vp.double1 ;
        double2 = vp.double2 ;
-       subNeg = vp.subNeg ;
+       objNeg = vp.objNeg ;
        inf = vp.inf ;
        ppart = vp.ppart ;
        --ext = [] ;
@@ -450,6 +450,14 @@ param
                                                                  }
                                                 }
                      } ;
+
+  negLogicSimul : Bool -> Bool -> Bool -> Bool -> Polarity => Bool = \subclFinNie,objNeg,n2,n3 -> 
+      case subclFinNie of { True => \\_ => False ;
+                            False => case objNeg of { True => case n3 of { True => case n2 of { True => \\_ => True ;
+                                                                                                False => table {Pos => False ; Neg => True }} ;
+                                                                           False => \\_ => False } ;
+                                                      False => case n2 of { True => \\_ => True ;
+                                                                            False => table {Pos => False ; Neg => True }}}} ;
                                                                        
 
 -- Extending a verb phrase with new constituents
@@ -469,7 +477,7 @@ param
                                                   <True,True> => True ; 
                                                   <True,False> => vp.double1 }  ;
         double2 = case hasNwd of { True => True ; False => vp.double2 } ;
-        subNeg = vp.subNeg ;
+        objNeg = vp.objNeg ;
         inf = vp.inf ;
         ppart = vp.ppart ;
         --ext = vp.ext ;
@@ -489,9 +497,8 @@ param
                                                   <True,True> => True ; 
                                                   <True,False> => vp.double1 }  ;
         double2 = case hasNwd of { True => True ; False => vp.double2 } ;
-        subNeg = case finNie of { False => vp.subNeg ;
-                                  True => case vp.subcl.p2 of { True => vp.subNeg ;
-                                                                False => True }} ;
+        objNeg = case finNie of { False => vp.objNeg ;
+                                  True => True } ;
         inf = vp.inf ;
         ppart = vp.ppart ;
         --ext = vp.ext ;
@@ -511,9 +518,8 @@ param
                                                   <True,True> => True ; 
                                                   <True,False> => vp.double1 }  ;
         double2 = case hasNwd of { True => True ; False => vp.double2 } ;
-        subNeg = case finNie of { False => vp.subNeg ;
-                                  True => case vp.subcl.p2 of { True => vp.subNeg ;
-                                                             False => True }} ;
+        objNeg = case finNie of { False => vp.objNeg ;
+                                  True => True } ;
         inf = vp.inf ;
         ppart = vp.ppart ;
         --ext = vp.ext ;
@@ -535,7 +541,7 @@ param
             { True => True ;
               False => vp.double2
             } ;
-    subNeg = vp.subNeg ;
+    objNeg = vp.objNeg ;
     inf = vp.inf ;
     ppart = vp.ppart ;
     --ext = vp.ext ;
@@ -553,7 +559,7 @@ param
     adV = vp.adV ;
     double1 = True ;
     double2 = case p of {True => True ; False => vp.double2} ;
-    subNeg = False ; -- vp.subNeg ;
+    objNeg = False ; -- vp.objNeg ;
     inf = vp.inf ;
     ppart = vp.ppart ;
     --ext = vp.ext ;
@@ -569,7 +575,7 @@ param
 --    adV = vp.adV ;
 --    double1 = True ;
 --    double2 = case isNeg of {True => True ; False => vp.double2} ;
---    subNeg = vp.subNeg ;
+--    objNeg = vp.objNeg ;
 --    inf = vp.inf ;
 --    ppart = vp.ppart ;
 --    ext = vp.ext ++ ext ;
@@ -585,7 +591,7 @@ param
 --    adV = vp.adV ;
 --    double1 = True ;
 --    double2 = case isNeg of {True => True ; False => vp.double2} ;
---    subNeg = vp.subNeg ;
+--    objNeg = vp.objNeg ;
 --    inf = vp.inf ;
 --    ppart = vp.ppart ;
 --    ext = ext ++ vp.ext ;
@@ -603,11 +609,11 @@ param
     adV = vp.adV ;
     double1 = True ;
     double2 = vp.double2 ;
-    subNeg = case finNie of {True => True ; False => vp.subNeg} ;
+    objNeg = vp.objNeg ;
     inf = vp.inf ;
     ppart = vp.ppart ;
     --ext = vp.ext ;
-    subcl = <vp.subcl.p1 ++ cl,True>
+    subcl = <vp.subcl.p1 ++ cl,True,finNie>
     } ;
 
   insertPPart : Str -> VP -> VP = \ppart,vp -> {
@@ -621,7 +627,7 @@ param
     adV = vp.adV ;
     double1 = vp.double1 ;
     double2 = vp.double2 ;
-    subNeg = vp.subNeg ;
+    objNeg = vp.objNeg ;
     inf = vp.inf ;
     ppart = <vp.ppart.p1 ++ ppart,True> ;
     --ext = vp.ext ;
@@ -639,7 +645,7 @@ param
     adV = vp.adV ;
     double1 = vp.double1 ;
     double2 = vp.double2 ;
-    subNeg = vp.subNeg ;
+    objNeg = vp.objNeg ;
     inf = <inf ++ vp.inf.p1, True> ;
     ppart = vp.ppart ;
     --ext = vp.ext ;
@@ -650,15 +656,16 @@ param
 
   Clause : Type = {
     s : Tense => Anteriority => Polarity => Order => Str ;
-    hasNeg : Polarity => Bool
+    finNie : Polarity => Bool
     } ;
 
     mkClause : Str -> Agr -> Bool -> VP -> Clause = \subj,agr,n,vp -> 
         let 
             n2 = (orB n vp.double2) ;
+            n3 = (orB (orB vp.inf.p2 vp.subcl.p2) vp.s.isPref) ;
         in 
         {
-        hasNeg = table { Pos => (negLogic vp.subNeg n2)!Pos ; Neg => True } ;
+        finNie = table { Pos => (negLogic vp.objNeg n2)!Pos ; Neg => True } ;
         s = \\t,a,p,o => 
             let
                 vform = vForm t ;
@@ -682,8 +689,9 @@ param
                     } ;
                 neg : Polarity => (Str * Str) = 
                         case <t,a> of {
-                            <(Pres|Past),  Simul> => \\p => < case vp.double1 of {True => negation!p ; False => []} , putNeg ((negLogic vp.subNeg n2)!p)  > ;
-                            <_,_> => \\p => <negation!p, putNeg ((negLogic vp.subNeg n2)!p) > 
+                            <(Pres|Past),  Simul> => \\p => < case vp.double1 of {True => negation!p ; False => []} , putNeg ((negLogicSimul vp.subcl.p3 vp.objNeg n2 n3)!p)  > ;
+                            <(Pres|Past),  Anter> => \\p => < negation!p , putNeg ((negLogic vp.subcl.p3 n2)!p) > ;
+                            <(Fut|Cond),_> => \\p => <negation!p, putNeg ((negLogic vp.subcl.p3 n2)!p) > 
                         } ;
                 pref = case <t,a,o> of {
                     <Fut,Simul,(Main|Sub)> => [] ;
@@ -698,27 +706,8 @@ param
             in
                 case o of {
                     Main => subj ++ (verb!Main).p1 ++ vp.n2a ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ vp.n2b ++ vp.n3 ++ pref ++ (verb!Main).p2 ++ vp.subcl.p1 ++ (neg!p).p2 ;
-                    --case <vp.nPerson,vp.hasPrep> of {
-                    --        <True,True> =>   subj ++ (verb!Main).p1 ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ vp.ext ++ (verb!Main).p2 ++ vp.subcl ++ (neg!p).p2 ;
-                    --        <True,False> =>  subj ++ (verb!Main).p1 ++ vp.n ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.ext ++ (verb!Main).p2 ++ vp.subcl ++ (neg!p).p2 ;
-                    --        <False,True> =>  subj ++ (verb!Main).p1 ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ vp.ext ++ (verb!Main).p2 ++ vp.subcl ++ (neg!p).p2 ;
-                    --        <False,False> => subj ++ (verb!Main).p1 ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ vp.ext ++ (verb!Main).p2 ++ vp.subcl ++ (neg!p).p2 
-                    --        } ;
                     Sub => subj ++ vp.n2a ++ (negation!p) ++ vp.adV ++ vp.adv ++ vp.n2b ++ vp.n3 ++ pref ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.subcl.p1 ++ (neg!p).p2 ;
-                    --case <vp.nPerson,vp.hasPrep> of {
-                    --        <True,True> =>   subj ++ (negation!p) ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ vp.ext ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.subcl ++ (neg!p).p2 ;
-                    --        <True,False> =>  subj ++ vp.n ++ (negation!p) ++ vp.adV ++ vp.adv ++ pref ++ vp.ext ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.subcl ++ (neg!p).p2 ;
-                    --        <False,True> =>  subj ++ (negation!p) ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ vp.ext ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.subcl ++ (neg!p).p2 ;
-                    --        <False,False> => subj ++ (negation!p) ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ vp.ext ++ (verb!Sub).p1 ++ (verb!Sub).p2 ++ vp.subcl ++ (neg!p).p2 
-                    --        } ;
-                    -- to finish (copied from Main)
                     Inv => (verb!Inv).p1 ++ subj ++ vp.n2a ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ vp.n2b ++ vp.n3 ++ pref ++ (verb!Inv).p2 ++ vp.subcl.p1 ++ (neg!p).p2 
-                    --case <vp.nPerson,vp.hasPrep> of {
-                    --        <True,True> =>   (verb!Inv).p1 ++ subj ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ vp.ext ++ (verb!Inv).p2 ++ vp.subcl ++ (neg!p).p2 ;
-                    --        <True,False> =>  (verb!Inv).p1 ++ subj ++ vp.n ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.ext ++ (verb!Inv).p2 ++ vp.subcl ++ (neg!p).p2 ;
-                    --        <False,True> =>  (verb!Inv).p1 ++ subj ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ vp.ext ++ (verb!Inv).p2 ++ vp.subcl ++ (neg!p).p2 ;
-                    --        <False,False> => (verb!Inv).p1 ++ subj ++ (neg!p).p1 ++ vp.adV ++ vp.adv ++ pref ++ vp.n ++ vp.ext ++ (verb!Inv).p2 ++ vp.subcl ++ (neg!p).p2 
-                    --        }
                 }
     } ;
 
