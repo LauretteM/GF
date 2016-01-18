@@ -64,11 +64,10 @@ concrete NounAfr of Noun = CatAfr ** open ResAfr, Prelude in {
         isNeg = quant.isNeg
         } ;
 
---    PossPron p = {
---      s  = \\_,n,g => p.unstressed.poss ;
---      sp = \\n,g => p.substposs ;
---      a = Strong
---      } ;
+    PossPron p = {
+        s  = p.poss ;
+        isNeg = False ;
+      } ;
 
     NumCard n = {s = n.s ; n = n.n ; isNum = True} ;
 
