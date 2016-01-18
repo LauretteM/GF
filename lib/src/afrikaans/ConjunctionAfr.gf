@@ -3,9 +3,9 @@ concrete ConjunctionAfr of Conjunction =
 
   flags optimize=all_subs ;
 
---  lin
+  lin
 --
---    ConjS conj ss = conjunctDistrTable Order conj ss ;
+    ConjS conj ss = conjunctDistrTable Order conj ss ** {hasNeg = ss.hasNeg} ;
 --
 --    ConjAdv conj ss = conjunctDistrSS conj ss ;
 
@@ -21,7 +21,7 @@ concrete ConjunctionAfr of Conjunction =
 
 -- These fun's are generated from the list cat's.
 
---    BaseS = twoTable Order ;
+    BaseS s1 s2 = twoTable Order s1 s2 ** {hasNeg = s2.hasNeg} ;
 --    ConsS = consrTable Order comma ;
 --    BaseAdv = twoSS ;
 --    ConsAdv = consrSS comma ;
@@ -32,8 +32,8 @@ concrete ConjunctionAfr of Conjunction =
 --    BaseRS x y = twoTable2 Gender Number x y ** {c = y.c} ;
 --    ConsRS xs x = consrTable2 Gender Number comma xs x ;
 
---  lincat
---    [S] = {s1,s2 : Order => Str} ;
+  lincat
+    [S] = {s1,s2 : Order => Str ; hasNeg : Bool} ;
 --    [Adv] = {s1,s2 : Str} ;
 --    [NP] = {s1,s2 : NPCase => Str ; a : Agr} ;
 --    [AP] = {s1,s2 : AForm => Str ; isPre : Bool} ;

@@ -14,7 +14,7 @@ concrete StructuralAfr of Structural = CatAfr, Prelude **
 --  almost_AdA, almost_AdN = ss "byna" ;
   although_Subj = mkSubj "hoewel" Sub ;
   always_AdV = lin AdV (mkAdV "altyd" False) ;
---  and_Conj = {s1 = [] ; s2 = "en" ; n = Pl} ;
+  and_Conj = {s1 = [] ; s2 = "en" ; n = Pl} ;
   because_Subj = mkSubj "omdat" Sub ; ---- doordat
 --  before_Prep = mkPrep "voor" ;
 --  behind_Prep = mkPrep "agter" ;
@@ -45,7 +45,7 @@ concrete StructuralAfr of Structural = CatAfr, Prelude **
 --  how8many_IDet = mkDet "hoeveel" "hoeveel" Pl ;
   if_Subj = mkSubj "as" Sub ;
 --  in8front_Prep = mkPrep "voor" ;
---  i_Pron = mkPronoun "ek" "my" "my" "ek" "my" "my" "myne" Neutr Sg P1 ;
+  i_Pron = mkPronoun "ek" "my" "my" "myne" Masc Sg P1 ;
 --  in_Prep = ss "in" ;
 --  it_Pron = mkPronoun "dit" "dit" "sy" "dit" "dit" "sy" "syne" Neutr Sg P3 ;
 --

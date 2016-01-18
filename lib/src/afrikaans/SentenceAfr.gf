@@ -48,14 +48,14 @@ concrete SentenceAfr of Sentence = CatAfr ** open ResAfr, Prelude in {
 
     UseCl t p cl = {
       s = \\o => t.s ++ p.s ++ cl.s ! t.t ! t.a ! p.p ! o ;
-      hasNeg = cl.hasNeg!p.p ;
+      hasNeg = cl.finNie!p.p ;
       } ;
 --    UseQCl t p cl = {
 --      s = \\q => t.s ++ p.s ++ cl.s ! t.t ! t.a ! p.p ! q
 --      } ;
     UseRCl t p cl = {
       s = \\g,n => t.s ++ p.s ++ cl.s ! t.t ! t.a ! p.p ! g ! n ;
-      hasNeg = cl.hasNeg!p.p
+      hasNeg = cl.finNie!p.p
       } ;
 --    UseSlash t p cl = {
 --      s = \\o => t.s ++ p.s ++ cl.s ! t.t ! t.a ! p.p ! o ;

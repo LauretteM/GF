@@ -6,7 +6,7 @@ concrete RelativeAfr of Relative = CatAfr ** open ResAfr, Prelude in {
 
     RelCl cl = {
       s = \\t,a,b,_,_ => "sodat" ++ cl.s ! t ! a ! b ! Sub ;
-      hasNeg = cl.hasNeg
+      finNie = cl.finNie
       } ;
 
     RelVP rp vp = {
@@ -16,10 +16,10 @@ concrete RelativeAfr of Relative = CatAfr ** open ResAfr, Prelude in {
             RNoAg   => agrgP3 g n ;
             RAg rn p => {g = g ; n = rn ; p = p}
             } ;
-          cl = mkClause rp.s agr vp.subNeg vp
+          cl = mkClause rp.s agr vp.objNeg vp
         in
         cl.s ! t ! ant ! b ! Sub ;
-      hasNeg = table {Pos => vp.subNeg ; Neg => True } 
+      finNie = table {Pos => vp.objNeg ; Neg => True } 
       } ;
 
 --    RelSlash rp slash = {

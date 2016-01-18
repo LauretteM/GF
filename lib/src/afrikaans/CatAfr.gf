@@ -26,7 +26,7 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 
 -- Relative
 
-    RCl = {s : ResAfr.Tense => Anteriority => Polarity => Gender => Number => Str ; hasNeg : Polarity => Bool } ;
+    RCl = {s : ResAfr.Tense => Anteriority => Polarity => Gender => Number => Str ; finNie : Polarity => Bool } ;
     RP = {s : Str ; a : RAgr ; hasPrep : Bool } ;
 
 -- Verb
@@ -69,7 +69,7 @@ concrete CatAfr of Cat = CommonX - [Adv,AdV] ** open ResAfr, Prelude in {
 
 -- Structural
 
---    Conj = {s1,s2 : Str ; n : Number} ;
+    Conj = {s1,s2 : Str ; n : Number} ;
     Subj = {s : Str ; o : Order } ;
     Prep = {s : Str} ;
 
