@@ -178,7 +178,7 @@ oper
 --  reflV v = lin V {s = v.s ; aux = v.aux ; prefix = v.prefix ; vtype = VRefl} ;
 --
 --  zijn_V : V = lin V ResAfr.zijn_V ;
---  hebben_V : V = lin V ResAfr.hebben_V ;
+  het_V : V = lin V ResAfr.het_V ;
 
 
 ----3 Two-place verbs
